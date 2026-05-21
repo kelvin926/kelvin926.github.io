@@ -37,10 +37,6 @@
     <main id="top">
       <section class="hero" aria-label="Profile introduction">
         <div class="hero-copy">
-          <p class="eyebrow">
-            <span class="lang en">M.S. student - Field Robot Lab</span>
-            <span class="lang ko">석사과정 - 필드로봇연구실</span>
-          </p>
           <h1>
             <span>Hyunseo Jang</span>
             <small>장현서</small>
@@ -174,8 +170,8 @@
             <h3>Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot</h3>
             <p class="authors"><strong>Jang, Hyunseo</strong>; Seo, Hyeonbeen; Song, Youngeun; Lee, Ungki</p>
             <p class="note">
-              <span class="lang en">Designed the T-shaped pedal wheel, CEBO-based optimization study, and simulation experiment automation.</span>
-              <span class="lang ko">T-shaped pedal wheel 설계, CEBO 기반 최적화 연구, 시뮬레이션 실험 자동화를 수행.</span>
+              <span class="lang en">Contribution: T-shaped pedal wheel design, CEBO-based optimization study, and simulation experiment automation.</span>
+              <span class="lang ko">기여: T-shaped pedal wheel 설계, CEBO 기반 최적화 연구, 시뮬레이션 실험 자동화.</span>
             </p>
           </article>
 
@@ -184,8 +180,8 @@
             <h3>KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot</h3>
             <p class="authors"><strong>Jang, Hyunseo</strong>; Kim, Seungmin; Choi, Donggi; Song, Youngeun</p>
             <p class="note">
-              <span class="lang en">Proposed the arm-swing launch concept and validated the Unitree Go2W-OpenArm setup in Isaac Lab.</span>
-              <span class="lang ko">Arm-swing launch concept을 제안하고 Unitree Go2W-OpenArm 구성을 Isaac Lab에서 검증.</span>
+              <span class="lang en">Contribution: arm-swing launch concept proposal and Unitree Go2W-OpenArm validation in Isaac Lab.</span>
+              <span class="lang ko">기여: arm-swing launch concept 제안 및 Unitree Go2W-OpenArm 구성을 Isaac Lab에서 검증.</span>
             </p>
           </article>
 
@@ -194,8 +190,8 @@
             <h3>A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments</h3>
             <p class="authors">Ha, Jiseung; <strong>Jang, Hyunseo</strong>; Choi, Donggi; Song, Youngeun</p>
             <p class="note">
-              <span class="lang en">Contributed to platform design, Isaac Lab reinforcement-learning setup, and shelf-transfer experiments.</span>
-              <span class="lang ko">플랫폼 설계, Isaac Lab 강화학습 환경 구성, shelf-transfer 실험에 기여.</span>
+              <span class="lang en">Contribution: platform design, Isaac Lab reinforcement-learning setup, and shelf-transfer experiments.</span>
+              <span class="lang ko">기여: 플랫폼 설계, Isaac Lab 강화학습 환경 구성, shelf-transfer 실험.</span>
             </p>
           </article>
 
@@ -204,8 +200,8 @@
             <h3>Design and Implementation of a Local Delivery Robot System: A Reinforcement Learning Approach</h3>
             <p class="authors">Kim, Seungmin; Xie, Aoyu; <strong>Jang, Hyunseo</strong>; Kim, Joohee; Choi, Donggi; Song, Youngeun</p>
             <p class="note">
-              <span class="lang en">Contributed to reinforcement-learning formulation, delivery-robot system implementation, and training-result analysis.</span>
-              <span class="lang ko">강화학습 문제 구성, 배송 로봇 시스템 구현, 학습 결과 분석에 기여.</span>
+              <span class="lang en">Contribution: reinforcement-learning formulation, delivery-robot system implementation, and training-result analysis.</span>
+              <span class="lang ko">기여: 강화학습 문제 구성, 배송 로봇 시스템 구현, 학습 결과 분석.</span>
             </p>
           </article>
         </div>
@@ -477,18 +473,20 @@
           <p><strong>Design / validation</strong> CoppeliaSim, Ansys, CAD, hardware feasibility testing</p>
         </div>
       </section>
+
+      <section id="contact" class="section-block contact-section">
+        <div class="contact-copy">
+          <p class="eyebrow"><span class="lang en">Contact</span><span class="lang ko">연락처</span></p>
+          <h2><span class="lang en">Email</span><span class="lang ko">이메일</span></h2>
+        </div>
+        <a class="contact-email" href="mailto:kelvin926@korea.ac.kr">
+          <span>Email</span>
+          <strong>kelvin926@korea.ac.kr</strong>
+        </a>
+      </section>
     </main>
 
-    <footer id="contact">
-      <p>
-        <span class="lang en">Hyunseo Jang · Field Robot Lab · Korea University</span>
-        <span class="lang ko">장현서 · 필드로봇연구실 · 고려대학교</span>
-      </p>
-      <p>
-        <a href="mailto:kelvin926@korea.ac.kr">kelvin926@korea.ac.kr</a>
-        <span aria-hidden="true">/</span>
-        <a href="https://github.com/kelvin926">github.com/kelvin926</a>
-      </p>
+    <footer>
       <p class="visitor-counter">
         <span class="lang en">Visits</span><span class="lang ko">방문</span>
         <span id="visit-count" aria-live="polite">-</span>
@@ -509,14 +507,50 @@
       progress.setAttribute("aria-hidden", "true");
       document.body.prepend(progress);
 
-      const revealItems = Array.from(document.querySelectorAll(
-        ".section-block, .paper, .presentation, .project-grid article, .entry"
-      ));
+      const revealSelectors = [
+        ".hero-copy h1",
+        ".hero-copy .subtitle",
+        ".hero-copy .lead",
+        ".hero-metrics > div",
+        ".link-row > a",
+        ".profile-panel",
+        ".section-block",
+        ".section-heading",
+        ".tags > span",
+        ".timeline > li",
+        ".paper",
+        ".presentation",
+        ".project-grid > article",
+        ".entry",
+        ".skills > p",
+        ".contact-email"
+      ];
+      const revealItems = Array.from(new Set(document.querySelectorAll(revealSelectors.join(", "))));
 
-      revealItems.forEach((item, index) => {
+      revealItems.forEach((item) => {
         item.classList.add("reveal");
-        item.style.setProperty("--stagger", `${Math.min(index % 7, 6) * 70}ms`);
+        item.style.setProperty("--stagger", "0ms");
       });
+
+      function setSequentialStagger(selector, step = 55, cap = 9) {
+        Array.from(document.querySelectorAll(selector)).forEach((item, index) => {
+          item.style.setProperty("--stagger", `${Math.min(index, cap) * step}ms`);
+        });
+      }
+
+      [
+        [".section-block", 70, 4],
+        [".hero-metrics > div", 70, 4],
+        [".link-row > a", 45, 5],
+        [".tags > span", 35, 8],
+        [".timeline > li", 50, 9],
+        [".paper-list .paper", 55, 9],
+        [".presentation-list .presentation", 55, 9],
+        [".project-grid > article", 45, 9],
+        [".content-stack .entry", 55, 6],
+        [".skills > p", 50, 6],
+        [".contact-email", 0, 1]
+      ].forEach(([selector, step, cap]) => setSequentialStagger(selector, step, cap));
 
       const interactiveCards = Array.from(document.querySelectorAll(
         ".paper, .presentation, .project-grid article"
@@ -539,23 +573,29 @@
 
       const revealObserver = "IntersectionObserver" in window
         ? new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
+            entries
+              .filter((entry) => entry.isIntersecting)
+              .sort((a, b) => {
+                const topDelta = a.boundingClientRect.top - b.boundingClientRect.top;
+                return Math.abs(topDelta) > 4 ? topDelta : a.boundingClientRect.left - b.boundingClientRect.left;
+              })
+              .forEach((entry) => {
                 entry.target.classList.add("is-visible");
                 revealObserver.unobserve(entry.target);
-              }
-            });
-          }, { threshold: 0.06, rootMargin: "0px 0px -8% 0px" })
+              });
+          }, { threshold: 0.02, rootMargin: "0px 0px 14% 0px" })
         : null;
 
-      revealItems.forEach((item) => {
-        if (item.getBoundingClientRect().top < window.innerHeight * 0.92) {
-          item.classList.add("is-visible");
-        } else if (revealObserver) {
-          revealObserver.observe(item);
-        } else {
-          item.classList.add("is-visible");
-        }
+      window.requestAnimationFrame(() => {
+        revealItems.forEach((item) => {
+          if (item.getBoundingClientRect().top < window.innerHeight * 0.92) {
+            item.classList.add("is-visible");
+          } else if (revealObserver) {
+            revealObserver.observe(item);
+          } else {
+            item.classList.add("is-visible");
+          }
+        });
       });
 
       function setActiveNav(activeId) {
