@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260521">
   </head>
   <body>
     <header class="site-header">
@@ -16,11 +16,14 @@
         <a class="brand" href="#top">Hyunseo Jang</a>
         <div class="nav-right">
           <div class="nav-links">
+            <a href="#research"><span class="lang en">Research</span><span class="lang ko">연구</span></a>
+            <a href="#news"><span class="lang en">News</span><span class="lang ko">소식</span></a>
             <a href="#publications"><span class="lang en">Publications</span><span class="lang ko">논문</span></a>
             <a href="#presentations"><span class="lang en">Presentations</span><span class="lang ko">발표</span></a>
             <a href="#projects"><span class="lang en">Projects</span><span class="lang ko">프로젝트</span></a>
             <a href="#education"><span class="lang en">Education</span><span class="lang ko">학력</span></a>
             <a href="#awards"><span class="lang en">Awards</span><span class="lang ko">수상</span></a>
+            <a href="#skills"><span class="lang en">Skills</span><span class="lang ko">기술</span></a>
             <a href="#contact"><span class="lang en">Contact</span><span class="lang ko">연락처</span></a>
           </div>
           <div class="lang-switch" aria-label="Language switcher">
@@ -48,18 +51,34 @@
           </p>
           <p class="lead">
             <span class="lang en">
-              I study simulation-driven robot design and control for wheeled-legged robots,
-              mobile manipulators, and indoor autonomous mobile robots. My current work builds
-              Isaac Sim/Isaac Lab/RSL-RL validation environments for stair-climbing wheel design,
-              arm-swing-assisted launch acceleration, and rack-level shelf transfer.
+              I build and test robot systems in simulation before moving them toward hardware.
+              My recent work covers wheeled-legged robot motion, mobile manipulation for rack
+              environments, and indoor AMR navigation, mostly using Isaac Sim, Isaac Lab, ROS,
+              and reinforcement learning.
             </span>
             <span class="lang ko">
-              Wheeled-legged robot, mobile manipulation, 실내 AMR을 대상으로 메커니즘 설계와
-              시뮬레이션 기반 제어 검증을 연구하고 있습니다. 최근에는 Isaac Sim/Isaac Lab/RSL-RL
-              환경에서 계단 등반 휠 설계, arm-swing 기반 launch acceleration, rack-level shelf transfer를
-              검증하고 있습니다.
+              실제 로봇에 적용하기 전, 시뮬레이션에서 구조와 제어 방법을 먼저 만들고 검증하는 일을 합니다.
+              최근에는 wheeled-legged robot, rack 환경의 mobile manipulation, 실내 AMR을 중심으로
+              Isaac Sim, Isaac Lab, ROS, 강화학습을 사용하고 있습니다.
             </span>
           </p>
+          <div class="hero-metrics" aria-label="Research highlights">
+            <div>
+              <strong>KALO</strong>
+              <span class="lang en">A wheel-legged robot study using arm motion for early launch acceleration. Accepted to AIM 2026.</span>
+              <span class="lang ko">Arm motion으로 초기 가속을 보조하는 wheel-legged robot 연구입니다. AIM 2026에 채택되었습니다.</span>
+            </div>
+            <div>
+              <strong>CEBO</strong>
+              <span class="lang en">Bayesian optimization for T-pedal stair-climbing wheel design. Minor revision response submitted to AEI.</span>
+              <span class="lang ko">T-pedal 계단 등반 휠 설계를 위한 Bayesian optimization 연구입니다. AEI minor revision 중에 있습니다.</span>
+            </div>
+            <div>
+              <strong>Robot Systems</strong>
+              <span class="lang en">Hands-on work across ROS/Autoware AMRs, Isaac Lab RL environments, LiDAR perception, and feasibility prototypes.</span>
+              <span class="lang ko">ROS/Autoware AMR, Isaac Lab 강화학습 환경, LiDAR 인지, feasibility prototype까지 직접 다뤄왔습니다.</span>
+            </div>
+          </div>
           <div class="link-row" aria-label="Profile links">
             <a href="mailto:kelvin926@korea.ac.kr">Email</a>
             <a href="https://github.com/kelvin926">GitHub</a>
@@ -75,7 +94,7 @@
         </aside>
       </section>
 
-      <section class="section-block interest-block">
+      <section id="research" class="section-block interest-block">
         <div class="section-heading">
           <p class="eyebrow"><span class="lang en">Research</span><span class="lang ko">연구 분야</span></p>
           <h2><span class="lang en">Research Interests</span><span class="lang ko">연구 관심 분야</span></h2>
@@ -92,7 +111,7 @@
         </div>
       </section>
 
-      <section class="section-block news-block">
+      <section id="news" class="section-block news-block">
         <div class="section-heading">
           <p class="eyebrow"><span class="lang en">Updates</span><span class="lang ko">업데이트</span></p>
           <h2><span class="lang en">News</span><span class="lang ko">소식</span></h2>
@@ -105,13 +124,13 @@
           </li>
           <li>
             <time>2026</time>
-            <span class="lang en">CEBO manuscript is under revised review at <em>Advanced Engineering Informatics</em>.</span>
-            <span class="lang ko">CEBO 원고는 <em>Advanced Engineering Informatics</em>에서 수정본 심사 중입니다.</span>
+            <span class="lang en">Lift-equipped mobile manipulator paper was accepted to IEEE/ASME AIM 2026.</span>
+            <span class="lang ko">Lift-equipped mobile manipulator 연구가 IEEE/ASME AIM 2026에 채택되었습니다.</span>
           </li>
           <li>
             <time>2026</time>
-            <span class="lang en">Lift-equipped mobile manipulator paper was accepted to IEEE/ASME AIM 2026.</span>
-            <span class="lang ko">Lift-equipped mobile manipulator 연구가 IEEE/ASME AIM 2026에 채택되었습니다.</span>
+            <span class="lang en">CEBO minor revision response was submitted to <em>Advanced Engineering Informatics</em>.</span>
+            <span class="lang ko">CEBO 연구가 <em>Advanced Engineering Informatics</em>에 minor revision 중에 있습니다.</span>
           </li>
           <li>
             <time>2025</time>
@@ -151,7 +170,7 @@
           </article>
 
           <article class="paper highlight">
-            <p class="venue">Advanced Engineering Informatics, revised manuscript under review</p>
+            <p class="venue">Advanced Engineering Informatics, minor revision response submitted</p>
             <h3>Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot</h3>
             <p class="authors"><strong>Jang, Hyunseo</strong>; Seo, Hyeonbeen; Song, Youngeun; Lee, Ungki</p>
             <p class="note">
@@ -279,7 +298,7 @@
               <span class="lang en">Arm-swing launch acceleration for a Unitree Go2W-OpenArm wheeled-legged platform. Evaluated in Isaac Lab/RSL-RL with launch-onset metrics.</span>
               <span class="lang ko">Unitree Go2W-OpenArm 기반 wheeled-legged platform에 arm-swing launch acceleration 개념을 적용했습니다. Isaac Lab/RSL-RL에서 launch-onset 기준 지표로 검증했습니다.</span>
             </p>
-            <span class="project-metric"><span class="lang en">15.1% velocity gain</span><span class="lang ko">초기 속도 누적 15.1% 개선</span></span>
+            <span class="project-metric"><span class="lang en">15.1% velocity gain · 37.3% faster to 90%</span><span class="lang ko">초기 속도 15.1% 개선 · 90% 도달 37.3% 단축</span></span>
           </article>
           <article>
             <figure class="project-visual">
@@ -290,7 +309,7 @@
               <span class="lang en">Six-variable T-pedal wheel design optimization for a stair-climbing robot. Benchmarked CEBO from 2D to 12D, then applied it to Isaac simulation experiments.</span>
               <span class="lang ko">계단 등반 로봇을 위한 6변수 T-pedal wheel 설계 최적화 연구입니다. 2D-12D benchmark 검증 후 Isaac 시뮬레이션 실험에 CEBO를 적용했습니다.</span>
             </p>
-            <span class="project-metric"><span class="lang en">23.31% faster traversal</span><span class="lang ko">주행 시간 23.31% 단축</span></span>
+            <span class="project-metric"><span class="lang en">23.31% faster · 37.84% steadier pitch</span><span class="lang ko">주행 23.31% 단축 · pitch 안정성 37.84% 개선</span></span>
           </article>
           <article>
             <figure class="project-visual">
@@ -301,7 +320,7 @@
               <span class="lang en">Migrated a CoppeliaSim setup to Isaac Lab. Trained torque-sensitive suspension stabilization for a high-altitude inventory-inspection robot.</span>
               <span class="lang ko">CoppeliaSim 기반 환경을 Isaac Lab으로 이전했습니다. 고소 작업 재고조사 로봇을 대상으로 토크 감응식 suspension 안정화 정책을 학습했습니다.</span>
             </p>
-            <span class="project-metric"><span class="lang en">Physical robot application stage</span><span class="lang ko">실제 로봇 적용 단계</span></span>
+            <span class="project-metric"><span class="lang en">10 m inventory-robot scenario</span><span class="lang ko">10 m급 재고조사 로봇 시나리오</span></span>
           </article>
           <article>
             <figure class="project-visual">
@@ -345,7 +364,7 @@
               <span class="lang en">Built an Isaac Lab simulation environment for a 20-DOF wheeled-legged AMR with steering joints. Evaluated upper-platform stabilization before fabrication.</span>
               <span class="lang ko">조향 조인트가 포함된 20-DOF wheeled-legged AMR의 Isaac Lab 시뮬레이션 환경을 구축했습니다. 제작 전 상판 안정화 알고리즘을 검증했습니다.</span>
             </p>
-            <span class="project-metric"><span class="lang en">KETI-linked validation</span><span class="lang ko">KETI 연계 검증 과제</span></span>
+            <span class="project-metric"><span class="lang en">20-DOF pre-fabrication validation</span><span class="lang ko">20-DOF 제작 전 검증</span></span>
           </article>
           <article>
             <figure class="project-visual">
@@ -356,7 +375,7 @@
               <span class="lang en">Structured campus test routes, four difficulty-level driving scenarios, and 10 TDP validation items for cloud-linked autonomous electric road-sweeping vehicles.</span>
               <span class="lang ko">클라우드 연계형 자율주행 전기식 노면청소차를 대상으로 교내 실차 테스트 경로, 4단계 주행 시나리오, 10개 TDP 검증 항목을 구조화했습니다.</span>
             </p>
-            <span class="project-metric"><span class="lang en">Test scenario design</span><span class="lang ko">실차 검증 시나리오 설계</span></span>
+            <span class="project-metric"><span class="lang en">4 scenario levels · 10 TDP items</span><span class="lang ko">4단계 시나리오 · 10개 TDP 항목</span></span>
           </article>
           <article>
             <figure class="project-visual">
@@ -415,7 +434,7 @@
             <div>
               <h3>Korea University</h3>
               <p><span class="lang en">M.S. Candidate, Department of Mobility Science and Engineering</span><span class="lang ko">미래모빌리티학과 석사과정</span></p>
-              <p><span class="lang en">Field Robot Lab, Advisor: Assoc. Prof. Youngeun Song</span><span class="lang ko">필드로봇연구실, 지도교수: 송영은 부교수</span></p>
+              <p><span class="lang en">Field Robot Lab, Advisor: Prof. Youngeun Song</span><span class="lang ko">필드로봇연구실, 지도교수: 송영은 교수</span></p>
             </div>
             <span><span class="lang en">Mar. 2025 - Feb. 2027 expected</span><span class="lang ko">2025.03 - 2027.02 예정</span></span>
           </article>
@@ -446,15 +465,16 @@
         </ul>
       </section>
 
-      <section class="section-block">
+      <section id="skills" class="section-block">
         <div class="section-heading">
           <p class="eyebrow"><span class="lang en">Tools</span><span class="lang ko">기술</span></p>
           <h2><span class="lang en">Technical Skills</span><span class="lang ko">기술 역량</span></h2>
         </div>
         <div class="skills">
-          <p><strong>Robot software / simulation</strong> ROS, Autoware, Isaac Sim, Isaac Lab, CoppeliaSim, Ansys, CAD</p>
+          <p><strong>Simulation / robot learning</strong> Isaac Sim, Isaac Lab, RSL-RL, PyTorch, reinforcement learning, Bayesian optimization</p>
+          <p><strong>Robot software / integration</strong> ROS, ROS2, Autoware, Python, C++, Linux, CUDA, CAN, Git</p>
           <p><strong>Perception / navigation</strong> LiDAR, SLAM, OpenCV, YOLO, DBSCAN, Kalman Filter</p>
-          <p><strong>Learning / systems</strong> PyTorch, RL, Bayesian Optimization, RSL-RL, Python, C++, Linux, CUDA, Git</p>
+          <p><strong>Design / validation</strong> CoppeliaSim, Ansys, CAD, hardware feasibility testing</p>
         </div>
       </section>
     </main>
@@ -469,10 +489,18 @@
         <span aria-hidden="true">/</span>
         <a href="https://github.com/kelvin926">github.com/kelvin926</a>
       </p>
+      <p class="visitor-counter">
+        <span class="lang en">Visits</span><span class="lang ko">방문</span>
+        <span id="visit-count" aria-live="polite">-</span>
+      </p>
       <p class="updated"><span class="lang en">Last updated: May 2026</span><span class="lang ko">마지막 업데이트: 2026.05</span></p>
     </footer>
 
     <script>
+      window.goatcounter = {
+        endpoint: "https://home-hyunseo.goatcounter.com/count"
+      };
+
       const root = document.documentElement;
       const buttons = Array.from(document.querySelectorAll("[data-set-lang]"));
       const navLinks = Array.from(document.querySelectorAll(".nav-links a[href^='#']"));
@@ -530,23 +558,82 @@
         }
       });
 
+      function setActiveNav(activeId) {
+        navLinks.forEach((link) => {
+          link.classList.toggle("is-active", link.getAttribute("href") === activeId);
+        });
+      }
+
+      function getTargetFromLink(link) {
+        const href = link.getAttribute("href");
+        if (!href || !href.startsWith("#")) return null;
+        return document.querySelector(href);
+      }
+
+      let activeNavLock = "";
+      let activeNavLockTop = 0;
+      let activeNavLockTime = 0;
+
+      function clearActiveNavLock() {
+        activeNavLock = "";
+      }
+
+      function getCurrentSection(headerHeight) {
+        const entries = navLinks
+          .map((link) => ({
+            href: link.getAttribute("href"),
+            target: getTargetFromLink(link)
+          }))
+          .filter((entry) => entry.target);
+
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        if (scrollTop >= maxScroll - 4 && entries.length) {
+          return entries[entries.length - 1].href;
+        }
+
+        const markerY = headerHeight + Math.min(220, (window.innerHeight - headerHeight) * 0.38);
+        let bestEntry = null;
+        let bestScore = Infinity;
+
+        entries.forEach((entry) => {
+          const rect = entry.target.getBoundingClientRect();
+          const isVisible = rect.bottom > headerHeight && rect.top < window.innerHeight;
+          if (!isVisible) return;
+
+          const containsMarker = rect.top <= markerY && rect.bottom >= markerY;
+          const distance = containsMarker ? 0 : Math.min(
+            Math.abs(rect.top - markerY),
+            Math.abs(rect.bottom - markerY)
+          );
+          const score = containsMarker ? distance : distance + 12;
+
+          if (score < bestScore) {
+            bestScore = score;
+            bestEntry = entry;
+          }
+        });
+
+        return bestEntry?.href || "";
+      }
+
       function updateScrollEffects() {
         const scrollTop = window.scrollY || document.documentElement.scrollTop;
         const height = document.documentElement.scrollHeight - window.innerHeight;
         const progressValue = height > 0 ? (scrollTop / height) * 100 : 0;
         progress.style.width = `${Math.min(100, Math.max(0, progressValue))}%`;
 
-        const midpoint = scrollTop + window.innerHeight * 0.34;
-        let activeId = "";
-        navLinks.forEach((link) => {
-          const target = document.querySelector(link.getAttribute("href"));
-          if (target && target.offsetTop <= midpoint) {
-            activeId = link.getAttribute("href");
+        const headerHeight = document.querySelector(".site-header")?.offsetHeight || 0;
+        if (activeNavLock) {
+          const lockAge = Date.now() - activeNavLockTime;
+          const movedAwayFromLock = Math.abs(scrollTop - activeNavLockTop) > 18;
+          if (lockAge > 1200 && movedAwayFromLock) {
+            clearActiveNavLock();
           }
-        });
-        navLinks.forEach((link) => {
-          link.classList.toggle("is-active", link.getAttribute("href") === activeId);
-        });
+        }
+
+        const activeId = activeNavLock || getCurrentSection(headerHeight);
+        setActiveNav(activeId);
       }
 
       let pointerFrame = null;
@@ -563,6 +650,40 @@
 
       window.addEventListener("scroll", updateScrollEffects, { passive: true });
       window.addEventListener("resize", updateScrollEffects);
+      window.addEventListener("hashchange", updateScrollEffects);
+      window.addEventListener("wheel", clearActiveNavLock, { passive: true });
+      window.addEventListener("touchstart", clearActiveNavLock, { passive: true });
+      window.addEventListener("keydown", (event) => {
+        const scrollKeys = ["ArrowDown", "ArrowUp", "PageDown", "PageUp", "Home", "End", " "];
+        if (scrollKeys.includes(event.key)) clearActiveNavLock();
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", (event) => {
+          const target = getTargetFromLink(link);
+          if (!target) return;
+
+          event.preventDefault();
+          const href = link.getAttribute("href");
+          const headerHeight = document.querySelector(".site-header")?.offsetHeight || 0;
+          const targetTop = target.getBoundingClientRect().top + window.scrollY - headerHeight - 24;
+          const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+          const nextTop = Math.min(maxScroll, Math.max(0, targetTop));
+          const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+          window.history.pushState({}, "", href);
+          activeNavLock = href;
+          activeNavLockTop = nextTop;
+          activeNavLockTime = Date.now();
+          setActiveNav(href);
+          window.scrollTo({
+            top: nextTop,
+            behavior: prefersReducedMotion ? "auto" : "smooth"
+          });
+          window.setTimeout(updateScrollEffects, prefersReducedMotion ? 0 : 500);
+          window.setTimeout(updateScrollEffects, prefersReducedMotion ? 0 : 950);
+        });
+      });
 
       function setLanguage(lang) {
         document.body.classList.remove("lang-changing");
@@ -588,6 +709,34 @@
       const initialLanguage = requestedLanguage || localStorage.getItem("preferred-language") || "en";
       setLanguage(initialLanguage === "ko" ? "ko" : "en");
       updateScrollEffects();
+
+      function updateVisitCounter() {
+        const counter = document.querySelector("#visit-count");
+        if (!counter || !window.goatcounter || !window.goatcounter.get_data) return;
+
+        const path = "TOTAL";
+        fetch(`https://home-hyunseo.goatcounter.com/counter/${encodeURIComponent(path)}.json`, {
+          cache: "no-store"
+        })
+          .then((response) => {
+            if (!response.ok) throw new Error("counter unavailable");
+            return response.json();
+          })
+          .then((data) => {
+            counter.textContent = data.count || "-";
+          })
+          .catch(() => {
+            counter.parentElement.hidden = true;
+          });
+      }
+
+      const counterTimer = window.setInterval(() => {
+        if (window.goatcounter && window.goatcounter.get_data) {
+          window.clearInterval(counterTimer);
+          updateVisitCounter();
+        }
+      }, 120);
     </script>
+    <script data-goatcounter="https://home-hyunseo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   </body>
 </html>
