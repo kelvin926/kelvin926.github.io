@@ -476,7 +476,7 @@
 
     <script>
       window.goatcounter = {
-        endpoint: "https://home-hyunseo.goatcounter.com/count"
+        endpoint: "https://hyunseo.goatcounter.com/count"
       };
 
       const root = document.documentElement;
@@ -737,7 +737,7 @@
         if (!counter || !window.goatcounter || !window.goatcounter.get_data) return;
 
         const path = "TOTAL";
-        fetch(`https://home-hyunseo.goatcounter.com/counter/${encodeURIComponent(path)}.json`, {
+        fetch(`https://hyunseo.goatcounter.com/counter/${encodeURIComponent(path)}.json`, {
           cache: "no-store"
         })
           .then((response) => {
@@ -759,6 +759,6 @@
         }
       }, 120);
     </script>
-    <script data-goatcounter="https://home-hyunseo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <script data-goatcounter="https://hyunseo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   </body>
 </html>
