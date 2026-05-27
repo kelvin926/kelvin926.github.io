@@ -307,6 +307,7 @@ h4 {
   color: #273b53;
   font-size: 1.12rem;
   font-weight: 800;
+  line-height: 1.5;
 }
 
 .hero-statement {
@@ -485,6 +486,16 @@ section[id] {
   text-transform: uppercase;
 }
 
+.text-en,
+.text-ko {
+  margin: 0;
+}
+
+.timeline .text-en,
+.timeline .text-ko {
+  display: inline;
+}
+
 .paper-list,
 .content-stack {
   display: grid;
@@ -591,6 +602,26 @@ section[id] {
   line-height: 1.56;
 }
 
+.presentation-note p {
+  margin: 0;
+}
+
+.additional-presentations {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(16, 38, 66, 0.10);
+}
+
+.additional-presentations summary {
+  color: var(--navy);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.additional-presentations summary::marker {
+  color: var(--ochre);
+}
+
 .compact-list {
   display: grid;
   gap: 10px;
@@ -615,6 +646,11 @@ section[id] {
 .project-grid {
   display: grid;
   gap: 18px;
+}
+
+.project-group-title {
+  margin: 0 0 14px;
+  font-size: 1.04rem;
 }
 
 .project-grid article {
@@ -743,6 +779,10 @@ section[id] {
 
 .project-more-card:hover {
   border-color: rgba(45, 98, 143, 0.24);
+}
+
+.project-more-card.text-only {
+  grid-template-columns: 1fr;
 }
 
 .project-more-card figure {
