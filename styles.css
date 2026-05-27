@@ -885,15 +885,22 @@ footer p {
 }
 
 .visitor-counter {
+  display: inline-flex;
+  align-items: center;
   margin-top: 8px;
-  color: #8b949f;
-  font-size: 0.72rem;
-  line-height: 1.25;
+  opacity: 0.72;
+  transition: opacity 160ms ease;
 }
 
-.visitor-counter #visit-count {
-  color: var(--navy);
-  font-weight: 800;
+.visitor-counter:hover,
+.visitor-counter:focus {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.visitor-counter img {
+  display: block;
+  height: 20px;
 }
 
 .reveal {

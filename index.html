@@ -467,18 +467,13 @@
     </main>
 
     <footer>
-      <p class="visitor-counter">
-        <span class="lang en">Visits</span><span class="lang ko">방문</span>
-        <span id="visit-count" aria-live="polite">-</span>
-      </p>
+      <a class="visitor-counter" href="https://hits.sh/home.hyunseo.kr/" aria-label="View visit counter">
+        <img src="https://hits.sh/home.hyunseo.kr.svg?style=flat&label=visits&color=102642&labelColor=ac6332" alt="Visit counter">
+      </a>
       <p class="updated"><span class="lang en">Last updated: May 2026</span><span class="lang ko">마지막 업데이트: 2026.05</span></p>
     </footer>
 
     <script>
-      window.goatcounter = {
-        endpoint: "https://hyunseo.goatcounter.com/count"
-      };
-
       const root = document.documentElement;
       const buttons = Array.from(document.querySelectorAll("[data-set-lang]"));
       const navLinks = Array.from(document.querySelectorAll(".nav-links a[href^='#']"));
@@ -732,41 +727,6 @@
       setLanguage(initialLanguage === "ko" ? "ko" : "en");
       updateScrollEffects();
 
-      function updateVisitCounter() {
-        const counter = document.querySelector("#visit-count");
-        if (!counter || !window.goatcounter || !window.goatcounter.get_data) return;
-
-        const path = "TOTAL";
-        fetch(`https://hyunseo.goatcounter.com/counter/${encodeURIComponent(path)}.json`, {
-          cache: "no-store"
-        })
-          .then((response) => {
-            if (!response.ok) throw new Error("counter unavailable");
-            return response.json();
-          })
-          .then((data) => {
-            counter.textContent = data.count || "-";
-          })
-          .catch(() => {
-            counter.parentElement.hidden = true;
-          });
-      }
-
-      const counterTimer = window.setInterval(() => {
-        if (window.goatcounter && window.goatcounter.get_data) {
-          window.clearInterval(counterTimer);
-          updateVisitCounter();
-        }
-      }, 120);
-
-      window.setTimeout(() => {
-        if (window.goatcounter && window.goatcounter.get_data) return;
-        const path = `${location.pathname}${location.search}${location.hash}`;
-        const fallback = new Image();
-        fallback.referrerPolicy = "no-referrer-when-downgrade";
-        fallback.src = `https://hyunseo.goatcounter.com/count?p=${encodeURIComponent(path)}&t=${encodeURIComponent(document.title)}`;
-      }, 1800);
     </script>
-    <script data-goatcounter="https://hyunseo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   </body>
 </html>
