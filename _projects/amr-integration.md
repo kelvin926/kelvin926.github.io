@@ -10,14 +10,18 @@ category: work
 permalink: /projects/amr-integration/
 ---
 
-{% include figure.liquid path="assets/img/projects/amr_integration_ranger_mini.png" title="Ranger Mini v2 AMR platform for indoor delivery robot integration" class="img-fluid rounded z-depth-1" %}
+{% include project-media-style.html %}
 
-<figure class="mt-3">
+<div class="project-page-hero">
+  {% include figure.liquid path="assets/img/projects/amr_integration_ranger_mini.png" title="Ranger Mini v2 AMR platform for indoor delivery robot integration" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<figure class="project-media project-media--wide project-media--compact">
   <img src="{{ '/assets/img/projects/amr_lidar_tracking_panels.jpg' | relative_url }}" alt="LiDAR-based detection and tracking panels for indoor AMR operation" class="img-fluid rounded z-depth-1">
   <figcaption>Hardware and LiDAR perception panels used for indoor AMR detection and tracking work.</figcaption>
 </figure>
 
-<figure class="mt-3">
+<figure class="project-media project-media--portrait">
   <img src="{{ '/assets/img/projects/amr_project_semester_drive.gif' | relative_url }}" alt="Outdoor campus driving clip for the Ranger Mini v2-based AMR" class="img-fluid rounded z-depth-1">
   <figcaption>Outdoor campus driving clip from the Project Semester AMR integration work.</figcaption>
 </figure>

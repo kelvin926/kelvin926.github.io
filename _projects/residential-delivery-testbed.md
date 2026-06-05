@@ -10,7 +10,11 @@ category: work
 permalink: /projects/residential-delivery-testbed/
 ---
 
-{% include figure.liquid path="assets/img/projects/lh_testbed_single.jpg" title="Residential delivery-robot testbed planning for apartment service scenarios" class="img-fluid rounded z-depth-1" %}
+{% include project-media-style.html %}
+
+<div class="project-page-hero">
+  {% include figure.liquid path="assets/img/projects/lh_testbed_single.jpg" title="Residential delivery-robot testbed planning for apartment service scenarios" class="img-fluid rounded z-depth-1" %}
+</div>
 
 This work organized testbed planning for residential delivery robots, including service scenarios, operating assumptions, and validation-method structure for apartment delivery tasks.
 

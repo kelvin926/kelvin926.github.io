@@ -10,9 +10,13 @@ category: work
 permalink: /projects/inventory-inspection-adaptive-suspension/
 ---
 
-{% include figure.liquid path="assets/img/projects/adaptive_suspension_inventory_robot.png" title="Inventory-inspection robot adaptive suspension validation" class="img-fluid rounded z-depth-1" %}
+{% include project-media-style.html %}
 
-<figure class="mt-3">
+<div class="project-page-hero">
+  {% include figure.liquid path="assets/img/projects/adaptive_suspension_inventory_robot.png" title="Inventory-inspection robot adaptive suspension validation" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<figure class="project-media project-media--wide project-media--compact">
   <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.gif' | relative_url }}" alt="Inventory-inspection robot suspension stabilization simulation clip" class="img-fluid rounded z-depth-1">
   <figcaption>Simulation clip for chassis-leveling behavior during full-lift driving.</figcaption>
 </figure>

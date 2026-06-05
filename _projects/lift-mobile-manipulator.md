@@ -10,17 +10,21 @@ category: work
 permalink: /projects/lift-mobile-manipulator/
 ---
 
-{% include figure.liquid path="assets/img/projects/lift_shelf_transfer_rack.png" title="Lift-equipped mobile manipulator platform for shelf-transfer experiments" class="img-fluid rounded z-depth-1" %}
+{% include project-media-style.html %}
 
-<div class="row mt-3">
-  <div class="col-md-5">
-    <figure>
+<div class="project-page-hero">
+  {% include figure.liquid path="assets/img/projects/lift_shelf_transfer_rack.png" title="Lift-equipped mobile manipulator platform for shelf-transfer experiments" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<div class="project-media-grid">
+  <div>
+    <figure class="project-media project-media--portrait">
       <img src="{{ '/assets/img/projects/lift_integrated_platform_photo.jpg' | relative_url }}" alt="Integrated 10 m-class lift-equipped mobile manipulator platform" class="img-fluid rounded z-depth-1">
       <figcaption>Integrated lift-equipped mobile manipulator platform used as the hardware basis.</figcaption>
     </figure>
   </div>
-  <div class="col-md-7">
-    <figure>
+  <div>
+    <figure class="project-media project-media--portrait">
       <img src="{{ '/assets/img/projects/lift_shelf_transfer_sequence.gif' | relative_url }}" alt="Shelf-transfer sequence for the lift-equipped mobile manipulator in Isaac Lab" class="img-fluid rounded z-depth-1">
       <figcaption>Play-mode shelf-transfer sequence under source-object randomization.</figcaption>
     </figure>

@@ -3,14 +3,16 @@
     <div class="card h-100 hoverable">
       {% if project.img %}
         {% assign project_img_alt = project.img_alt | default: project.title %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt=project_img_alt
-          class="card-img-top"
-        %}
+        <div class="project-card-media">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project.img
+            sizes = "250px"
+            alt=project_img_alt
+            class="card-img-top project-card-image"
+          %}
+        </div>
       {% endif %}
       <div class="card-body">
         <h3 class="card-title project-card-title">{{ project.title }}</h3>

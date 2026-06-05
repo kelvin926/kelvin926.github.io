@@ -10,22 +10,26 @@ category: work
 permalink: /projects/cebo-stair-climbing-wheel/
 ---
 
-{% include figure.liquid path="assets/img/projects/cebo_stair_climbing_robot_design.jpg" title="CoppeliaSim stair-climbing wheel-design evaluation for CEBO" class="img-fluid rounded z-depth-1" %}
+{% include project-media-style.html %}
 
-<figure class="mt-3">
+<div class="project-page-hero">
+  {% include figure.liquid path="assets/img/projects/cebo_stair_climbing_robot_design.jpg" title="CoppeliaSim stair-climbing wheel-design evaluation for CEBO" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<figure class="project-media project-media--wide project-media--compact">
   <img src="{{ '/assets/img/projects/cebo_stair_climbing_demo.gif' | relative_url }}" alt="CoppeliaSim stair-climbing wheel evaluation clip for CEBO" class="img-fluid rounded z-depth-1">
   <figcaption>CoppeliaSim evaluation clip for the T-pedal stair-climbing wheel design.</figcaption>
 </figure>
 
-<div class="row mt-3">
-  <div class="col-md-6">
-    <figure>
+<div class="project-media-grid">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1">
       <figcaption>Physical stair-climbing test clip with manual guidance.</figcaption>
     </figure>
   </div>
-  <div class="col-md-6">
-    <figure>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/cebo_physical_stair_test.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot" class="img-fluid rounded z-depth-1">
       <figcaption>Physical stair-climbing test clip for the T-pedal wheel robot.</figcaption>
     </figure>

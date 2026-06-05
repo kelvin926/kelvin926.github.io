@@ -10,9 +10,13 @@ category: work
 permalink: /projects/local-delivery-rl-experiments/
 ---
 
-{% include figure.liquid path="assets/img/projects/local_delivery_system_single.jpg" title="Local delivery robot logistics experiment setup" class="img-fluid rounded z-depth-1" %}
+{% include project-media-style.html %}
 
-<figure class="mt-3">
+<div class="project-page-hero">
+  {% include figure.liquid path="assets/img/projects/local_delivery_system_single.jpg" title="Local delivery robot logistics experiment setup" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<figure class="project-media project-media--wide project-media--compact">
   <img src="{{ '/assets/img/projects/local_delivery_2d_storage_environment.jpg' | relative_url }}" alt="2D storage environment for local delivery robot reinforcement-learning experiments" class="img-fluid rounded z-depth-1">
   <figcaption>2D storage environment used for the dual-handler reinforcement-learning experiments.</figcaption>
 </figure>

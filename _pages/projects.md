@@ -22,6 +22,37 @@ horizontal: false
     line-height: 1.28;
   }
 
+  .projects .project-card-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16 / 10;
+    padding: 0.55rem;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.18);
+    background: #fff;
+  }
+
+  .projects .project-card-media figure,
+  .projects .project-card-media picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .projects .project-card-media img,
+  .projects .project-card-image {
+    width: auto !important;
+    max-width: 100%;
+    height: auto !important;
+    max-height: 100%;
+    padding: 0;
+    object-fit: contain;
+  }
+
   .projects .card-text {
     font-size: 0.92rem;
     line-height: 1.45;

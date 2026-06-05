@@ -10,9 +10,13 @@ category: work
 permalink: /projects/keti-amr/
 ---
 
-{% include figure.liquid path="assets/img/projects/keti_amr_single.jpg" title="KETI 20-DOF wheeled-legged AMR simulation model" class="img-fluid rounded z-depth-1" %}
+{% include project-media-style.html %}
 
-<figure class="mt-3">
+<div class="project-page-hero">
+  {% include figure.liquid path="assets/img/projects/keti_amr_single.jpg" title="KETI 20-DOF wheeled-legged AMR simulation model" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<figure class="project-media project-media--wide project-media--compact">
   <img src="{{ '/assets/img/projects/keti_velocity_tracking_scene.jpg' | relative_url }}" alt="Isaac Lab rough-terrain velocity-tracking scene for a 20-DOF wheeled-legged AMR" class="img-fluid rounded z-depth-1">
   <figcaption>Isaac Lab velocity-tracking scene used while setting up PPO training for the wheeled-legged AMR.</figcaption>
 </figure>
