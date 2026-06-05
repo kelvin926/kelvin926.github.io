@@ -2,8 +2,8 @@
 layout: page
 title: "Lift-Equipped Mobile Manipulator"
 description: Shelf-transfer mobile manipulation in multi-level rack environments.
-img: assets/img/projects/lift_integrated_platform_cover.jpg
-img_alt: Integrated 10 m-class lift-equipped mobile manipulator platform
+img: assets/img/projects/lift_shelf_transfer_rack.png
+img_alt: Shelf-transfer rack setup for a lift-equipped mobile manipulator
 importance: 3
 group: main
 category: work

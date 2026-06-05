@@ -39,6 +39,8 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<p class="page-note">Peer-reviewed papers are listed first. Selected conference presentations are kept on the same page for CV-style review.</p>
+
 <div class="publications">
 
 {% bibliography %}

@@ -66,6 +66,7 @@ horizontal: false
 {% assign other_projects = site.projects | where: "group", "other" | sort: "importance" %}
 
 <h2>main projects</h2>
+<p class="project-group-note">Current research closest to my PhD contact profile.</p>
 
 <div class="row row-cols-1 row-cols-md-3">
   {% for project in main_projects %}
@@ -74,6 +75,7 @@ horizontal: false
 </div>
 
 <h2>system integration</h2>
+<p class="project-group-note">AMR software, perception, and navigation work connected to indoor delivery systems.</p>
 
 <div class="row row-cols-1 row-cols-md-3">
   {% for project in system_projects %}
@@ -82,6 +84,7 @@ horizontal: false
 </div>
 
 <h2>other projects</h2>
+<p class="project-group-note">Commissioned simulation, feasibility, and platform-building work.</p>
 
 <div class="row row-cols-1 row-cols-md-3">
   {% for project in other_projects %}
