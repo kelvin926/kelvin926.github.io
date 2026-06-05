@@ -1,0 +1,19 @@
+"AIM":
+  url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/aim
+  color: "#7a2e2e"
+
+"CASE":
+  url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/case
+  color: "#2f5f8f"
+
+"AEI":
+  url: https://www.sciencedirect.com/journal/advanced-engineering-informatics
+  color: "#4b5563"
+
+"Electronics":
+  url: https://www.mdpi.com/journal/electronics
+  color: "#2563eb"
+
+"Sensors":
+  url: https://www.mdpi.com/journal/sensors
+  color: "#047857"
