@@ -67,11 +67,6 @@ html {
   box-shadow: none;
 }
 
-html[data-lang="en"] .lang.ko,
-html[data-lang="ko"] .lang.en {
-  display: none !important;
-}
-
 body {
   margin: 0;
   color: var(--ink);
@@ -83,21 +78,6 @@ body {
 
 body::before {
   content: none;
-}
-
-html[data-lang="ko"] body {
-  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  word-break: keep-all;
-}
-
-html[data-lang="en"] .subtitle,
-html[data-lang="en"] .research-areas,
-html[data-lang="en"] .timeline,
-html[data-lang="en"] .paper,
-html[data-lang="en"] .project-grid,
-html[data-lang="en"] .entry,
-html[data-lang="en"] .skills {
-  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 }
 
 a {
@@ -140,17 +120,8 @@ em {
   font-weight: 800;
 }
 
-html[data-lang="ko"] .brand,
-html[data-lang="ko"] h2,
-html[data-lang="ko"] h3,
-html[data-lang="ko"] .section-heading h2 {
-  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  letter-spacing: 0;
-}
-
 .nav-right,
-.nav-links,
-.lang-switch {
+.nav-links {
   display: flex;
   align-items: center;
 }
@@ -196,37 +167,6 @@ html[data-lang="ko"] .section-heading h2 {
 .nav-links a:hover::after,
 .nav-links a:focus::after {
   transform: scaleX(1);
-}
-
-.lang-switch {
-  padding: 3px;
-  border: 1px solid rgba(18, 47, 74, 0.14);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.82);
-}
-
-.lang-switch button {
-  min-width: 42px;
-  border: 0;
-  border-radius: 999px;
-  padding: 7px 9px;
-  background: transparent;
-  color: var(--muted);
-  cursor: pointer;
-  font: inherit;
-  font-size: 0.82rem;
-  font-weight: 800;
-  transition: background 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
-}
-
-.lang-switch button[aria-pressed="true"] {
-  background: var(--navy);
-  color: white;
-  box-shadow: 0 8px 18px rgba(18, 47, 74, 0.22);
-}
-
-.lang-switch button:hover {
-  transform: translateY(-1px);
 }
 
 main,
@@ -494,13 +434,11 @@ section[id] {
   text-transform: uppercase;
 }
 
-.text-en,
-.text-ko {
+.text-en {
   margin: 0;
 }
 
-.timeline .text-en,
-.timeline .text-ko {
+.timeline .text-en {
   display: inline;
 }
 
@@ -1025,21 +963,6 @@ footer p {
 
 .project-visual::after {
   content: none;
-}
-
-body.lang-changing main {
-  animation: soft-fade 240ms ease;
-}
-
-@keyframes soft-fade {
-  from {
-    opacity: 0.72;
-    transform: translateY(4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
