@@ -12,9 +12,11 @@ profile:
   image: hyunseo_jang.jpg
   image_circular: false
   more_info: >
-    <p>Field Robot Lab</p>
-    <p>Korea University</p>
-    <p><a href="mailto:kelvin926@korea.ac.kr">kelvin926@korea.ac.kr</a></p>
+    <div class="profile-contact">
+      <span>Field Robot Lab</span>
+      <span>Korea University</span>
+      <a href="mailto:kelvin926@korea.ac.kr">kelvin926@korea.ac.kr</a>
+    </div>
 
 selected_papers: false
 social: true
@@ -25,6 +27,27 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<style>
+  .profile .more-info .profile-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.12rem;
+    margin-top: 0.65rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.92rem;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: 0;
+  }
+
+  .profile .more-info .profile-contact a {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+</style>
 
 I am an M.S. student at Field Robot Lab, Korea University. My research focuses on stability-aware robot learning and autonomy for mobile robotic systems.
 

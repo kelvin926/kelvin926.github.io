@@ -17,6 +17,11 @@ permalink: /projects/amr-integration/
   <figcaption>Hardware and LiDAR perception panels used for indoor AMR detection and tracking work.</figcaption>
 </figure>
 
+<figure class="mt-3">
+  <img src="{{ '/assets/img/projects/amr_project_semester_drive.gif' | relative_url }}" alt="Outdoor campus driving clip for the Ranger Mini v2-based AMR" class="img-fluid rounded z-depth-1">
+  <figcaption>Outdoor campus driving clip from the Project Semester AMR integration work.</figcaption>
+</figure>
+
 This project integrated a Ranger Mini v2-based indoor delivery robot with CAN, ROS/Autoware, LiDAR-only SLAM, and perception modules for indoor navigation. The work included DBSCAN-based human detection, Kalman-filter tracking, and YOLO-based avoidance logic.
 
 - **Role:** hardware/software integration, perception, navigation, detection/tracking modules
