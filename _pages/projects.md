@@ -8,6 +8,26 @@ nav_order: 3
 horizontal: false
 ---
 
+<style>
+  .projects > h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.9rem;
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+
+  .projects .project-card-title {
+    margin-bottom: 0.65rem;
+    font-size: 1.08rem;
+    line-height: 1.28;
+  }
+
+  .projects .card-text {
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+</style>
+
 <div class="projects">
 
 {% assign main_projects = site.projects | where: "group", "main" | sort: "importance" %}

@@ -12,6 +12,11 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
 
 {% include figure.liquid path="assets/img/projects/adaptive_suspension_inventory_robot.png" title="Inventory-inspection robot adaptive suspension validation" class="img-fluid rounded z-depth-1" %}
 
+<figure class="mt-3">
+  <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.gif' | relative_url }}" alt="Inventory-inspection robot suspension stabilization simulation clip" class="img-fluid rounded z-depth-1">
+  <figcaption>Simulation clip for chassis-leveling behavior during full-lift driving.</figcaption>
+</figure>
+
 This project built a suspension-stabilization workflow for chassis leveling during full-lift driving of a 10 m-class inventory-inspection robot. The work used Isaac Lab for runtime asset setup and evaluation scripts.
 
 - **Role:** chassis-leveling logic, fixed-lift runtime asset creation, suspension task setup, evaluation scripts

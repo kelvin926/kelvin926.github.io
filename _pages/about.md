@@ -61,4 +61,4 @@ Recent work spans wheeled-legged loco-manipulation, mobile manipulation, AMR per
 - [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/) - shelf-transfer mobile manipulation in multi-level rack environments.
 - [CEBO-Based Stair-Climbing Wheel Design](/projects/cebo-stair-climbing-wheel/) - Bayesian optimization and CoppeliaSim evaluation for T-pedal wheel design.
 
-More details are available in [publications](/publications/), [projects](/projects/), [presentations](/presentations/), and [cv](/cv/).
+More details are available in [publications](/publications/), [projects](/projects/), and [cv](/cv/).
