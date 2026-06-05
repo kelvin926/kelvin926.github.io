@@ -13,6 +13,11 @@ permalink: /projects/road-sweeping-tdp/
 {% include figure.liquid path="assets/img/projects/road_sweeper_vehicle.png" title="Autonomous road-sweeping vehicle used for TDP and validation-scenario documentation" class="img-fluid rounded z-depth-1" %}
 
 <figure class="mt-3">
+  <img src="{{ '/assets/img/projects/road_sweeper_sensor_setup.jpg' | relative_url }}" alt="Road-sweeping vehicle sensor setup used during validation-scenario review" class="img-fluid rounded z-depth-1">
+  <figcaption>Vehicle sensor setup reviewed while organizing TDP and validation scenarios.</figcaption>
+</figure>
+
+<figure class="mt-3">
   <img src="{{ '/assets/img/projects/road_sweeping_planning_demo.gif' | relative_url }}" alt="Road-sweeping vehicle route-planning interface clip" class="img-fluid rounded z-depth-1">
   <figcaption>Planning-interface clip used while reviewing road-sweeping vehicle scenarios.</figcaption>
 </figure>
