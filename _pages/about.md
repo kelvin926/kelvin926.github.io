@@ -34,7 +34,7 @@ latest_posts:
     flex-direction: column;
     gap: 0.12rem;
     margin-top: 0.65rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 0.92rem;
     font-weight: 400;
     line-height: 1.45;
