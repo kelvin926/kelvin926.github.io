@@ -3,7 +3,9 @@ layout: page
 title: "KETI 20-DOF Wheeled-Legged AMR"
 description: Isaac Lab training setup for rough-terrain velocity tracking on a 20-DOF wheeled-legged AMR.
 img: assets/img/projects/keti_amr_single.jpg
+img_alt: KETI 20-DOF wheeled-legged AMR simulation model
 importance: 5
+group: other
 category: work
 permalink: /projects/keti-amr/
 ---

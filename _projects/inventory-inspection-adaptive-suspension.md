@@ -3,7 +3,9 @@ layout: page
 title: "Inventory-Inspection Robot Adaptive Suspension"
 description: Suspension stabilization for full-lift driving of a 10 m-class inventory-inspection robot.
 img: assets/img/projects/adaptive_suspension_inventory_robot.png
+img_alt: Inventory-inspection robot adaptive suspension validation
 importance: 6
+group: other
 category: work
 permalink: /projects/inventory-inspection-adaptive-suspension/
 ---

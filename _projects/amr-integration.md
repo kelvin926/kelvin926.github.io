@@ -3,7 +3,9 @@ layout: page
 title: "Autonomous Mobile Robot System Integration"
 description: Ranger Mini v2-based indoor delivery robot system with ROS/Autoware and LiDAR perception.
 img: assets/img/projects/amr_integration_ranger_mini.png
+img_alt: Ranger Mini v2 AMR platform for indoor delivery robot integration
 importance: 2
+group: system
 category: work
 permalink: /projects/amr-integration/
 ---

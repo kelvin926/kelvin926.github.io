@@ -3,7 +3,9 @@ layout: page
 title: "KALO: Kangaroo-LocoManipulation"
 description: Early-launch assistance for a Go2W-OpenArm wheeled-legged platform.
 img: assets/img/projects/kalo_launch_single.jpg
+img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform
 importance: 1
+group: main
 category: work
 permalink: /projects/kalo/
 ---

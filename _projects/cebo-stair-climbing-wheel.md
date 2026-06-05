@@ -3,7 +3,9 @@ layout: page
 title: "CEBO-Based Stair-Climbing Wheel Design"
 description: Bayesian optimization for T-pedal wheel design using a CoppeliaSim evaluation loop.
 img: assets/img/projects/cebo_stair_climbing_robot_design.jpg
+img_alt: CoppeliaSim stair-climbing wheel-design evaluation for CEBO
 importance: 4
+group: main
 category: work
 permalink: /projects/cebo-stair-climbing-wheel/
 ---

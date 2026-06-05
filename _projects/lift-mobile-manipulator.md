@@ -3,7 +3,9 @@ layout: page
 title: "Lift-Equipped Mobile Manipulator"
 description: Mobile manipulator platform for shelf transfer in multi-level rack environments.
 img: assets/img/projects/lift_shelf_transfer_rack.png
+img_alt: Lift-equipped mobile manipulator platform for shelf-transfer experiments
 importance: 3
+group: main
 category: work
 permalink: /projects/lift-mobile-manipulator/
 ---
