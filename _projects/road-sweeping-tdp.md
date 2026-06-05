@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Autonomous Road-Sweeping Vehicle TDP"
-description: TDP notes for an autonomous road-sweeping vehicle.
+description: TDP documentation for an autonomous road-sweeping vehicle.
 img: assets/img/projects/road_sweeper_vehicle.png
 img_alt: Autonomous road-sweeping vehicle for TDP and validation-scenario documentation
 importance: 7
@@ -13,7 +13,7 @@ permalink: /projects/road-sweeping-tdp/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  {% include figure.liquid path="assets/img/projects/road_sweeper_vehicle.png" title="Autonomous road-sweeping vehicle used for TDP and validation-scenario documentation" class="img-fluid rounded z-depth-1" %}
+  <img src="{{ '/assets/img/projects/road_sweeper_vehicle.png' | relative_url }}" alt="Autonomous road-sweeping vehicle used for TDP and validation-scenario documentation" class="img-fluid rounded z-depth-1">
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
@@ -26,7 +26,7 @@ permalink: /projects/road-sweeping-tdp/
   <figcaption>Route-planning interface.</figcaption>
 </figure>
 
-Documentation work for an autonomous road-sweeping vehicle. The scope covered ODD, fail-safety/SOTIF considerations, validation scenarios, and TDP structure.
+I organized TDP documentation for an autonomous road-sweeping vehicle. I covered ODD, fail-safety/SOTIF considerations, validation scenarios, and document structure.
 
 - **Role:** ODD organization, fail-safety/SOTIF review, validation-scenario planning, TDP documentation
 - **Tools:** ODD, SOTIF/fail-safety, validation scenarios, technical documentation

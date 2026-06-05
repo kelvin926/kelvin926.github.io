@@ -13,7 +13,7 @@ permalink: /projects/kalo/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  {% include figure.liquid path="assets/img/projects/kalo_launch_single.jpg" title="KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform" class="img-fluid rounded z-depth-1" %}
+  <img src="{{ '/assets/img/projects/kalo_launch_single.jpg' | relative_url }}" alt="KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform" class="img-fluid rounded z-depth-1">
 </div>
 
 <div class="project-media-grid">
@@ -31,7 +31,7 @@ permalink: /projects/kalo/
   </div>
 </div>
 
-KALO is an early-launch assist controller for a Go2W-OpenArm wheeled-legged platform. I set up the Isaac Lab/RSL-RL experiments and compared Base, Fixed carrying-pose, and KALO controllers.
+I proposed KALO as an early-launch assist controller for a Go2W-OpenArm wheeled-legged platform. I set up the Isaac Lab/RSL-RL experiments and compared Base, Fixed carrying-pose, and KALO controllers.
 
 - **Role:** launch-assist concept, Go2W-OpenArm setup, evaluation metrics, Isaac Lab/RSL-RL experiments
 - **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO, Go2W-OpenArm

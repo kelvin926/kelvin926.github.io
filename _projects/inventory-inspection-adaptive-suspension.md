@@ -13,7 +13,7 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  {% include figure.liquid path="assets/img/projects/adaptive_suspension_inventory_robot.png" title="Inventory-inspection robot adaptive suspension validation" class="img-fluid rounded z-depth-1" %}
+  <img src="{{ '/assets/img/projects/adaptive_suspension_inventory_robot.png' | relative_url }}" alt="Inventory-inspection robot adaptive suspension validation" class="img-fluid rounded z-depth-1">
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
@@ -21,9 +21,9 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
   <figcaption>Full-lift driving simulation comparison.</figcaption>
 </figure>
 
-I worked on chassis leveling for full-lift driving of a 10 m-class inventory-inspection robot. The Isaac Lab setup handled fixed-lift runtime assets, suspension tasks, and evaluation scripts.
+I worked on chassis leveling for full-lift driving of a 10 m-class inventory-inspection robot. I built the fixed-lift runtime assets, suspension task setup, and evaluation scripts in Isaac Lab.
 
 - **Role:** chassis-leveling logic, fixed-lift runtime asset creation, suspension task setup, evaluation scripts
 - **Tools:** Isaac Lab, RSL-RL, PyTorch
-- **Result:** chassis-leveling workflow for fixed-lift driving.
+- **Result:** chassis-leveling setup for fixed-lift driving.
 - **Code:** [kelvin926/Frbot_Lift](https://github.com/kelvin926/Frbot_Lift)

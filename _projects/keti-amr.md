@@ -13,7 +13,7 @@ permalink: /projects/keti-amr/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  {% include figure.liquid path="assets/img/projects/keti_amr_single.jpg" title="KETI 20-DOF wheeled-legged AMR simulation model" class="img-fluid rounded z-depth-1" %}
+  <img src="{{ '/assets/img/projects/keti_amr_single.jpg' | relative_url }}" alt="KETI 20-DOF wheeled-legged AMR simulation model" class="img-fluid rounded z-depth-1">
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
@@ -21,7 +21,7 @@ permalink: /projects/keti-amr/
   <figcaption>Isaac Lab velocity-tracking scene.</figcaption>
 </figure>
 
-The KETI AMR work set up Isaac Lab training for rough-terrain velocity tracking on a 20-DOF wheeled-legged AMR. The setup covered robot configuration, MDP/reward design, terrain curriculum, and PPO training.
+I set up Isaac Lab training for a 20-DOF wheeled-legged AMR commissioned by Korea Electronics Technology Institute (KETI). I handled robot configuration, MDP/reward design, rough-terrain curriculum, and PPO velocity-tracking training.
 
 - **Role:** robot configuration, MDP/reward design, terrain curriculum, PPO training setup
 - **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO

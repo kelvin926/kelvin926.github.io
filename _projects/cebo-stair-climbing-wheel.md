@@ -13,7 +13,7 @@ permalink: /projects/cebo-stair-climbing-wheel/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  {% include figure.liquid path="assets/img/projects/cebo_stair_climbing_robot_design.jpg" title="CoppeliaSim stair-climbing wheel-design evaluation for CEBO" class="img-fluid rounded z-depth-1" %}
+  <img src="{{ '/assets/img/projects/cebo_stair_climbing_robot_design.jpg' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design evaluation for CEBO" class="img-fluid rounded z-depth-1">
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
@@ -36,7 +36,7 @@ permalink: /projects/cebo-stair-climbing-wheel/
   </div>
 </div>
 
-I set up a six-variable T-pedal wheel design problem for stair-climbing time and body-pitch stability. The optimization loop uses CEBO with automated CoppeliaSim evaluations.
+I defined a six-variable T-pedal wheel design problem for stair-climbing time and body-pitch stability. I also automated the CEBO optimization loop with CoppeliaSim evaluations.
 
 - **Role:** T-pedal wheel search-space design, CEBO optimization experiments, CoppeliaSim evaluation-loop automation
 - **Tools:** Bayesian optimization, CoppeliaSim, Python, CAD

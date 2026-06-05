@@ -13,10 +13,10 @@ permalink: /projects/residential-delivery-testbed/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  {% include figure.liquid path="assets/img/projects/lh_testbed_single.jpg" title="Residential delivery-robot testbed planning for apartment service scenarios" class="img-fluid rounded z-depth-1" %}
+  <img src="{{ '/assets/img/projects/lh_testbed_single.jpg' | relative_url }}" alt="Residential delivery-robot testbed planning for apartment service scenarios" class="img-fluid rounded z-depth-1">
 </div>
 
-Planning work for residential delivery-robot operation. The notes covered apartment delivery scenarios, operating assumptions, and operation-check structure.
+I organized service scenarios for residential delivery-robot operation. I covered apartment delivery cases, operating assumptions, and operation-check structure.
 
 - **Role:** service-scenario organization, testbed planning, operation-check review
 - **Tools:** AMR service scenarios, validation planning, residential delivery testbed

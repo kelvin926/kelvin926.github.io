@@ -56,4 +56,4 @@ Feb. 2025, graduated with honors
 - [Autonomous Road-Sweeping Vehicle TDP](/projects/road-sweeping-tdp/): ODD, fail-safety/SOTIF, validation-scenario, and TDP documentation.
 - [Aircraft Towing and GPAU Feasibility](/projects/aircraft-towing-gpau/): autonomous/remote towing architecture, LiDAR collision-prevention concept, and Isaac Sim feasibility review.
 - [Residential Delivery-Robot Testbed](/projects/residential-delivery-testbed/): residential delivery-robot service scenarios and operation-check notes.
-- [CURT Autonomous-System Research](/projects/curt-autonomous-system-research/): ROS-based 1/5-scale vehicle setup, LiDAR obstacle detection, and camera lane recognition.
+- [1/5-Scale Autonomous Vehicle Platform](/projects/curt-autonomous-system-research/): ROS-based 1/5-scale vehicle setup, LiDAR obstacle detection, and camera lane recognition.

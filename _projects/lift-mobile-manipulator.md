@@ -2,8 +2,8 @@
 layout: page
 title: "Lift-Equipped Mobile Manipulator"
 description: Shelf-transfer mobile manipulation in multi-level rack environments.
-img: assets/img/projects/lift_shelf_transfer_rack.png
-img_alt: Lift-equipped mobile manipulator platform for shelf-transfer experiments
+img: assets/img/projects/lift_integrated_platform_cover.jpg
+img_alt: Integrated 10 m-class lift-equipped mobile manipulator platform
 importance: 3
 group: main
 category: work
@@ -13,14 +13,14 @@ permalink: /projects/lift-mobile-manipulator/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  {% include figure.liquid path="assets/img/projects/lift_shelf_transfer_rack.png" title="Lift-equipped mobile manipulator platform for shelf-transfer experiments" class="img-fluid rounded z-depth-1" %}
+  <img src="{{ '/assets/img/projects/lift_integrated_platform_cover.jpg' | relative_url }}" alt="Integrated 10 m-class lift-equipped mobile manipulator platform" class="img-fluid rounded z-depth-1">
 </div>
 
 <div class="project-media-grid">
   <div>
-    <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/lift_integrated_platform_photo.jpg' | relative_url }}" alt="Integrated 10 m-class lift-equipped mobile manipulator platform" class="img-fluid rounded z-depth-1">
-      <figcaption>Integrated lift-equipped platform.</figcaption>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/lift_shelf_transfer_rack.png' | relative_url }}" alt="Lift-equipped mobile manipulator platform for shelf-transfer experiments" class="img-fluid rounded z-depth-1">
+      <figcaption>Shelf-transfer rack setup.</figcaption>
     </figure>
   </div>
   <div>
@@ -31,7 +31,7 @@ permalink: /projects/lift-mobile-manipulator/
   </div>
 </div>
 
-The platform combines a lift-equipped AMR body with an OpenArm manipulator for shelf transfer in multi-level racks. The Isaac Lab environment uses a 9-D action and 41-D observation setup.
+I worked on a lift-equipped AMR/OpenArm platform for shelf transfer in multi-level racks. I also set up the Isaac Lab environment with a 9-D action and 41-D observation space.
 
 - **Role:** platform design, 9-D action / 41-D observation Isaac Lab PPO environment, shelf-transfer experiment analysis
 - **Tools:** Isaac Lab, PPO, PyTorch, mobile manipulation
