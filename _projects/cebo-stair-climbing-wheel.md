@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CEBO-Based Stair-Climbing Wheel Design"
-description: Bayesian optimization for T-pedal wheel design using a CoppeliaSim evaluation loop.
+description: T-pedal stair-climbing wheel design with CEBO and CoppeliaSim.
 img: assets/img/projects/cebo_stair_climbing_robot_design.jpg
 img_alt: CoppeliaSim stair-climbing wheel-design evaluation for CEBO
 importance: 4
@@ -18,25 +18,25 @@ permalink: /projects/cebo-stair-climbing-wheel/
 
 <figure class="project-media project-media--wide project-media--compact">
   <img src="{{ '/assets/img/projects/cebo_stair_climbing_demo.gif' | relative_url }}" alt="CoppeliaSim stair-climbing wheel evaluation clip for CEBO" class="img-fluid rounded z-depth-1">
-  <figcaption>CoppeliaSim evaluation clip for the T-pedal stair-climbing wheel design.</figcaption>
+  <figcaption>CoppeliaSim stair-climbing evaluation.</figcaption>
 </figure>
 
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1">
-      <figcaption>Physical stair-climbing test clip with manual guidance.</figcaption>
+      <figcaption>Physical stair test with manual guidance.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/cebo_physical_stair_test.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot" class="img-fluid rounded z-depth-1">
-      <figcaption>Physical stair-climbing test clip for the T-pedal wheel robot.</figcaption>
+      <figcaption>Physical stair test.</figcaption>
     </figure>
   </div>
 </div>
 
-This project formulated a six-variable T-pedal wheel design problem for stair-climbing performance and body-pitch stability. I automated the CoppeliaSim evaluation loop and applied clustering-enhanced Bayesian optimization after benchmark-function tests.
+I set up a six-variable T-pedal wheel design problem for stair-climbing time and body-pitch stability. The optimization loop uses CEBO with automated CoppeliaSim evaluations.
 
 - **Role:** T-pedal wheel search-space design, CEBO optimization experiments, CoppeliaSim evaluation-loop automation
 - **Tools:** Bayesian optimization, CoppeliaSim, Python, CAD

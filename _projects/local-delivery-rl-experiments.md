@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Local Delivery Robot RL Experiments"
-description: Reinforcement-learning setup and dual-handler logistics experiments for a local delivery robot system.
+description: Dual-handler reinforcement-learning experiments for a local delivery robot system.
 img: assets/img/projects/local_delivery_system_single.jpg
 img_alt: Local delivery robot logistics experiment setup
 importance: 3
@@ -18,10 +18,10 @@ permalink: /projects/local-delivery-rl-experiments/
 
 <figure class="project-media project-media--wide project-media--compact">
   <img src="{{ '/assets/img/projects/local_delivery_2d_storage_environment.jpg' | relative_url }}" alt="2D storage environment for local delivery robot reinforcement-learning experiments" class="img-fluid rounded z-depth-1">
-  <figcaption>2D storage environment used for the dual-handler reinforcement-learning experiments.</figcaption>
+  <figcaption>2D storage environment for dual-handler experiments.</figcaption>
 </figure>
 
-This work supported a local delivery robot system study through reinforcement-learning setup and dual-handler logistics experiments.
+I contributed to the reinforcement-learning experiment setup and dual-handler logistics experiments for a local delivery robot system.
 
 - **Role:** reinforcement-learning setup, dual-handler logistics experiments
 - **Tools:** reinforcement learning, simulation experiments, Python

@@ -9,11 +9,11 @@ last_name: Jang
 contact_note: >
   M.S. student, Field Robot Lab, Korea University.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hyunseo Jang is an M.S. student at Field Robot Lab, Korea University, working on stability-aware robot learning and autonomy for mobile robotic systems.
+  Hyunseo Jang is an M.S. student at Field Robot Lab, Korea University, working on robot learning, mobile manipulation, AMR integration, and simulation-based robot design.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: robotics, robot learning, autonomy, wheeled-legged robots, mobile manipulation, AMR, Isaac Lab, RSL-RL # add your own keywords or leave empty
+keywords: robotics, robot learning, wheeled-legged robots, mobile manipulation, AMR, Isaac Lab, RSL-RL # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -385,7 +385,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 99
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

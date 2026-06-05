@@ -49,9 +49,9 @@ latest_posts:
   }
 </style>
 
-I am an M.S. student at Field Robot Lab, Korea University. My research focuses on stability-aware robot learning and autonomy for mobile robotic systems.
+I am an M.S. student at Field Robot Lab, Korea University. I work on robot learning, mobile manipulation, and AMR integration.
 
-Recent work spans wheeled-legged loco-manipulation, mobile manipulation, AMR perception/navigation, ROS/Autoware system integration, and simulation-driven robot design optimization. I mainly use Isaac Lab, RSL-RL, PPO, PyTorch, LiDAR-based detection/tracking, and CoppeliaSim-based evaluation loops.
+Most of my current work starts from a specific robot platform: Go2W-OpenArm, Ranger Mini v2, a lift-equipped AMR, or a T-pedal stair-climbing wheel. I use Isaac Lab/RSL-RL/PPO for learning experiments, ROS/Autoware for AMR integration, and CoppeliaSim for wheel-design evaluation.
 
 ## news
 
@@ -63,10 +63,10 @@ Recent work spans wheeled-legged loco-manipulation, mobile manipulation, AMR per
 
 ## research interests
 
-- Stability-aware robot learning for wheeled-legged locomotion and loco-manipulation
-- Mobile manipulation and logistics-oriented AMR autonomy
-- Learning-based planning/control, perception, and tracking for autonomous mobile robots
-- Simulation-driven robot design optimization and stability-aware evaluation
+- Robot learning for wheeled-legged locomotion and loco-manipulation
+- Mobile manipulation for shelf-transfer and logistics tasks
+- AMR perception, navigation, and tracking
+- Simulation-based mechanism design and evaluation
 
 ## publications
 
@@ -84,4 +84,4 @@ Recent work spans wheeled-legged loco-manipulation, mobile manipulation, AMR per
 - [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/) - shelf-transfer mobile manipulation in multi-level rack environments.
 - [CEBO-Based Stair-Climbing Wheel Design](/projects/cebo-stair-climbing-wheel/) - Bayesian optimization and CoppeliaSim evaluation for T-pedal wheel design.
 
-More details are available in [publications](/publications/), [projects](/projects/), and [cv](/cv/).
+See [publications](/publications/), [projects](/projects/), and [cv](/cv/) for details.

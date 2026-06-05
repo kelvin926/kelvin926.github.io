@@ -9,7 +9,7 @@
   year          = {2026},
   note          = {Accepted},
   selected      = {true},
-  abstract      = {Contribution: launch-assist concept, Go2W-OpenArm setup, evaluation metrics, and Isaac Lab/RSL-RL experiments.}
+  abstract      = {This paper presents KALO, short for Kangaroo-LocoManipulation, a simulation-based, biomimetically motivated launch controller for improving the early acceleration of a wheel-legged robot. The method repurposes the onboard OpenArm manipulator on a Go2W base as a constrained tail-like inertial appendage during the launch phase and learns a constrained single-joint arm residual from a settled pre-launch state. We evaluate KALO in deterministic simulation rollouts in NVIDIA Isaac Lab, aligned to launch onset, and compare it with a stowed-arm locomotion baseline and a fixed carrying-pose baseline under an early-window protocol focused on the first 1.5 s. Across this transient, KALO accumulates forward velocity faster, reaches target-speed fractions sooner than both baselines, and remains substantially more directionally stable than the fixed carrying-pose controller. The results indicate that, in simulation, the onboard manipulator can function as a short-horizon launch-assist appendage in addition to its manipulation role.}
 }
 
 @inproceedings{ha2026lift,
@@ -20,7 +20,7 @@
   year          = {2026},
   note          = {Accepted},
   selected      = {true},
-  abstract      = {Contribution: platform design, 9-D action / 41-D observation Isaac Lab PPO environment, and shelf-transfer experiment analysis.}
+  abstract      = {This paper presents a lift-equipped mobile manipulator platform and a reinforcement learning environment for shelf transfer in a multi-level rack. The task requires grasping an object from a source shelf, extracting it from the shelf, transporting it to a target shelf location, releasing it, and completing final placement. Compared with tabletop pick-and-place, the setting introduces constrained shelf geometry, vertical reach requirements, and coordinated lift-arm motion. We formulate the task in Isaac Lab using a fixed-base lift-enabled AMR-arm platform with a right-arm manipulation setup, a 9-D action space, a 41-D state observation, staged reward terms, and a placement-oriented task completion criterion. Policies are trained with Proximal Policy Optimization (PPO), and the evaluation protocol measures end-to-end success together with intermediate extraction and placement metrics. The proposed platform is intended to support the study of vertically structured warehouse manipulation in which source-shelf extraction, inter-level transport, and target-shelf placement must all be achieved within a single episode.}
 }
 
 @inproceedings{kim2026localdelivery,
@@ -31,7 +31,7 @@
   year          = {2026},
   note          = {Accepted},
   selected      = {false},
-  abstract      = {Contribution: reinforcement-learning setup and dual-handler logistics experiments.}
+  abstract      = {This paper presents a dual-handler robotic system for automated parcel storage in local logistics environments, such as office complexes and residential communities. The system employs a Dueling Double Deep Q-Network (D3QN) to learn optimal storage allocation strategies for incoming parcels of varying dimensions. To improve training efficiency, we reduce the action space from ten individual movement commands to a binary handler-selection scheme, achieving a 90 percent reduction in required operational steps while maintaining full functionality. The observation space incorporates storage layout status, parcel dimensions, handler states, and rack occupancy to enable context-aware decision-making. Simulation results demonstrate stable learning convergence and effective dual-handler coordination. These results provide a practical foundation for deploying reinforcement learning-based automation in local-scale logistics operations.}
 }
 
 @article{jang2026cebo,
@@ -42,7 +42,7 @@
   year          = {2026},
   note          = {Revised manuscript resubmitted after minor revision},
   selected      = {true},
-  abstract      = {Contribution: T-pedal wheel search-space design, CEBO optimization experiments, and CoppeliaSim evaluation-loop automation.}
+  abstract      = {This study presents a clustering-enhanced Bayesian optimization (CEBO) framework that improves the efficiency and stability of Bayesian optimization (BO) by incorporating a plausible region search (PRS) algorithm. Using prediction values from the surrogate model, the PRS algorithm identifies regions likely to contain the global optimum through candidate screening, clustering, and plausible region identification. CEBO reduces the search space by filtering out samples with low prediction values and identifying informative clusters via K-means clustering combined with silhouette analysis. Leveraging multiple prediction values, the cluster with the lowest mean prediction is designated as the plausible region, within which the next evaluation point is selected using the expected improvement (EI) criterion to efficiently update the surrogate model. Extensive numerical validation on benchmark problems ranging from 2D to 12D demonstrates that CEBO consistently outperforms conventional BO methods by reducing the number of function evaluations. In a 6D T-pedal wheel design problem, CEBO further demonstrates its practical applicability by achieving the lowest standard deviation while reducing the number of function evaluations, thereby confirming both superior efficiency and stability beyond synthetic benchmarks.}
 }
 
 @article{kim2025elevator,
@@ -55,7 +55,7 @@
   year          = {2025},
   doi           = {10.3390/electronics14050982},
   selected      = {false},
-  abstract      = {Contribution: scheduling logic and elevator-selection performance analysis for indoor delivery robot path planning.}
+  abstract      = {Multi-story path planning (MSPP) for indoor delivery robots presents unique challenges in modern logistics systems, particularly in efficiently handling multiple deliveries across different floors. This paper proposes a graph-based path planning algorithm that optimizes delivery routes in multi-story buildings while maintaining computational efficiency. The algorithm, with a complexity of O(|E| log |V|), integrates three key components: (1) a floor-based parcel grouping strategy, (2) an optimized Dijkstra-based path planning system, and (3) an efficient elevator selection mechanism. The modular design allows for adaptability to diverse building layouts and logistics scenarios. Evaluated in a 15-story simulation with varying parcel counts (n = 1 to 7), the algorithm demonstrated minimal runtime increase (1.28 s to 1.35 s) while ensuring optimal path selection. Delivery distances ranged from 48 m for a single parcel to 126 m for seven parcels, demonstrating the system's scalability and efficiency in complex multi-story environments. Unlike traditional methods such as A*, the proposed approach guarantees optimality while effectively addressing vertical navigation challenges. These results validate its practical applicability in smart building environments and modern logistics systems, offering a robust solution for real-world delivery challenges.}
 }
 
 @article{kim2025collision,
@@ -68,5 +68,5 @@
   year          = {2025},
   doi           = {10.3390/s25030890},
   selected      = {false},
-  abstract      = {Contribution: LiDAR-based human detection and Kalman-filter tracking modules for indoor AMR operation.}
+  abstract      = {The recent growth in e-commerce has significantly increased the demand for indoor delivery solutions, highlighting challenges in last-mile delivery. This study presents a time-interval-based collision detection method for Four-Wheel Independent Steering (4WIS) mobile robots operating in human-shared indoor environments, where traditional path following algorithms often create unpredictable movements. By integrating kinematic-based robot trajectory calculation with LiDAR-based human detection and Kalman filter-based prediction, our system enables more natural robot-human interactions. Experimental results demonstrate that our parallel driving mode achieves superior human detection performance compared to conventional Ackermann steering, particularly during cornering and high-speed operations. The proposed method's effectiveness is validated through comprehensive experiments in realistic indoor scenarios, showing its potential for improving the efficiency and safety of indoor autonomous navigation systems.}
 }
