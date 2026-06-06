@@ -13,7 +13,7 @@ permalink: /projects/lift-mobile-manipulator/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  <img src="{{ '/assets/img/projects/lift_integrated_platform_cover.jpg' | relative_url }}" alt="Integrated 10 m-class lift-equipped mobile manipulator platform" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/lift_integrated_platform_photo.jpg' | relative_url }}" alt="Integrated 10 m-class lift-equipped mobile manipulator platform" class="img-fluid rounded z-depth-1">
 </div>
 
 <div class="project-media-grid">
