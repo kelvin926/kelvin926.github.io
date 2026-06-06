@@ -246,8 +246,10 @@
   font-size: 0.98rem !important;
 }
 
+.publications .author em,
 .conference-presentations .author-me {
   border-bottom: 1px solid currentColor;
+  font-style: normal;
   font-weight: 700;
 }
 
