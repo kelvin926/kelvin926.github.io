@@ -2,8 +2,8 @@
 layout: page
 title: "On-Campus Autonomous Mobile Robot Systems"
 description: Ranger Mini v2 AMR and 1/5-scale autonomous-vehicle experiments with ROS/Autoware, LiDAR, and camera perception.
-img: assets/img/projects/amr_campus_lidar_mapping_drive.gif
-img_alt: Wheelchair-based LiDAR mapping and on-campus autonomous mobile robot test
+img: assets/img/projects/amr_robot_autonomous_navigation.gif
+img_alt: Ranger Mini v2 autonomous indoor navigation test in a campus hallway
 importance: 2
 group: selected
 category: work

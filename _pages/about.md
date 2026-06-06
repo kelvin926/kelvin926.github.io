@@ -133,32 +133,53 @@ latest_posts:
 
 <div class="home-project-grid">
   <a class="home-project-card" href="/projects/kalo/">
-    <strong>KALO</strong>
-    <span>Go2W-OpenArm early-launch assistance in Isaac Lab/RSL-RL.</span>
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_kalo.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>KALO</strong>
+      <span>Go2W-OpenArm early-launch assistance in Isaac Lab/RSL-RL.</span>
+    </span>
   </a>
   <a class="home-project-card" href="/projects/amr-integration/">
-    <strong>On-campus mobile robot systems</strong>
-    <span>Ranger Mini v2 and 1/5-scale platform work with ROS/Autoware, LiDAR, and camera perception.</span>
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_amr_integration.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>On-campus mobile robot systems</strong>
+      <span>Ranger Mini v2 and 1/5-scale platform work with ROS/Autoware, LiDAR, and camera perception.</span>
+    </span>
   </a>
   <a class="home-project-card" href="/projects/lidar-campus-autonomous-driving/">
-    <strong>LiDAR-based campus driving</strong>
-    <span>RTK-surveyed HD map, Autoware waypoint driving, and pedestrian avoidance.</span>
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_lidar_campus.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>LiDAR-based campus driving</strong>
+      <span>RTK-surveyed HD map, Autoware waypoint driving, and pedestrian avoidance.</span>
+    </span>
   </a>
   <a class="home-project-card" href="/projects/lift-mobile-manipulator/">
-    <strong>Lift-equipped mobile manipulator</strong>
-    <span>Shelf-transfer mobile manipulation with a 9-D action / 41-D observation PPO setup.</span>
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_lift_mobile_manipulator.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>Lift-equipped mobile manipulator</strong>
+      <span>Shelf-transfer mobile manipulation with a 9-D action / 41-D observation PPO setup.</span>
+    </span>
   </a>
   <a class="home-project-card" href="/projects/cebo-stair-climbing-wheel/">
-    <strong>CEBO stair-climbing wheel</strong>
-    <span>Bayesian optimization and CoppeliaSim evaluation for T-pedal wheel design.</span>
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_cebo.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>CEBO stair-climbing wheel</strong>
+      <span>Bayesian optimization and CoppeliaSim evaluation for T-pedal wheel design.</span>
+    </span>
   </a>
   <a class="home-project-card" href="/projects/keti-amr/">
-    <strong>KETI 20-DOF AMR</strong>
-    <span>Rough-terrain velocity tracking and chassis-leveling objective in Isaac Lab.</span>
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_keti_amr.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>KETI 20-DOF AMR</strong>
+      <span>Rough-terrain velocity tracking and chassis-leveling objective in Isaac Lab.</span>
+    </span>
   </a>
   <a class="home-project-card" href="/projects/inventory-inspection-adaptive-suspension/">
-    <strong>Inventory-inspection robot</strong>
-    <span>Suspension stabilization for full-lift driving of a 10 m-class platform.</span>
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_inventory_suspension.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>Inventory-inspection robot</strong>
+      <span>Suspension stabilization for full-lift driving of a 10 m-class platform.</span>
+    </span>
   </a>
 </div>
 
