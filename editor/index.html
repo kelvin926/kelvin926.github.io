@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hyunseo Jang Portfolio Editor</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Local editor</p>
+        <h1>Portfolio source editor</h1>
+        <p class="subhead">Edit the homepage, project cards, and conference presentations without opening HTML files.</p>
+      </div>
+      <div class="header-actions">
+        <a class="button ghost" href="http://127.0.0.1:8080/" target="_blank" rel="noreferrer">Open site preview</a>
+        <button id="reloadButton" type="button">Reload source</button>
+        <button id="buildButton" type="button">Build Jekyll</button>
+      </div>
+    </header>
+
+    <main>
+      <nav class="tabs" aria-label="Editor sections">
+        <button class="tab active" type="button" data-tab="home">Home</button>
+        <button class="tab" type="button" data-tab="projects">Projects</button>
+        <button class="tab" type="button" data-tab="presentations">Presentations</button>
+        <button class="tab" type="button" data-tab="preview">Preview</button>
+      </nav>
+
+      <p id="status" class="status" role="status">Loading source files...</p>
+
+      <section id="homePanel" class="panel active" data-panel="home">
+        <div class="section-head">
+          <div>
+            <h2>Home page</h2>
+            <p>Intro paragraphs, profile links, research focus, news, selected publications, and top project links.</p>
+          </div>
+          <button id="saveHomeButton" type="button">Save home</button>
+        </div>
+        <div id="homeEditor" class="stack"></div>
+      </section>
+
+      <section id="projectsPanel" class="panel" data-panel="projects">
+        <div class="section-head">
+          <div>
+            <h2>Projects</h2>
+            <p>Front-matter fields and the main role/tools/result bullets for each project page.</p>
+          </div>
+          <button id="saveProjectButton" type="button">Save project</button>
+        </div>
+        <label class="field compact">
+          <span>Project</span>
+          <select id="projectSelect"></select>
+        </label>
+        <div id="projectEditor" class="stack"></div>
+      </section>
+
+      <section id="presentationsPanel" class="panel" data-panel="presentations">
+        <div class="section-head">
+          <div>
+            <h2>Selected conference presentations</h2>
+            <p>Author names matching your name are underlined automatically on save.</p>
+          </div>
+          <button id="savePresentationsButton" type="button">Save presentations</button>
+        </div>
+        <div id="presentationsEditor" class="stack"></div>
+        <button id="addPresentationButton" class="secondary" type="button">Add presentation</button>
+      </section>
+
+      <section id="previewPanel" class="panel preview-panel" data-panel="preview">
+        <div class="section-head">
+          <div>
+            <h2>Site preview</h2>
+            <p>Run the normal Jekyll server separately on port 8080, then refresh this panel after saving.</p>
+          </div>
+          <a class="button ghost" href="http://127.0.0.1:8080/" target="_blank" rel="noreferrer">Open in new tab</a>
+        </div>
+        <iframe title="Portfolio preview" src="http://127.0.0.1:8080/"></iframe>
+      </section>
+    </main>
+
+    <template id="textFieldTemplate">
+      <label class="field">
+        <span></span>
+        <input type="text" />
+      </label>
+    </template>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
