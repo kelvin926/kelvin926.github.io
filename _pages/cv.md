@@ -20,10 +20,20 @@ Feb. 2025, graduated with honors
 
 ## research profile
 
-- Robot learning for wheeled-legged locomotion and loco-manipulation
-- Mobile manipulation for shelf-transfer and logistics tasks
-- AMR perception, navigation, and tracking
-- Simulation-based mechanism design and evaluation
+- Stability-aware robot learning for wheeled-legged locomotion and loco-manipulation
+- Mobile manipulation and logistics-oriented AMR autonomy
+- Learning-based planning/control, perception, and tracking for autonomous mobile robots
+- Simulation-driven robot design optimization and stability-aware evaluation
+
+## selected research projects
+
+- [KALO: Kangaroo-LocoManipulation](/projects/kalo/): Go2W-OpenArm early-launch assistance with Isaac Lab/RSL-RL evaluation.
+- [On-Campus Autonomous Mobile Robot](/projects/amr-integration/): Ranger Mini v2 AMR integration with ROS/Autoware, LiDAR-only SLAM, and detection/tracking modules.
+- [LiDAR-Based Campus Autonomous Driving](/projects/lidar-campus-autonomous-driving/): RTK-surveyed campus HD map, Autoware waypoint driving, and LiDAR pedestrian-avoidance tests.
+- [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): 9-D action / 41-D observation Isaac Lab PPO setup for shelf-transfer mobile manipulation.
+- [CEBO-Based Stair-Climbing Wheel Design](/projects/cebo-stair-climbing-wheel/): CEBO optimization and CoppeliaSim evaluation-loop automation for T-pedal wheel design.
+- [KETI 20-DOF Wheeled-Legged AMR](/projects/keti-amr/): rough-terrain velocity-tracking setup and chassis-leveling objective for a wheeled-legged AMR.
+- [Inventory-Inspection Robot Adaptive Suspension](/projects/inventory-inspection-adaptive-suspension/): suspension-stabilization workflow for full-lift driving of a 10 m-class inventory-inspection robot.
 
 ## technical skills
 

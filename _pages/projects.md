@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: robotics research, system integration, and feasibility projects
+description: selected robotics projects and additional feasibility work
 nav: true
 nav_order: 3
 horizontal: false
@@ -61,30 +61,20 @@ horizontal: false
 
 <div class="projects">
 
-{% assign main_projects = site.projects | where: "group", "main" | sort: "importance" %}
-{% assign system_projects = site.projects | where: "group", "system" | sort: "importance" %}
+{% assign selected_projects = site.projects | where: "group", "selected" | sort: "importance" %}
 {% assign other_projects = site.projects | where: "group", "other" | sort: "importance" %}
 
-<h2>main projects</h2>
-<p class="project-group-note">Current research closest to my PhD contact profile.</p>
+<h2>selected research projects</h2>
+<p class="project-group-note">Projects closest to my current PhD contact profile.</p>
 
 <div class="row row-cols-1 row-cols-md-3">
-  {% for project in main_projects %}
-    {% include projects.liquid %}
-  {% endfor %}
-</div>
-
-<h2>system integration</h2>
-<p class="project-group-note">AMR software, perception, and navigation work connected to indoor delivery systems.</p>
-
-<div class="row row-cols-1 row-cols-md-3">
-  {% for project in system_projects %}
+  {% for project in selected_projects %}
     {% include projects.liquid %}
   {% endfor %}
 </div>
 
 <h2>other projects</h2>
-<p class="project-group-note">Commissioned simulation, feasibility, and platform-building work.</p>
+<p class="project-group-note">Commissioned simulation, feasibility, and platform-building work kept as supporting experience.</p>
 
 <div class="row row-cols-1 row-cols-md-3">
   {% for project in other_projects %}

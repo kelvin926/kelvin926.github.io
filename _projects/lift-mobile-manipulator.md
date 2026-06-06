@@ -4,8 +4,8 @@ title: "Lift-Equipped Mobile Manipulator"
 description: Shelf-transfer mobile manipulation in multi-level rack environments.
 img: assets/img/projects/lift_shelf_transfer_rack.png
 img_alt: Shelf-transfer rack setup for a lift-equipped mobile manipulator
-importance: 3
-group: main
+importance: 4
+group: selected
 category: work
 permalink: /projects/lift-mobile-manipulator/
 ---
@@ -31,10 +31,10 @@ permalink: /projects/lift-mobile-manipulator/
   </div>
 </div>
 
-I worked on a lift-equipped AMR/OpenArm platform for shelf transfer in multi-level racks. I also set up the Isaac Lab environment with a 9-D action and 41-D observation space.
+I designed a lift-equipped mobile manipulator platform for shelf transfer in multi-level rack environments. I also built the Isaac Lab PPO environment with a 9-D action and 41-D observation space.
 
 - **Role:** platform design, 9-D action / 41-D observation Isaac Lab PPO environment, shelf-transfer experiment analysis
 - **Tools:** Isaac Lab, PPO, PyTorch, mobile manipulation
-- **Result:** 41/50 successful rollout trials under +/-3 cm source-object randomization; failures consisted of 3 grasp failures and 6 object-drop failures.
+- **Result:** 41/50 successful trials (82%) under +/-3 cm source-object randomization; failures consisted of 3 grasp failures and 6 object-drop failures.
 - **Paper:** _A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments_. IEEE/ASME AIM 2026, accepted.
 - **Code:** GitHub link planned with paper release.

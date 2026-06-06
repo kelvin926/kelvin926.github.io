@@ -30,4 +30,4 @@ I organized TDP documentation for an autonomous road-sweeping vehicle. I covered
 
 - **Role:** ODD organization, fail-safety/SOTIF review, validation-scenario planning, TDP documentation
 - **Tools:** ODD, SOTIF/fail-safety, validation scenarios, technical documentation
-- **Result:** TDP and validation-scenario documentation for an autonomous road-sweeping vehicle.
+- **Result:** TDP and validation-scenario documentation for an autonomous road-sweeping vehicle; related work presented at IEMEK Fall Conference 2025.

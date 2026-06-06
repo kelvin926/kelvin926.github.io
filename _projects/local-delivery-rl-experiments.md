@@ -5,7 +5,7 @@ description: Dual-handler reinforcement-learning experiments for a local deliver
 img: assets/img/projects/local_delivery_system_single.jpg
 img_alt: Local delivery robot logistics experiment setup
 importance: 3
-group: system
+group: archive
 category: work
 permalink: /projects/local-delivery-rl-experiments/
 ---

@@ -5,7 +5,7 @@ description: Early-launch assistance for a Go2W-OpenArm wheeled-legged platform.
 img: assets/img/projects/kalo_launch_single.jpg
 img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform
 importance: 1
-group: main
+group: selected
 category: work
 permalink: /projects/kalo/
 ---
@@ -31,10 +31,10 @@ permalink: /projects/kalo/
   </div>
 </div>
 
-I proposed KALO as an early-launch assist controller for a Go2W-OpenArm wheeled-legged platform. I set up the Isaac Lab/RSL-RL experiments and compared Base, Fixed carrying-pose, and KALO controllers.
+I implemented early-launch assistance on a Go2W-OpenArm wheeled-legged platform, using the manipulator as a constrained inertial appendage during acceleration. I set up the Isaac Lab/RSL-RL experiments and compared Base, Fixed carrying-pose, and KALO controllers using normalized forward velocity, t50/t90, and directional consistency.
 
 - **Role:** launch-assist concept, Go2W-OpenArm setup, evaluation metrics, Isaac Lab/RSL-RL experiments
 - **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO, Go2W-OpenArm
-- **Result:** normalized forward-velocity AUC(0-1.5 s) increased by 15.1% over Fixed; t90 decreased from 1.703 s to 1.067 s; 90%-target-speed trials within 1.5 s increased from 29/128 to 69/128.
+- **Result:** normalized forward-velocity AUC(0-1.5 s) increased by 15.1% over Fixed (0.726 -> 0.835); t90 decreased from 1.703 s to 1.067 s; 90%-target-speed trials within 1.5 s increased from 29/128 to 69/128.
 - **Paper:** _KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot_. IEEE/ASME AIM 2026, accepted.
 - **Code:** [kelvin926/KALO](https://github.com/kelvin926/KALO)

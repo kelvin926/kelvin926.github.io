@@ -50,6 +50,13 @@ nav_order: 2
 <h2>selected conference presentations</h2>
 
 <div class="conference-entry">
+  <p class="conference-title"><strong>A Study on TDP Derivation for Functional Test Evaluation of Autonomous Work and Driving of Road-Sweeping Vehicles</strong></p>
+  <p>Daekug Lee; Beomjin Park; Jiseung Ha; <span class="author-me">Hyunseo Jang</span>; Seungmin Kim; Youngeun Song; Chung Ho Cho.</p>
+  <p class="conference-meta"><em>IEMEK Fall Conference</em>, 2025.</p>
+  <p class="conference-note">TDP derivation for autonomous road-sweeping vehicle function testing.</p>
+</div>
+
+<div class="conference-entry">
   <p class="conference-title"><strong>Human Trajectory Prediction Algorithm</strong></p>
   <p>SeungMin Kim; <span class="author-me">HyunSeo Jang</span>; YoungEun Song.</p>
   <p class="conference-meta"><em>IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)</em>, 2024. DOI: <a href="https://doi.org/10.1109/ICCE-ASIA63397.2024.10773909">10.1109/ICCE-ASIA63397.2024.10773909</a>.</p>
