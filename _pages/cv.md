@@ -51,6 +51,7 @@ Feb. 2025, graduated with honors
 - **2024** Outstanding Prize, Future Mobility Research Idea Contest, Team Lead
 - **2023** Grand Prize, Korea University Project Semester, Individual
 - **2023** Grand Prize, DSC Regional Innovation Platform Future Mobility Startup Hackathon, Team Lead
+- **2023** Outstanding Prize (2nd Place), Future Mobility and Sejong Regional Innovation Idea Contest, Team Lead
 - **2023** Halla University President's Award, HL Mando & HL Klemove Autonomous Mobility Competition, Team Lead
 - **2022** Gold Prize, International Collegiate Autonomous Driving Competition, VLF Racer Division, Team Lead
 - **2019** Bronze Prize, 26th Samsung Humantech Paper Award, High School Division

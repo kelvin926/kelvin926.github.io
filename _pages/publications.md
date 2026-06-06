@@ -59,14 +59,14 @@ nav_order: 2
 <div class="conference-entry">
   <p class="conference-title"><strong>Human Trajectory Prediction Algorithm</strong></p>
   <p>SeungMin Kim; <span class="author-me">HyunSeo Jang</span>; YoungEun Song.</p>
-  <p class="conference-meta"><em>IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)</em>, 2024. DOI: <a href="https://doi.org/10.1109/ICCE-ASIA63397.2024.10773909">10.1109/ICCE-ASIA63397.2024.10773909</a>.</p>
+  <p class="conference-meta"><em>IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)</em>, 2024, pp. 1-3. DOI: <a href="https://doi.org/10.1109/ICCE-ASIA63397.2024.10773909">10.1109/ICCE-ASIA63397.2024.10773909</a>.</p>
   <p class="conference-note">LiDAR detection, Kalman-filter tracking, and human-robot avoidance.</p>
 </div>
 
 <div class="conference-entry">
   <p class="conference-title"><strong>A Study on the Optimal Loading Algorithm of the Local Logistics Center Based on Reinforcement Learning systems</strong></p>
   <p>Kim Seung Min; Ha Yeong Ho; <span class="author-me">Jang Hyun Seo</span>; Song Young Eun.</p>
-  <p class="conference-meta"><em>KICS Summer Conference</em>, 2024.</p>
+  <p class="conference-meta"><em>KICS Conference Proceedings</em>, 2024, pp. 1718-1719.</p>
   <p class="conference-note">DQN-based loading policy for fulfillment and last-mile logistics.</p>
 </div>
 
@@ -87,8 +87,15 @@ nav_order: 2
 <div class="conference-entry">
   <p class="conference-title"><strong>A Study on the Lightweighting of LiDAR Recognition Module for Durability and Power Efficiency in Embedded Systems</strong></p>
   <p><span class="author-me">Hyun Seo Jang</span>; Yeong Ho Ha; Seung Min Kim; Dae Kug Lee; Young Eun Song.</p>
-  <p class="conference-meta"><em>KICS Fall Conference</em>, 2023.</p>
+  <p class="conference-meta"><em>KICS Conference Proceedings</em>, 2023, pp. 1049-1050.</p>
   <p class="conference-note">LiDAR RPM, reliability, durability, and power-efficiency trade-off analysis.</p>
+</div>
+
+<div class="conference-entry">
+  <p class="conference-title"><strong>A Comparative Study on the Performance of Deep-Learning-Based Object Detection Algorithms Using Aerial Images</strong></p>
+  <p>Im Yeong Rim; Lee Dae Kug; <span class="author-me">Jang Hyun Seo</span>; Lee Dong Hun; Jeong Ki Hyeok.</p>
+  <p class="conference-meta"><em>KICS Conference Proceedings</em>, 2023, pp. 1045-1046.</p>
+  <p class="conference-note">YOLO-based object-detection comparison using UAV aerial-image data.</p>
 </div>
 
 <div class="conference-entry">
