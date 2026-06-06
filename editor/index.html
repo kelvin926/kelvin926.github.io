@@ -1,42 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hyunseo Jang Portfolio Editor</title>
+    <title>장현서 포트폴리오 편집기</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header class="app-header">
       <div>
-        <p class="eyebrow">Local editor</p>
-        <h1>Portfolio source editor</h1>
-        <p class="subhead">Edit the homepage, project cards, and conference presentations without opening HTML files.</p>
+        <p class="eyebrow">로컬 편집기</p>
+        <h1>포트폴리오 소스 편집기</h1>
+        <p class="subhead">HTML 파일을 직접 열지 않고 홈페이지, 프로젝트 카드, 학술대회 발표 목록을 수정합니다.</p>
       </div>
       <div class="header-actions">
-        <a class="button ghost" href="http://127.0.0.1:8080/" target="_blank" rel="noreferrer">Open site preview</a>
-        <button id="reloadButton" type="button">Reload source</button>
-        <button id="buildButton" type="button">Build Jekyll</button>
+        <a class="button ghost" href="http://127.0.0.1:8080/" target="_blank" rel="noreferrer">사이트 미리보기 열기</a>
+        <button id="reloadButton" type="button">소스 다시 불러오기</button>
+        <button id="buildButton" type="button">Jekyll 빌드</button>
       </div>
     </header>
 
     <main>
-      <nav class="tabs" aria-label="Editor sections">
-        <button class="tab active" type="button" data-tab="home">Home</button>
-        <button class="tab" type="button" data-tab="projects">Projects</button>
-        <button class="tab" type="button" data-tab="presentations">Presentations</button>
-        <button class="tab" type="button" data-tab="preview">Preview</button>
+      <nav class="tabs" aria-label="편집기 섹션">
+        <button class="tab active" type="button" data-tab="home">홈</button>
+        <button class="tab" type="button" data-tab="projects">프로젝트</button>
+        <button class="tab" type="button" data-tab="presentations">학술대회</button>
+        <button class="tab" type="button" data-tab="preview">미리보기</button>
       </nav>
 
-      <p id="status" class="status" role="status">Loading source files...</p>
+      <p id="status" class="status" role="status">소스 파일을 불러오는 중...</p>
 
       <section id="homePanel" class="panel active" data-panel="home">
         <div class="section-head">
           <div>
-            <h2>Home page</h2>
-            <p>Intro paragraphs, profile links, research focus, news, selected publications, and top project links.</p>
+            <h2>홈페이지</h2>
+            <p>소개 문단, 프로필 링크, 연구 분야, 소식, 선택 논문, 상단 프로젝트 링크를 수정합니다.</p>
           </div>
-          <button id="saveHomeButton" type="button">Save home</button>
+          <button id="saveHomeButton" type="button">홈 저장</button>
         </div>
         <div id="homeEditor" class="stack"></div>
       </section>
@@ -44,13 +44,13 @@
       <section id="projectsPanel" class="panel" data-panel="projects">
         <div class="section-head">
           <div>
-            <h2>Projects</h2>
-            <p>Front-matter fields and the main role/tools/result bullets for each project page.</p>
+            <h2>프로젝트</h2>
+            <p>각 프로젝트 페이지의 기본 정보와 role/tools/result 항목을 수정합니다.</p>
           </div>
-          <button id="saveProjectButton" type="button">Save project</button>
+          <button id="saveProjectButton" type="button">프로젝트 저장</button>
         </div>
         <label class="field compact">
-          <span>Project</span>
+          <span>프로젝트</span>
           <select id="projectSelect"></select>
         </label>
         <div id="projectEditor" class="stack"></div>
@@ -59,24 +59,24 @@
       <section id="presentationsPanel" class="panel" data-panel="presentations">
         <div class="section-head">
           <div>
-            <h2>Selected conference presentations</h2>
-            <p>Author names matching your name are underlined automatically on save.</p>
+            <h2>학술대회 발표</h2>
+            <p>저장하면 저자 목록에서 본인 이름은 자동으로 밑줄 처리됩니다.</p>
           </div>
-          <button id="savePresentationsButton" type="button">Save presentations</button>
+          <button id="savePresentationsButton" type="button">발표 목록 저장</button>
         </div>
         <div id="presentationsEditor" class="stack"></div>
-        <button id="addPresentationButton" class="secondary" type="button">Add presentation</button>
+        <button id="addPresentationButton" class="secondary" type="button">발표 추가</button>
       </section>
 
       <section id="previewPanel" class="panel preview-panel" data-panel="preview">
         <div class="section-head">
           <div>
-            <h2>Site preview</h2>
-            <p>Run the normal Jekyll server separately on port 8080, then refresh this panel after saving.</p>
+            <h2>사이트 미리보기</h2>
+            <p>일반 Jekyll 서버를 8080 포트에서 따로 실행한 뒤, 저장 후 이 패널을 새로고침해 확인합니다.</p>
           </div>
-          <a class="button ghost" href="http://127.0.0.1:8080/" target="_blank" rel="noreferrer">Open in new tab</a>
+          <a class="button ghost" href="http://127.0.0.1:8080/" target="_blank" rel="noreferrer">새 탭에서 열기</a>
         </div>
-        <iframe title="Portfolio preview" src="http://127.0.0.1:8080/"></iframe>
+        <iframe title="포트폴리오 미리보기" src="http://127.0.0.1:8080/"></iframe>
       </section>
     </main>
 

@@ -456,5 +456,5 @@ const server = http.createServer(async (request, response) => {
 });
 
 server.listen(PORT, "127.0.0.1", () => {
-  console.log(`Portfolio editor: http://127.0.0.1:${PORT}`);
+  console.log(`포트폴리오 편집기: http://127.0.0.1:${PORT}`);
 });

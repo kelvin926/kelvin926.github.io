@@ -59,7 +59,7 @@ function repeatEditor(title, items, renderItem, onAdd) {
   wrapper.append(list);
   if (onAdd) {
     wrapper.append(
-      el("div", { class: "row-actions" }, [el("button", { type: "button", class: "secondary", onclick: () => onAdd(list) }, "Add row")])
+      el("div", { class: "row-actions" }, [el("button", { type: "button", class: "secondary", onclick: () => onAdd(list) }, "행 추가")])
     );
   }
   return wrapper;
@@ -70,47 +70,47 @@ function renderHome() {
   const home = state.home;
 
   homeEditor.append(
-    repeatEditor("Intro paragraphs", home.ledes, (text) =>
-      el("div", { class: "card", "data-kind": "lede" }, [field("Paragraph", text, { type: "textarea", short: true })])
+    repeatEditor("소개 문단", home.ledes, (text) =>
+      el("div", { class: "card", "data-kind": "lede" }, [field("문단", text, { type: "textarea", short: true })])
     )
   );
 
   homeEditor.append(
-    repeatEditor("Profile links", home.links, (link) =>
-      el("div", { class: "grid", "data-kind": "link" }, [field("Label", link.label), field("URL", link.href)])
+    repeatEditor("프로필 링크", home.links, (link) =>
+      el("div", { class: "grid", "data-kind": "link" }, [field("라벨", link.label), field("URL", link.href)])
     )
   );
 
   homeEditor.append(
-    repeatEditor("Research focus", home.focus, (item) =>
-      el("div", { class: "grid", "data-kind": "focus" }, [field("Title", item.title), field("Text", item.text, { type: "textarea", short: true })])
+    repeatEditor("연구 분야", home.focus, (item) =>
+      el("div", { class: "grid", "data-kind": "focus" }, [field("제목", item.title), field("내용", item.text, { type: "textarea", short: true })])
     )
   );
 
   homeEditor.append(
-    repeatEditor("News", home.news, (item) =>
+    repeatEditor("소식", home.news, (item) =>
       el("div", { class: "grid", "data-kind": "news" }, [
-        field("Date", item.date),
-        field("Text (HTML allowed)", item.text, { type: "textarea", short: true }),
+        field("날짜", item.date),
+        field("내용 (HTML 가능)", item.text, { type: "textarea", short: true }),
       ])
     )
   );
 
   homeEditor.append(
-    repeatEditor("Selected publications", home.publications, (item) =>
+    repeatEditor("선택 논문", home.publications, (item) =>
       el("div", { class: "grid", "data-kind": "publication" }, [
-        field("Title", item.title, { type: "textarea", short: true }),
-        field("Meta (HTML allowed)", item.meta, { type: "textarea", short: true }),
+        field("제목", item.title, { type: "textarea", short: true }),
+        field("게재/상태 (HTML 가능)", item.meta, { type: "textarea", short: true }),
       ])
     )
   );
 
   homeEditor.append(
-    repeatEditor("Featured project links", home.projects, (item) =>
+    repeatEditor("상단 프로젝트 링크", home.projects, (item) =>
       el("div", { class: "grid", "data-kind": "home-project" }, [
-        field("Title", item.title),
+        field("제목", item.title),
         field("URL", item.href),
-        field("Text", item.text, { type: "textarea", short: true }),
+        field("내용", item.text, { type: "textarea", short: true }),
       ])
     )
   );
@@ -150,7 +150,7 @@ function renderImageSelect(value) {
   select.addEventListener("change", () => {
     img.src = imageUrl(select.value);
   });
-  return el("div", { class: "image-preview" }, [img, el("label", { class: "field" }, [el("span", {}, "Project image"), select])]);
+  return el("div", { class: "image-preview" }, [img, el("label", { class: "field" }, [el("span", {}, "프로젝트 이미지"), select])]);
 }
 
 function renderProjectSelect() {
@@ -174,26 +174,23 @@ function renderProject() {
   const data = project.data;
   const fields = el("div", { class: "card stack" }, [
     el("div", { class: "grid" }, [
-      field("Title", data.title),
-      field("Description", data.description, { type: "textarea", short: true }),
-      field("Importance", data.importance),
-      field("Group", data.group),
+      field("제목", data.title),
+      field("설명", data.description, { type: "textarea", short: true }),
+      field("정렬 순서", data.importance),
+      field("그룹", data.group),
     ]),
     renderImageSelect(data.img),
-    field("Image alt text", data.img_alt, { type: "textarea", short: true }),
+    field("이미지 대체 텍스트", data.img_alt, { type: "textarea", short: true }),
   ]);
 
   const bodyFields = el("div", { class: "card stack" }, [
-    field("Summary", project.summary, { type: "textarea", short: true }),
+    field("요약", project.summary, { type: "textarea", short: true }),
     field("Role", project.role, { type: "textarea", short: true }),
     field("Tools", project.tools, { type: "textarea", short: true }),
     field("Result", project.result, { type: "textarea", short: true }),
     field("Paper / related papers", project.paper, { type: "textarea", short: true }),
     field("Code link", project.code, { type: "textarea", short: true }),
-    el("details", {}, [
-      el("summary", {}, "Advanced: raw project body"),
-      field("Markdown / HTML body", project.body, { type: "textarea", code: true }),
-    ]),
+    el("details", {}, [el("summary", {}, "고급: 프로젝트 본문 원문"), field("Markdown / HTML 본문", project.body, { type: "textarea", code: true })]),
   ]);
 
   projectEditor.append(fields, bodyFields);
@@ -223,10 +220,10 @@ function collectProject() {
 
 function renderPresentationItem(item = {}) {
   return el("div", { class: "card stack", "data-kind": "presentation" }, [
-    field("Title", item.title || "", { type: "textarea", short: true }),
-    field("Authors", item.authors || "", { type: "textarea", short: true }),
-    field("Venue / meta (HTML allowed)", item.meta || "", { type: "textarea", short: true }),
-    field("Note", item.note || "", { type: "textarea", short: true }),
+    field("제목", item.title || "", { type: "textarea", short: true }),
+    field("저자", item.authors || "", { type: "textarea", short: true }),
+    field("학회/메타 (HTML 가능)", item.meta || "", { type: "textarea", short: true }),
+    field("메모", item.note || "", { type: "textarea", short: true }),
   ]);
 }
 
@@ -252,10 +249,10 @@ function renderAll() {
 }
 
 async function loadContent() {
-  setStatus("Loading source files...");
+  setStatus("소스 파일을 불러오는 중...");
   state = await api("/api/content");
   renderAll();
-  setStatus("Loaded. Save a section, then run Build Jekyll before checking the preview.");
+  setStatus("불러왔습니다. 섹션을 저장한 뒤 Jekyll 빌드를 실행하고 미리보기를 확인하세요.");
 }
 
 document.querySelectorAll(".tab").forEach((button) => {
@@ -276,7 +273,7 @@ document.querySelector("#reloadButton").addEventListener("click", () => loadCont
 
 document.querySelector("#saveHomeButton").addEventListener("click", async () => {
   await api("/api/home", { method: "POST", body: JSON.stringify({ home: collectHome() }) });
-  setStatus("Saved home page source.");
+  setStatus("홈페이지 소스를 저장했습니다.");
   await loadContent();
 });
 
@@ -285,7 +282,7 @@ document.querySelector("#saveProjectButton").addEventListener("click", async () 
     method: "POST",
     body: JSON.stringify(collectProject()),
   });
-  setStatus(`Saved ${currentProject().data.title}.`);
+  setStatus(`${currentProject().data.title} 프로젝트를 저장했습니다.`);
   await loadContent();
 });
 
@@ -294,7 +291,7 @@ document.querySelector("#savePresentationsButton").addEventListener("click", asy
     method: "POST",
     body: JSON.stringify({ presentations: collectPresentations() }),
   });
-  setStatus("Saved selected conference presentations.");
+  setStatus("학술대회 발표 목록을 저장했습니다.");
   await loadContent();
 });
 
@@ -303,9 +300,9 @@ document.querySelector("#addPresentationButton").addEventListener("click", () =>
 });
 
 document.querySelector("#buildButton").addEventListener("click", async () => {
-  setStatus("Running Jekyll build...");
+  setStatus("Jekyll 빌드 실행 중...");
   const result = await api("/api/build", { method: "POST", body: "{}" });
-  setStatus(result.ok ? "Jekyll build completed." : `Jekyll build failed. ${result.stderr || result.stdout}`);
+  setStatus(result.ok ? "Jekyll 빌드가 완료되었습니다." : `Jekyll 빌드 실패: ${result.stderr || result.stdout}`);
 });
 
 loadContent().catch((error) => setStatus(error.message));
