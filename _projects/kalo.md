@@ -13,7 +13,10 @@ permalink: /projects/kalo/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  <img src="{{ '/assets/img/projects/kalo_arm_swing_proposed.gif' | relative_url }}" alt="KALO arm-swing launch assistance on a Go2W-OpenArm wheeled-legged robot platform" class="img-fluid rounded z-depth-1">
+  <figure>
+    <img src="{{ '/assets/img/projects/kalo_arm_swing_proposed.gif' | relative_url }}" alt="KALO arm-swing launch assistance on a Go2W-OpenArm wheeled-legged robot platform" class="img-fluid rounded z-depth-1">
+    <figcaption>Arm-swing launch-assist motion on a Go2W-OpenArm wheeled-legged platform.</figcaption>
+  </figure>
 </div>
 
 <div class="project-media-grid">

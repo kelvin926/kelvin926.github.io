@@ -14,6 +14,10 @@
     width: 100%;
   }
 
+  .project-page-hero figure {
+    margin: 0;
+  }
+
   .project-page-hero img,
   .project-media img {
     display: block;
@@ -85,11 +89,16 @@
   }
 
   .project-media figcaption,
-  .project-media-grid figcaption {
+  .project-media-grid figcaption,
+  .project-page-hero figcaption {
     margin-top: 0.45rem;
     font-size: 0.85rem;
     line-height: 1.35;
     color: var(--global-text-color-light);
+  }
+
+  .project-page-hero figcaption {
+    text-align: center;
   }
 
   @media (max-width: 768px) {

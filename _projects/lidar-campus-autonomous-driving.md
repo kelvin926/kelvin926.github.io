@@ -13,7 +13,10 @@ permalink: /projects/lidar-campus-autonomous-driving/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  <img src="{{ '/assets/img/projects/lidar_campus_sonata_drive.gif' | relative_url }}" alt="In-vehicle campus autonomous-driving test on a Hyundai Sonata platform" class="img-fluid rounded z-depth-1">
+  <figure>
+    <img src="{{ '/assets/img/projects/lidar_campus_sonata_drive.gif' | relative_url }}" alt="In-vehicle campus autonomous-driving test on a Hyundai Sonata platform" class="img-fluid rounded z-depth-1">
+    <figcaption>In-vehicle campus driving test on the Hyundai Sonata platform.</figcaption>
+  </figure>
 </div>
 
 <div class="project-media-grid project-media-grid--driving">

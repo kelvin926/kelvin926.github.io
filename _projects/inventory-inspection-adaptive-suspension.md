@@ -2,8 +2,8 @@
 layout: page
 title: "Inventory-Inspection Robot Adaptive Suspension"
 description: Suspension stabilization for full-lift driving of a 10 m-class inventory-inspection robot.
-img: assets/img/projects/adaptive_suspension_inventory_robot.png
-img_alt: Inventory-inspection robot adaptive suspension validation
+img: assets/img/projects/inventory_adaptive_suspension_demo.gif
+img_alt: Inventory-inspection robot adaptive suspension stabilization comparison
 importance: 7
 group: selected
 category: work
@@ -13,13 +13,26 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  <img src="{{ '/assets/img/projects/adaptive_suspension_inventory_robot.png' | relative_url }}" alt="Inventory-inspection robot adaptive suspension validation" class="img-fluid rounded z-depth-1">
+  <figure>
+    <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.gif' | relative_url }}" alt="Inventory-inspection robot adaptive suspension stabilization comparison" class="img-fluid rounded z-depth-1">
+    <figcaption>Terrain-adaptive suspension stabilization comparison during full-lift driving.</figcaption>
+  </figure>
 </div>
 
-<figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.gif' | relative_url }}" alt="Inventory-inspection robot suspension stabilization simulation clip" class="img-fluid rounded z-depth-1">
-  <figcaption>Full-lift driving simulation comparison.</figcaption>
-</figure>
+<div class="project-media-grid">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/inventory_isaac_stabilized_drive.gif' | relative_url }}" alt="Isaac Lab stabilized full-lift driving clip for the inventory-inspection robot" class="img-fluid rounded z-depth-1">
+      <figcaption>Stabilized full-lift driving evaluation in Isaac Lab.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/adaptive_suspension_inventory_robot.png' | relative_url }}" alt="Inventory-inspection robot adaptive suspension validation scene" class="img-fluid rounded z-depth-1">
+      <figcaption>Inventory-inspection robot validation setup.</figcaption>
+    </figure>
+  </div>
+</div>
 
 I built a suspension-stabilization algorithm and Isaac Lab evaluation environment for chassis leveling during full-lift driving of a 10 m-class inventory-inspection robot. I also prepared the fixed-lift runtime assets, suspension task setup, and evaluation scripts.
 

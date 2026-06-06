@@ -2,8 +2,8 @@
 layout: page
 title: "Lift-Equipped Mobile Manipulator"
 description: Shelf-transfer mobile manipulation in multi-level rack environments.
-img: assets/img/projects/lift_shelf_transfer_rack.png
-img_alt: Shelf-transfer rack setup for a lift-equipped mobile manipulator
+img: assets/img/projects/lift_mobile_manipulator_platform.gif
+img_alt: Lift-equipped mobile manipulator platform moving in a rack environment
 importance: 4
 group: selected
 category: work
@@ -13,7 +13,10 @@ permalink: /projects/lift-mobile-manipulator/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  <img src="{{ '/assets/img/projects/lift_integrated_platform_photo.jpg' | relative_url }}" alt="Integrated 10 m-class lift-equipped mobile manipulator platform" class="img-fluid rounded z-depth-1">
+  <figure>
+    <img src="{{ '/assets/img/projects/lift_mobile_manipulator_platform.gif' | relative_url }}" alt="Lift-equipped mobile manipulator platform moving in a rack environment" class="img-fluid rounded z-depth-1">
+    <figcaption>10 m-class lift-equipped mobile manipulator platform in a rack-transfer setting.</figcaption>
+  </figure>
 </div>
 
 <div class="project-media-grid">
@@ -24,7 +27,7 @@ permalink: /projects/lift-mobile-manipulator/
     </figure>
   </div>
   <div>
-    <figure class="project-media project-media--portrait">
+    <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/lift_shelf_transfer_sequence.gif' | relative_url }}" alt="Shelf-transfer sequence for the lift-equipped mobile manipulator in Isaac Lab" class="img-fluid rounded z-depth-1">
       <figcaption>Shelf-transfer sequence under source-object randomization.</figcaption>
     </figure>

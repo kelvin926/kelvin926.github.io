@@ -2,8 +2,8 @@
 layout: page
 title: "CEBO-Based Stair-Climbing Wheel Design"
 description: T-pedal stair-climbing wheel design with CEBO and CoppeliaSim.
-img: assets/img/projects/cebo_stair_climbing_robot_design.jpg
-img_alt: CoppeliaSim stair-climbing wheel-design evaluation for CEBO
+img: assets/img/projects/cebo_stair_climbing_demo.gif
+img_alt: CoppeliaSim stair-climbing wheel-design evaluation loop for CEBO
 importance: 5
 group: selected
 category: work
@@ -13,15 +13,19 @@ permalink: /projects/cebo-stair-climbing-wheel/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  <img src="{{ '/assets/img/projects/cebo_stair_climbing_robot_design.jpg' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design evaluation for CEBO" class="img-fluid rounded z-depth-1">
+  <figure>
+    <img src="{{ '/assets/img/projects/cebo_stair_climbing_demo.gif' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design evaluation loop for CEBO" class="img-fluid rounded z-depth-1">
+    <figcaption>CoppeliaSim evaluation loop used for T-pedal wheel design optimization.</figcaption>
+  </figure>
 </div>
 
-<figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/cebo_stair_climbing_demo.gif' | relative_url }}" alt="CoppeliaSim stair-climbing wheel evaluation clip for CEBO" class="img-fluid rounded z-depth-1">
-  <figcaption>CoppeliaSim stair-climbing evaluation.</figcaption>
-</figure>
-
 <div class="project-media-grid">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/cebo_stair_climbing_robot_design.jpg' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design result for CEBO" class="img-fluid rounded z-depth-1">
+      <figcaption>T-pedal wheel design result used in the stair-climbing evaluation.</figcaption>
+    </figure>
+  </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1">
