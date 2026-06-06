@@ -32,6 +32,9 @@ permalink: /projects/amr-integration/
       <figcaption>Outdoor building-to-building autonomous navigation segment from the project presentation.</figcaption>
     </figure>
   </div>
+</div>
+
+<div class="project-media-grid project-media-grid--supporting">
   <div>
     <figure class="project-media project-media--portrait">
       <img src="{{ '/assets/img/projects/amr_ranger_mini_platform_closeup.jpg' | relative_url }}" alt="Ranger Mini v2 mobile robot platform with Velodyne LiDAR and onboard sensors" class="img-fluid rounded z-depth-1">

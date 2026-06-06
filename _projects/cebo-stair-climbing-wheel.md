@@ -19,13 +19,12 @@ permalink: /projects/cebo-stair-climbing-wheel/
   </figure>
 </div>
 
-<div class="project-media-grid">
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_stair_climbing_robot_design.jpg' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design result for CEBO" class="img-fluid rounded z-depth-1">
-      <figcaption>T-pedal wheel design result used in the stair-climbing evaluation.</figcaption>
-    </figure>
-  </div>
+<figure class="project-media project-media--wide project-media--compact">
+  <img src="{{ '/assets/img/projects/cebo_stair_climbing_robot_design.jpg' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design result for CEBO" class="img-fluid rounded z-depth-1">
+  <figcaption>T-pedal wheel design result used in the stair-climbing evaluation.</figcaption>
+</figure>
+
+<div class="project-media-grid project-media-grid--driving">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1">

@@ -19,20 +19,15 @@ permalink: /projects/kalo/
   </figure>
 </div>
 
-<div class="project-media-grid">
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/kalo_motion_snapshots_grid_4shot.png' | relative_url }}" alt="Four side-view KALO launch snapshots after launch onset" class="img-fluid rounded z-depth-1">
-      <figcaption>Side-view launch snapshots from the AIM 2026 paper.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide">
-      <img src="{{ '/assets/img/projects/kalo_normalized_vx_ready_launch.png' | relative_url }}" alt="Normalized forward velocity comparison for Base, Fixed carrying pose, and KALO controllers" class="img-fluid rounded z-depth-1">
-      <figcaption>Normalized forward velocity over the first 1.5 s after launch onset.</figcaption>
-    </figure>
-  </div>
-</div>
+<figure class="project-media project-media--wide project-media--compact">
+  <img src="{{ '/assets/img/projects/kalo_motion_snapshots_grid_4shot.png' | relative_url }}" alt="Four side-view KALO launch snapshots after launch onset" class="img-fluid rounded z-depth-1">
+  <figcaption>Side-view launch snapshots from the AIM 2026 paper.</figcaption>
+</figure>
+
+<figure class="project-media project-media--wide">
+  <img src="{{ '/assets/img/projects/kalo_normalized_vx_ready_launch.png' | relative_url }}" alt="Normalized forward velocity comparison for Base, Fixed carrying pose, and KALO controllers" class="img-fluid rounded z-depth-1">
+  <figcaption>Normalized forward velocity over the first 1.5 s after launch onset.</figcaption>
+</figure>
 
 I implemented early-launch assistance on a Go2W-OpenArm wheeled-legged platform, using the manipulator as a constrained inertial appendage during acceleration. I set up the Isaac Lab/RSL-RL experiments and compared Base, Fixed carrying-pose, and KALO controllers using normalized forward velocity, t50/t90, and directional consistency.
 
