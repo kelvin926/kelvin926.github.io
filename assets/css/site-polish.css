@@ -161,13 +161,6 @@
   font-size: 0.94rem;
 }
 
-.page-note {
-  margin: -0.2rem 0 1.1rem;
-  color: var(--global-text-color-light);
-  font-size: 0.94rem;
-  line-height: 1.55;
-}
-
 .projects > h2 {
   margin-top: 2.05rem !important;
   margin-bottom: 0.2rem !important;
@@ -251,6 +244,13 @@
 
 .conference-title {
   font-size: 0.98rem !important;
+}
+
+.publications .author em,
+.conference-presentations .author-me {
+  border-bottom: 1px solid currentColor;
+  font-style: normal;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
