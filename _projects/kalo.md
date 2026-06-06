@@ -2,7 +2,7 @@
 layout: page
 title: "KALO: Kangaroo-LocoManipulation"
 description: Early-launch assistance for a Go2W-OpenArm wheeled-legged platform.
-img: assets/img/projects/kalo_launch_single.jpg
+img: assets/img/projects/kalo_arm_swing_proposed.gif
 img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform
 importance: 1
 group: selected
@@ -13,20 +13,20 @@ permalink: /projects/kalo/
 {% include project-media-style.html %}
 
 <div class="project-page-hero">
-  <img src="{{ '/assets/img/projects/kalo_launch_single.jpg' | relative_url }}" alt="KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/kalo_arm_swing_proposed.gif' | relative_url }}" alt="KALO arm-swing launch assistance on a Go2W-OpenArm wheeled-legged robot platform" class="img-fluid rounded z-depth-1">
 </div>
 
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/kalo_launch_sequence.gif' | relative_url }}" alt="Side-view KALO launch sequence for a Go2W-OpenArm wheeled-legged robot" class="img-fluid rounded z-depth-1">
-      <figcaption>Side-view launch sequence.</figcaption>
+      <img src="{{ '/assets/img/projects/kalo_motion_snapshots_grid_4shot.png' | relative_url }}" alt="Four side-view KALO launch snapshots after launch onset" class="img-fluid rounded z-depth-1">
+      <figcaption>Side-view launch snapshots from the AIM 2026 paper.</figcaption>
     </figure>
   </div>
   <div>
-    <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/kalo_launch_metrics.jpg' | relative_url }}" alt="KALO launch-onset acceleration and front-load ratio traces" class="img-fluid rounded z-depth-1">
-      <figcaption>Launch-onset acceleration and front-load ratio traces.</figcaption>
+    <figure class="project-media project-media--wide">
+      <img src="{{ '/assets/img/projects/kalo_normalized_vx_ready_launch.png' | relative_url }}" alt="Normalized forward velocity comparison for Base, Fixed carrying pose, and KALO controllers" class="img-fluid rounded z-depth-1">
+      <figcaption>Normalized forward velocity over the first 1.5 s after launch onset.</figcaption>
     </figure>
   </div>
 </div>

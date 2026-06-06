@@ -3,15 +3,27 @@
     <div class="card h-100 hoverable">
       {% if project.img %}
         {% assign project_img_alt = project.img_alt | default: project.title %}
+        {% assign project_img_ext = project.img | split: "." | last | downcase %}
         <div class="project-card-media">
-          {%
-            include figure.liquid
-            loading="eager"
-            path=project.img
-            sizes = "250px"
-            alt=project_img_alt
-            class="card-img-top project-card-image"
-          %}
+          {% if project_img_ext == "gif" %}
+            <img
+              src="{{ project.img | relative_url }}"
+              class="card-img-top project-card-image"
+              width="100%"
+              height="auto"
+              alt="{{ project_img_alt }}"
+              loading="eager"
+            >
+          {% else %}
+            {%
+              include figure.liquid
+              loading="eager"
+              path=project.img
+              sizes = "250px"
+              alt=project_img_alt
+              class="card-img-top project-card-image"
+            %}
+          {% endif %}
         </div>
       {% endif %}
       <div class="card-body">
