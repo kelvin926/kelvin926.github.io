@@ -34,6 +34,21 @@ permalink: /projects/keti-amr/
   </div>
 </div>
 
+<div class="project-media-grid">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/keti_amr_training_monitor_frame.jpg' | relative_url }}" alt="Isaac Lab training monitor view for the KETI 20-DOF wheeled-legged AMR" class="img-fluid rounded z-depth-1">
+      <figcaption>Training monitor view while tuning the task.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/keti_velocity_tracking_close_view.jpg' | relative_url }}" alt="Close view of rough-terrain velocity tracking for the KETI 20-DOF wheeled-legged AMR" class="img-fluid rounded z-depth-1">
+      <figcaption>Rough-terrain velocity-tracking scene.</figcaption>
+    </figure>
+  </div>
+</div>
+
 I set up Isaac Lab training for a 20-DOF wheeled-legged AMR commissioned by Korea Electronics Technology Institute (KETI). I handled robot configuration, MDP/reward design, rough-terrain curriculum, and PPO velocity-tracking training, then added a chassis-leveling objective for payload-carrying operation.
 
 - **Role:** robot configuration, MDP/reward design, terrain curriculum, PPO training setup

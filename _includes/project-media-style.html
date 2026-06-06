@@ -88,6 +88,18 @@
     object-fit: contain;
   }
 
+  .project-media-grid--three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+  }
+
+  .project-media-grid--three .project-media img {
+    width: 100% !important;
+    height: 220px;
+    max-height: none;
+    object-fit: contain;
+  }
+
   .project-media figcaption,
   .project-media-grid figcaption,
   .project-page-hero figcaption {
@@ -114,6 +126,11 @@
       gap: 1rem;
     }
 
+    .project-media-grid--three {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
     .project-page-hero img,
     .project-media--wide img,
     .project-media--compact img {
@@ -121,6 +138,11 @@
     }
 
     .project-media-grid--supporting .project-media img {
+      height: auto;
+      max-height: 360px;
+    }
+
+    .project-media-grid--three .project-media img {
       height: auto;
       max-height: 360px;
     }

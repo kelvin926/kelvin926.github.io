@@ -29,6 +29,27 @@ permalink: /projects/road-sweeping-tdp/
   <figcaption>Route-planning interface.</figcaption>
 </figure>
 
+<div class="project-media-grid project-media-grid--three">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/road_sweeper_lab_setup_full.jpg' | relative_url }}" alt="Autonomous road-sweeping vehicle sensor and lab setup during TDP validation review" class="img-fluid rounded z-depth-1">
+      <figcaption>Vehicle and sensor setup during review.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/road_sweeper_vehicle_front_frame.jpg' | relative_url }}" alt="Front view of the autonomous road-sweeping vehicle during movement testing" class="img-fluid rounded z-depth-1">
+      <figcaption>Movement test, front view.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/road_sweeper_vehicle_side_frame.jpg' | relative_url }}" alt="Side view of the autonomous road-sweeping vehicle during movement testing" class="img-fluid rounded z-depth-1">
+      <figcaption>Movement test, side view.</figcaption>
+    </figure>
+  </div>
+</div>
+
 I organized TDP documentation for an autonomous road-sweeping vehicle. I covered ODD, fail-safety/SOTIF considerations, validation scenarios, and document structure.
 
 - **Role:** ODD organization, fail-safety/SOTIF review, validation-scenario planning, TDP documentation

@@ -39,6 +39,27 @@ permalink: /projects/cebo-stair-climbing-wheel/
   </div>
 </div>
 
+<div class="project-media-grid project-media-grid--three">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/cebo_physical_robot_front_stair.jpg' | relative_url }}" alt="Front view of the physical T-pedal wheel robot during stair-climbing testing" class="img-fluid rounded z-depth-1">
+      <figcaption>Physical robot test before stair ascent.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/cebo_physical_robot_side_stair.jpg' | relative_url }}" alt="Side view of the T-pedal wheel robot on stairs during physical testing" class="img-fluid rounded z-depth-1">
+      <figcaption>Side view during stair-climbing test.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/cebo_coppeliasim_wheel_evaluation_frame.jpg' | relative_url }}" alt="CoppeliaSim wheel-design evaluation frame for CEBO T-pedal wheel optimization" class="img-fluid rounded z-depth-1">
+      <figcaption>CoppeliaSim wheel-design evaluation frame.</figcaption>
+    </figure>
+  </div>
+</div>
+
 I defined a six-variable T-pedal wheel design problem for stair-climbing time and body-pitch stability. After validating CEBO on 2D-12D benchmark functions, I automated the optimization loop with CoppeliaSim evaluations.
 
 - **Role:** T-pedal wheel search-space design, CEBO optimization experiments, CoppeliaSim evaluation-loop automation

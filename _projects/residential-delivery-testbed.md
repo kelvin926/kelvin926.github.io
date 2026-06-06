@@ -24,6 +24,27 @@ permalink: /projects/residential-delivery-testbed/
   <figcaption>Residential delivery-robot testbed overview.</figcaption>
 </figure>
 
+<div class="project-media-grid project-media-grid--three">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/residential_testbed_project_overview.jpg' | relative_url }}" alt="Residential delivery-robot testbed project overview diagram for apartment service scenarios" class="img-fluid rounded z-depth-1">
+      <figcaption>Project overview for residential delivery service.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/residential_testbed_operation_platform.jpg' | relative_url }}" alt="Residential delivery-robot operation and validation platform planning diagram" class="img-fluid rounded z-depth-1">
+      <figcaption>Operation and validation platform structure.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/residential_testbed_validation_scope.jpg' | relative_url }}" alt="Residential delivery-robot validation scope and evaluation-planning diagram" class="img-fluid rounded z-depth-1">
+      <figcaption>Service-validation and evaluation scope.</figcaption>
+    </figure>
+  </div>
+</div>
+
 I organized service scenarios for residential delivery-robot operation. I covered apartment delivery cases, operating assumptions, and operation-check structure.
 
 - **Role:** service-scenario organization, testbed planning, operation-check review
