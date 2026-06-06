@@ -34,26 +34,10 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
   </div>
 </div>
 
-<div class="project-media-grid project-media-grid--three">
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/inventory_baseline_full_lift_drive.jpg' | relative_url }}" alt="Baseline full-lift driving frame for the inventory-inspection robot before suspension stabilization" class="img-fluid rounded z-depth-1">
-      <figcaption>Baseline full-lift driving frame.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/inventory_stabilized_full_lift_drive.jpg' | relative_url }}" alt="Stabilized full-lift driving frame for the inventory-inspection robot after chassis-leveling control" class="img-fluid rounded z-depth-1">
-      <figcaption>Stabilized full-lift driving frame.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/inventory_coppeliasim_attitude_comparison.jpg' | relative_url }}" alt="CoppeliaSim terrain-adaptive attitude stabilization comparison for the inventory-inspection robot" class="img-fluid rounded z-depth-1">
-      <figcaption>CoppeliaSim attitude-stabilization comparison.</figcaption>
-    </figure>
-  </div>
-</div>
+<figure class="project-media project-media--wide project-media--compact">
+  <img src="{{ '/assets/img/projects/inventory_baseline_full_lift_drive.jpg' | relative_url }}" alt="Baseline full-lift driving frame for the inventory-inspection robot before suspension stabilization" class="img-fluid rounded z-depth-1">
+  <figcaption>Baseline full-lift driving frame before stabilization.</figcaption>
+</figure>
 
 I built a suspension-stabilization algorithm and Isaac Lab evaluation environment for chassis leveling during full-lift driving of a 10 m-class inventory-inspection robot. I also prepared the fixed-lift runtime assets, suspension task setup, and evaluation scripts.
 

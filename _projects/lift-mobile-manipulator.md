@@ -34,20 +34,10 @@ permalink: /projects/lift-mobile-manipulator/
   </div>
 </div>
 
-<div class="project-media-grid">
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/lift_warehouse_rack_full_view.jpg' | relative_url }}" alt="Lift-equipped mobile manipulator beside a multi-level warehouse rack" class="img-fluid rounded z-depth-1">
-      <figcaption>Platform view beside the warehouse rack.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/lift_isaac_platform_scene.jpg' | relative_url }}" alt="Isaac Lab scene for the lift-equipped mobile manipulator shelf-transfer setup" class="img-fluid rounded z-depth-1">
-      <figcaption>Isaac Lab platform scene used for task setup.</figcaption>
-    </figure>
-  </div>
-</div>
+<figure class="project-media project-media--wide project-media--compact">
+  <img src="{{ '/assets/img/projects/lift_isaac_platform_scene.jpg' | relative_url }}" alt="Isaac Lab scene for the lift-equipped mobile manipulator shelf-transfer setup" class="img-fluid rounded z-depth-1">
+  <figcaption>Isaac Lab platform scene used for task setup.</figcaption>
+</figure>
 
 I designed a lift-equipped mobile manipulator platform for shelf transfer in multi-level rack environments. I also built the Isaac Lab PPO environment with a 9-D action and 41-D observation space.
 

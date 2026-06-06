@@ -2,8 +2,8 @@
 layout: page
 title: "CEBO-Based Stair-Climbing Wheel Design"
 description: T-pedal stair-climbing wheel design with CEBO and CoppeliaSim.
-img: assets/img/projects/cebo_stair_climbing_demo.gif
-img_alt: CoppeliaSim stair-climbing wheel-design evaluation loop for CEBO
+img: assets/img/projects/cebo_physical_stair_guided.gif
+img_alt: Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance
 importance: 5
 group: selected
 category: work
@@ -35,27 +35,6 @@ permalink: /projects/cebo-stair-climbing-wheel/
     <figure class="project-media project-media--wide project-media--compact">
       <img src="{{ '/assets/img/projects/cebo_physical_stair_test.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot" class="img-fluid rounded z-depth-1">
       <figcaption>Physical stair test.</figcaption>
-    </figure>
-  </div>
-</div>
-
-<div class="project-media-grid project-media-grid--three">
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_physical_robot_front_stair.jpg' | relative_url }}" alt="Front view of the physical T-pedal wheel robot during stair-climbing testing" class="img-fluid rounded z-depth-1">
-      <figcaption>Physical robot test before stair ascent.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_physical_robot_side_stair.jpg' | relative_url }}" alt="Side view of the T-pedal wheel robot on stairs during physical testing" class="img-fluid rounded z-depth-1">
-      <figcaption>Side view during stair-climbing test.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_coppeliasim_wheel_evaluation_frame.jpg' | relative_url }}" alt="CoppeliaSim wheel-design evaluation frame for CEBO T-pedal wheel optimization" class="img-fluid rounded z-depth-1">
-      <figcaption>CoppeliaSim wheel-design evaluation frame.</figcaption>
     </figure>
   </div>
 </div>
