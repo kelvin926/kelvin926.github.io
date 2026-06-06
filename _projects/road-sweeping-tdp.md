@@ -29,8 +29,8 @@ permalink: /projects/road-sweeping-tdp/
   <figcaption>Vehicle and sensor setup during review.</figcaption>
 </figure>
 
-I organized TDP documentation for an autonomous road-sweeping vehicle. I covered ODD, fail-safety/SOTIF considerations, validation scenarios, and document structure.
+For the autonomous road-sweeping vehicle TDP, I organized ODD, fail-safety/SOTIF notes, validation scenarios, and the document structure.
 
 - **Role:** ODD organization, fail-safety/SOTIF review, validation-scenario planning, TDP documentation
 - **Tools:** ODD, SOTIF/fail-safety, validation scenarios, technical documentation
-- **Result:** TDP and validation-scenario documentation for an autonomous road-sweeping vehicle; related work presented at IEMEK Fall Conference 2025.
+- **Result:** TDP and validation-scenario documentation; related work presented at IEMEK Fall Conference 2025.

@@ -45,7 +45,7 @@ permalink: /projects/residential-delivery-testbed/
   </div>
 </div>
 
-I organized service scenarios for residential delivery-robot operation. I covered apartment delivery cases, operating assumptions, and operation-check structure.
+I organized residential delivery-robot service scenarios, apartment delivery cases, operating assumptions, and operation-check items.
 
 - **Role:** service-scenario organization, testbed planning, operation-check review
 - **Tools:** AMR service scenarios, validation planning, residential delivery testbed

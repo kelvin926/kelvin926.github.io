@@ -44,4 +44,4 @@ I reviewed autonomous and remote aircraft towing support equipment at the reques
 
 - **Role:** architecture review, collision-prevention concept, simulation feasibility planning
 - **Tools:** Isaac Sim, LiDAR, autonomous/remote towing architecture
-- **Result:** feasibility notes for aircraft towing and GPAU operation concepts.
+- **Result:** scenario review notes for aircraft towing and GPAU operation concepts.

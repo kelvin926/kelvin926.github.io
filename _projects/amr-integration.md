@@ -55,9 +55,9 @@ permalink: /projects/amr-integration/
   </div>
 </div>
 
-This page groups two campus robot builds. On the Ranger Mini v2 platform, I worked on CAN bring-up, ROS/Autoware integration, LiDAR-only mapping, DBSCAN/Kalman-filter tracking, and YOLO-based avoidance tests. On the 1/5-scale autonomous-vehicle platform, I built ROS driving experiments for LiDAR obstacle detection and camera lane recognition.
+I worked on campus mobile-robot platforms for indoor delivery and perception/navigation practice. My work covered CAN bring-up, ROS/Autoware integration, LiDAR-only mapping, DBSCAN/Kalman-filter tracking, YOLO-based avoidance tests, and ROS driving experiments for LiDAR and camera perception.
 
-- **Role:** platform bring-up, CAN/ROS/Autoware integration, LiDAR perception, navigation testing, 1/5-scale platform setup
+- **Role:** platform bring-up, CAN/ROS/Autoware integration, LiDAR perception, navigation testing, small-platform setup
 - **Tools:** ROS2, ROS, Autoware, CAN, LiDAR SLAM, DBSCAN, Kalman Filter, YOLO, OpenCV
 - **Result:** Grand Prize, 2023 Korea University Project Semester; this work also supported the _Electronics_ (2025) indoor delivery path-planning paper and the _Sensors_ (2025) human-shared collision-detection paper.
 - **Related papers:** _Efficient Graph-Based Multi-Story Path Planning with Optimized Elevator Selection for Indoor Delivery Robots_; _Time-Interval-Based Collision Detection for 4WIS Mobile Robots in Human-Shared Indoor Environments_.

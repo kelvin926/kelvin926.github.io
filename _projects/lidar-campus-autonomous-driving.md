@@ -55,7 +55,7 @@ permalink: /projects/lidar-campus-autonomous-driving/
   </div>
 </div>
 
-I worked on the campus autonomous-driving setup around a Hyundai Sonata test vehicle. My work covered RTK-surveyed HD map construction, Autoware waypoint driving, in-vehicle computing setup, and LiDAR-based pedestrian-detection tests.
+For the Hyundai Sonata campus-driving platform, I worked on RTK-surveyed HD map construction, Autoware waypoint driving, in-vehicle computing setup, and LiDAR-based pedestrian-detection tests.
 
 - **Role:** RTK-surveyed HD mapping, Autoware waypoint driving, in-vehicle setup, LiDAR pedestrian-detection testing
 - **Tools:** Autoware, ROS, LiDAR, RTK surveying, HD map, vehicle computing

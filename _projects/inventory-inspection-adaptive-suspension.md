@@ -43,5 +43,5 @@ I built a suspension-stabilization algorithm and Isaac Lab evaluation environmen
 
 - **Role:** chassis-leveling logic, fixed-lift runtime asset creation, suspension task setup, evaluation scripts
 - **Tools:** Isaac Lab, RSL-RL, PyTorch
-- **Result:** chassis-leveling stabilization workflow for fixed-lift driving.
+- **Result:** fixed-lift chassis-leveling setup and evaluation scripts.
 - **Code:** [kelvin926/Frbot_Lift](https://github.com/kelvin926/Frbot_Lift)
