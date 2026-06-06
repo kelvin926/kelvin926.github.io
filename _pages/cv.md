@@ -28,7 +28,7 @@ Feb. 2025, graduated with honors
 ## selected research projects
 
 - [KALO: Kangaroo-LocoManipulation](/projects/kalo/): Go2W-OpenArm early-launch assistance with Isaac Lab/RSL-RL evaluation.
-- [On-Campus Autonomous Mobile Robot](/projects/amr-integration/): Ranger Mini v2 AMR integration with ROS/Autoware, LiDAR-only SLAM, and detection/tracking modules.
+- [On-Campus Autonomous Mobile Robot Systems](/projects/amr-integration/): Ranger Mini v2 AMR integration and 1/5-scale autonomous-vehicle experiments with ROS/Autoware, LiDAR, and camera perception.
 - [LiDAR-Based Campus Autonomous Driving](/projects/lidar-campus-autonomous-driving/): RTK-surveyed campus HD map, Autoware waypoint driving, and LiDAR pedestrian-avoidance tests.
 - [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): 9-D action / 41-D observation Isaac Lab PPO setup for shelf-transfer mobile manipulation.
 - [CEBO-Based Stair-Climbing Wheel Design](/projects/cebo-stair-climbing-wheel/): CEBO optimization and CoppeliaSim evaluation-loop automation for T-pedal wheel design.
@@ -58,12 +58,17 @@ Feb. 2025, graduated with honors
 ## teaching and mentoring
 
 - Teaching assistant since Sep. 2023 for 9 major/PBL courses, including Robot Design and Driving PBL, Mobile Robot Operating System, and Autonomous Driving Fundamental Technology PBL.
-- Led KUMob, an on-campus autonomous-driving society of about 30 members.
 - Organized ROS-based small-vehicle, simulator, LiDAR, and vision practice sessions for junior students.
+
+## leadership and international activities
+
+- **2022.09 - 2022.12** Led KUMob, an on-campus autonomous-driving society of about 30 members; organized ROS-based small autonomous-vehicle projects, simulator setup, LiDAR/vision practice, and mentoring workflows.
+- **2021.03 - 2025.02** Held department student leadership roles, including vice president, president, and emergency committee leadership.
+- **2024.01 - 2024.02** Selected as an outstanding student representative for a UNLV overseas training program; participated in a UNLV autonomous-vehicle project, robotics/vision sessions, an Intel Graphics automotive Q&A, and CES 2024.
+- **2024.12 - 2025.01** Selected again for a UNLV overseas training program; completed AI + IoT, communication, and Linux-based automotive electronic-system practice, and attended CES 2025.
 
 ## additional research and feasibility work
 
 - [Autonomous Road-Sweeping Vehicle TDP](/projects/road-sweeping-tdp/): ODD, fail-safety/SOTIF, validation-scenario, and TDP documentation.
 - [Aircraft Towing and GPAU Feasibility](/projects/aircraft-towing-gpau/): autonomous/remote towing architecture, LiDAR collision-prevention concept, and Isaac Sim feasibility review.
 - [Residential Delivery-Robot Testbed](/projects/residential-delivery-testbed/): residential delivery-robot service scenarios and operation-check notes.
-- [1/5-Scale Autonomous Vehicle Platform](/projects/curt-autonomous-system-research/): ROS-based 1/5-scale vehicle setup, LiDAR obstacle detection, and camera lane recognition.

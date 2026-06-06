@@ -137,8 +137,8 @@ latest_posts:
     <span>Go2W-OpenArm early-launch assistance in Isaac Lab/RSL-RL.</span>
   </a>
   <a class="home-project-card" href="/projects/amr-integration/">
-    <strong>On-campus AMR</strong>
-    <span>Ranger Mini v2, ROS/Autoware, LiDAR SLAM, detection, and tracking.</span>
+    <strong>On-campus mobile robot systems</strong>
+    <span>Ranger Mini v2 and 1/5-scale platform work with ROS/Autoware, LiDAR, and camera perception.</span>
   </a>
   <a class="home-project-card" href="/projects/lidar-campus-autonomous-driving/">
     <strong>LiDAR-based campus driving</strong>
