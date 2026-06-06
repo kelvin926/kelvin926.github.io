@@ -49,8 +49,8 @@ permalink: /projects/amr-integration/
   </div>
   <div>
     <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/one_fifth_autonomous_vehicle_platform.jpg' | relative_url }}" alt="1/5-scale autonomous vehicle platform with LiDAR and ROS visualization" class="img-fluid rounded z-depth-1">
-      <figcaption>1/5-scale autonomous-vehicle platform for ROS, LiDAR, and camera-perception practice.</figcaption>
+      <img src="{{ '/assets/img/projects/amr_outdoor_lidar_platform.jpg' | relative_url }}" alt="LiDAR-equipped campus mobile robot platform during outdoor mapping and navigation testing" class="img-fluid rounded z-depth-1">
+      <figcaption>LiDAR-equipped campus mobile robot platform used for outdoor mapping and navigation tests.</figcaption>
     </figure>
   </div>
 </div>

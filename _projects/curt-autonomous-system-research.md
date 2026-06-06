@@ -2,8 +2,8 @@
 layout: page
 title: "1/5-Scale Autonomous Vehicle Platform"
 description: ROS-based small autonomous-vehicle experiments with LiDAR and camera perception.
-img: assets/img/projects/one_fifth_autonomous_vehicle_platform_thumb.gif
-img_alt: 1/5-scale autonomous vehicle platform with LiDAR and ROS visualization
+img: assets/img/projects/amr_outdoor_lidar_platform.jpg
+img_alt: LiDAR-equipped campus mobile robot platform during outdoor mapping and navigation testing
 importance: 10
 group: archive
 category: work
@@ -14,8 +14,8 @@ permalink: /projects/curt-autonomous-system-research/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/one_fifth_autonomous_vehicle_platform_thumb.gif' | relative_url }}" alt="1/5-scale autonomous vehicle platform with LiDAR and ROS visualization" class="img-fluid rounded z-depth-1">
-    <figcaption>1/5-scale autonomous-vehicle platform used for ROS, LiDAR, and camera-perception practice.</figcaption>
+    <img src="{{ '/assets/img/projects/amr_outdoor_lidar_platform.jpg' | relative_url }}" alt="LiDAR-equipped campus mobile robot platform during outdoor mapping and navigation testing" class="img-fluid rounded z-depth-1">
+    <figcaption>LiDAR-equipped campus mobile robot platform used for outdoor mapping and navigation tests.</figcaption>
   </figure>
 </div>
 
