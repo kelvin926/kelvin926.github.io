@@ -143,7 +143,7 @@ latest_posts:
     <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_amr_integration.gif' | relative_url }}" alt="" loading="eager">
     <span class="home-project-copy">
       <strong>On-campus mobile robot systems</strong>
-      <span>Ranger Mini v2 and 1/5-scale platform work with ROS/Autoware, LiDAR, and camera perception.</span>
+      <span>Ranger Mini v2 work with ROS/Autoware, LiDAR mapping, tracking, and small-platform perception practice.</span>
     </span>
   </a>
   <a class="home-project-card" href="/projects/lidar-campus-autonomous-driving/">

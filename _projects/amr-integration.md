@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "On-Campus Autonomous Mobile Robot Systems"
-description: Ranger Mini v2 AMR and 1/5-scale autonomous-vehicle experiments with ROS/Autoware, LiDAR, and camera perception.
+description: Ranger Mini v2 AMR integration with ROS/Autoware, LiDAR mapping, tracking, and small-platform perception practice.
 img: assets/img/projects/amr_robot_autonomous_navigation.gif
 img_alt: Ranger Mini v2 autonomous indoor navigation test in a campus hallway
 importance: 2
@@ -34,30 +34,33 @@ permalink: /projects/amr-integration/
   </div>
 </div>
 
-<div class="project-media-grid project-media-grid--supporting">
-  <div>
-    <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/amr_ranger_mini_platform_closeup.jpg' | relative_url }}" alt="Ranger Mini v2 mobile robot platform with Velodyne LiDAR and onboard sensors" class="img-fluid rounded z-depth-1">
-      <figcaption>Ranger Mini v2 platform with LiDAR and onboard sensing hardware.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/amr_lidar_map_builder.jpg' | relative_url }}" alt="LiDAR point-cloud map and waypoint editing for on-campus mobile robot navigation" class="img-fluid rounded z-depth-1">
-      <figcaption>LiDAR-only mapping and waypoint editing for campus navigation tests.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/amr_outdoor_lidar_platform.jpg' | relative_url }}" alt="LiDAR-equipped campus mobile robot platform during outdoor mapping and navigation testing" class="img-fluid rounded z-depth-1">
-      <figcaption>LiDAR-equipped campus mobile robot platform used for outdoor mapping and navigation tests.</figcaption>
-    </figure>
-  </div>
-</div>
-
 I worked on campus mobile-robot platforms for indoor delivery and perception/navigation practice. My work covered CAN bring-up, ROS/Autoware integration, LiDAR-only mapping, DBSCAN/Kalman-filter tracking, YOLO-based avoidance tests, and ROS driving experiments for LiDAR and camera perception.
 
 - **Role:** platform bring-up, CAN/ROS/Autoware integration, LiDAR perception, navigation testing, small-platform setup
 - **Tools:** ROS2, ROS, Autoware, CAN, LiDAR SLAM, DBSCAN, Kalman Filter, YOLO, OpenCV
 - **Result:** Grand Prize, 2023 Korea University Project Semester; this work also supported the _Electronics_ (2025) indoor delivery path-planning paper and the _Sensors_ (2025) human-shared collision-detection paper.
 - **Related papers:** _Efficient Graph-Based Multi-Story Path Planning with Optimized Elevator Selection for Indoor Delivery Robots_; _Time-Interval-Based Collision Detection for 4WIS Mobile Robots in Human-Shared Indoor Environments_.
+
+<details class="project-media-more">
+  <summary>Additional platform and mapping views</summary>
+  <div class="project-media-grid project-media-grid--supporting">
+    <div>
+      <figure class="project-media project-media--portrait">
+        <img src="{{ '/assets/img/projects/amr_ranger_mini_platform_closeup.jpg' | relative_url }}" alt="Ranger Mini v2 mobile robot platform with Velodyne LiDAR and onboard sensors" class="img-fluid rounded z-depth-1">
+        <figcaption>Ranger Mini v2 platform with LiDAR and onboard sensing hardware.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="project-media project-media--wide project-media--compact">
+        <img src="{{ '/assets/img/projects/amr_lidar_map_builder.jpg' | relative_url }}" alt="LiDAR point-cloud map and waypoint editing for on-campus mobile robot navigation" class="img-fluid rounded z-depth-1">
+        <figcaption>LiDAR-only mapping and waypoint editing for campus navigation tests.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="project-media project-media--portrait">
+        <img src="{{ '/assets/img/projects/amr_outdoor_lidar_platform.jpg' | relative_url }}" alt="LiDAR-equipped campus mobile robot platform during outdoor mapping and navigation testing" class="img-fluid rounded z-depth-1">
+        <figcaption>LiDAR-equipped campus mobile robot platform used for outdoor mapping and navigation tests.</figcaption>
+      </figure>
+    </div>
+  </div>
+</details>
