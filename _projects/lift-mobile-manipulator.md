@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Lift-Equipped Mobile Manipulator"
-description: Shelf-transfer mobile manipulation in multi-level rack environments.
+description: Isaac Lab shelf-transfer task for a lift-equipped mobile manipulator.
 img: assets/img/projects/lift_mobile_manipulator_platform.gif
 img_alt: Lift-equipped mobile manipulator platform moving in a rack environment
-importance: 4
+importance: 2
 group: selected
 category: work
 permalink: /projects/lift-mobile-manipulator/
@@ -39,7 +39,7 @@ permalink: /projects/lift-mobile-manipulator/
   <figcaption>Isaac Lab platform scene used for task setup.</figcaption>
 </figure>
 
-I designed a lift-equipped mobile manipulator platform for shelf transfer in multi-level rack environments. I also built the Isaac Lab PPO environment with a 9-D action and 41-D observation space.
+I formulated a shelf-transfer mobile-manipulation task in Isaac Lab. The work covered the platform design, action/observation setup, PPO training, randomized source-object placement, and success/failure analysis.
 
 - **Role:** platform design, 9-D action / 41-D observation Isaac Lab PPO environment, shelf-transfer experiment analysis
 - **Tools:** Isaac Lab, PPO, PyTorch, mobile manipulation

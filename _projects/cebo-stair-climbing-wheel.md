@@ -39,10 +39,10 @@ permalink: /projects/cebo-stair-climbing-wheel/
   </div>
 </div>
 
-I defined a six-variable T-pedal wheel design problem for stair-climbing time and body-pitch stability. After validating CEBO on 2D-12D benchmark functions, I automated the optimization loop with CoppeliaSim evaluations.
+I worked on simulation-based evaluation-loop automation and optimization for T-pedal wheel design. The study focused on stair-traversal performance and body-pitch stability metrics using CoppeliaSim evaluations.
 
 - **Role:** T-pedal wheel search-space design, CEBO optimization experiments, CoppeliaSim evaluation-loop automation
 - **Tools:** Bayesian optimization, CoppeliaSim, Python, CAD
 - **Result:** nominal traversal time decreased by 23.31% from 9.405 s to 7.213 s, and body-pitch stability median decreased by 37.84% from 1.102 deg to 0.685 deg under the nominal friction condition.
-- **Paper:** _Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot_. _Advanced Engineering Informatics_, revised manuscript resubmitted after minor revision.
+- **Paper:** _Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot_. Revised manuscript resubmitted to _Advanced Engineering Informatics_ after minor revision.
 - **Code:** [kelvin926/T-Pedal-with-CEBO](https://github.com/kelvin926/T-Pedal-with-CEBO)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "KALO: Kangaroo-LocoManipulation"
-description: Early-launch assistance for a Go2W-OpenArm wheeled-legged platform.
+description: Constrained arm motion for early-launch behavior in a Go2W-OpenArm platform.
 img: assets/img/projects/kalo_arm_swing_proposed.gif
 img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform
 importance: 1
@@ -29,7 +29,7 @@ permalink: /projects/kalo/
   <figcaption>Normalized forward velocity over the first 1.5 s after launch onset.</figcaption>
 </figure>
 
-I implemented early-launch assistance on a Go2W-OpenArm wheeled-legged platform, using the manipulator as a constrained inertial appendage during acceleration. I set up the Isaac Lab/RSL-RL experiments and compared Base, Fixed carrying-pose, and KALO controllers using normalized forward velocity, t50/t90, and directional consistency.
+I studied constrained arm motion for early-launch behavior in a Go2W-OpenArm wheeled-legged platform. The project evaluated whether manipulator-induced inertial effects can improve initial acceleration under controlled Isaac Lab/RSL-RL simulation settings.
 
 - **Role:** launch-assist concept, Go2W-OpenArm setup, evaluation metrics, Isaac Lab/RSL-RL experiments
 - **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO, Go2W-OpenArm

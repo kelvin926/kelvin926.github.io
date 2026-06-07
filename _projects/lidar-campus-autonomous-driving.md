@@ -4,7 +4,7 @@ title: "LiDAR-Based Campus Autonomous Driving"
 description: RTK-surveyed HD map and Autoware-based campus driving on a Hyundai Sonata test vehicle.
 img: assets/img/projects/lidar_campus_sonata_drive.gif
 img_alt: In-vehicle campus autonomous-driving test on a Hyundai Sonata platform
-importance: 3
+importance: 7
 group: selected
 category: work
 permalink: /projects/lidar-campus-autonomous-driving/

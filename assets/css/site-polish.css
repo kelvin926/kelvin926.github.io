@@ -32,6 +32,30 @@ html[data-theme="dark"] {
   margin-top: 0.45rem;
 }
 
+.profile .more-info .profile-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+  margin-top: 0.65rem;
+  font-family:
+    "Pretendard",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 0.92rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.profile .more-info .profile-contact a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
 .home-lede {
   margin-bottom: 0.75rem;
   font-size: 1.01rem;
@@ -80,6 +104,19 @@ html[data-theme="dark"] {
 .home-focus-row {
   max-width: 640px;
   margin: 0.7rem 0 1.75rem;
+}
+
+.home-research-direction {
+  max-width: 680px;
+  margin: 0.55rem 0 1.75rem;
+  padding: 0.85rem 0 0.1rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.home-research-direction p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
 .home-focus-item {
@@ -453,6 +490,7 @@ html[data-theme="dark"] {
 
   .home-intro,
   .home-focus-row,
+  .home-research-direction,
   .home-news {
     max-width: none;
   }

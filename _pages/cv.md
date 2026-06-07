@@ -20,20 +20,22 @@ Feb. 2025, graduated with honors
 
 ## research profile
 
-- Stability-aware robot learning for wheeled-legged locomotion and loco-manipulation
-- Mobile manipulation and logistics-oriented AMR autonomy
-- Learning-based planning/control, perception, and tracking for autonomous mobile robots
-- Simulation-driven robot design optimization and stability-aware evaluation
+My work connects mobile manipulation, robot learning in simulation, and field robot integration. I have built Isaac Lab/RSL-RL training environments for wheeled-legged and mobile-manipulation tasks, and ROS/Autoware-based AMR systems with LiDAR perception and navigation.
+
+- Mobile manipulation and dynamic carrying control
+- Robot learning and simulation with Isaac Lab, RSL-RL, PPO, and reward design
+- Stability-aware evaluation for object tilt, grasp stability, base slip, and chassis leveling
+- AMR perception and navigation with ROS/Autoware and LiDAR detection/tracking
 
 ## selected research projects
 
-- [KALO: Kangaroo-LocoManipulation](/projects/kalo/): Go2W-OpenArm early-launch assistance with Isaac Lab/RSL-RL evaluation.
-- [On-Campus Autonomous Mobile Robot Systems](/projects/amr-integration/): Ranger Mini v2 AMR integration and 1/5-scale autonomous-vehicle experiments with ROS/Autoware, LiDAR, and camera perception.
-- [LiDAR-Based Campus Autonomous Driving](/projects/lidar-campus-autonomous-driving/): RTK-surveyed campus HD map, Autoware waypoint driving, and LiDAR pedestrian-avoidance tests.
-- [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): 9-D action / 41-D observation Isaac Lab PPO setup for shelf-transfer mobile manipulation.
-- [CEBO-Based Stair-Climbing Wheel Design](/projects/cebo-stair-climbing-wheel/): CEBO optimization and CoppeliaSim evaluation-loop automation for T-pedal wheel design.
+- [KALO: Kangaroo-LocoManipulation](/projects/kalo/): constrained arm motion for early-launch behavior on a Go2W-OpenArm wheeled-legged platform.
+- [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): shelf-transfer mobile-manipulation task with Isaac Lab PPO setup and success/failure analysis.
 - [KETI 20-DOF Wheeled-Legged AMR](/projects/keti-amr/): rough-terrain velocity-tracking setup and chassis-leveling objective for a wheeled-legged AMR.
 - [Inventory-Inspection Robot Adaptive Suspension](/projects/inventory-inspection-adaptive-suspension/): suspension-stabilization workflow for full-lift driving of a 10 m-class inventory-inspection robot.
+- [CEBO-Based Stair-Climbing Wheel Design](/projects/cebo-stair-climbing-wheel/): CoppeliaSim evaluation-loop automation and optimization for T-pedal wheel design.
+- [On-Campus Autonomous Mobile Robot Systems](/projects/amr-integration/): ROS/Autoware AMR integration, LiDAR mapping, detection/tracking, waypoint driving, and campus validation.
+- [LiDAR-Based Campus Autonomous Driving](/projects/lidar-campus-autonomous-driving/): RTK-surveyed campus HD map, Autoware waypoint driving, and LiDAR pedestrian-detection tests.
 
 ## technical skills
 

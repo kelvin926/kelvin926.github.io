@@ -28,33 +28,10 @@ latest_posts:
   enabled: false
 ---
 
-<style>
-  .profile .more-info .profile-contact {
-    display: flex;
-    flex-direction: column;
-    gap: 0.12rem;
-    margin-top: 0.65rem;
-    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 0.92rem;
-    font-weight: 400;
-    line-height: 1.45;
-    letter-spacing: 0;
-  }
-
-  .profile .more-info .profile-contact a {
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-</style>
-
 <div class="home-intro">
   <p class="home-lede">
-    I study stability-aware robot learning and autonomy for mobile robotic systems, with work across wheeled-legged loco-manipulation, mobile manipulation, AMR perception/navigation, and simulation-driven robot design optimization.
-  </p>
-  <p class="home-lede">
-    Recent work spans Isaac Lab/RSL-RL/PPO-based Go2W-OpenArm KALO and shelf-transfer mobile manipulation, ROS/Autoware AMR integration with LiDAR-based detection/tracking, and CEBO-based T-pedal wheel design optimization.
+    I am an M.S. student in the Field Robot Lab at Korea University. My research focuses on robot learning and control for mobile robotic systems, with a recent interest in mobile manipulation and dynamic carrying control.
+    I build simulation-based training and evaluation environments using Isaac Lab/RSL-RL, and I also have experience with ROS/Autoware-based AMR integration and LiDAR perception.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
     <a href="mailto:kelvin926@korea.ac.kr">Email</a>
@@ -66,21 +43,29 @@ latest_posts:
 
 <div class="home-focus-row" aria-label="Research focus">
   <div class="home-focus-item">
-    <strong>Stability-aware robot learning</strong>
-    <span>Wheeled-legged locomotion and loco-manipulation.</span>
+    <strong>Mobile manipulation and dynamic carrying control</strong>
+    <span>Object-conditioned carrying, shelf-transfer tasks, and bimanual/mobile manipulation.</span>
   </div>
   <div class="home-focus-item">
-    <strong>Mobile manipulation</strong>
-    <span>Shelf-transfer tasks and logistics-oriented AMR autonomy.</span>
+    <strong>Robot learning and simulation</strong>
+    <span>Isaac Lab, RSL-RL, PPO, MDP/reward design, and policy evaluation.</span>
   </div>
   <div class="home-focus-item">
-    <strong>AMR perception/navigation</strong>
-    <span>Learning-based planning/control, perception, and tracking.</span>
+    <strong>Stability-aware evaluation</strong>
+    <span>Object tilt, grasp stability, base slip, chassis leveling, and safety metrics.</span>
   </div>
   <div class="home-focus-item">
-    <strong>Design optimization</strong>
-    <span>Simulation-driven robot design and stability-aware evaluation.</span>
+    <strong>AMR perception and navigation</strong>
+    <span>ROS/Autoware, LiDAR mapping, detection/tracking, and campus-scale validation.</span>
   </div>
+</div>
+
+## current research direction
+
+<div class="home-research-direction">
+  <p>
+    I am interested in object-conditioned robot learning and control for mobile manipulation. In particular, I aim to study how mobile manipulators can adjust arm motion, base acceleration, and safety margins depending on object properties such as mass, shape, grasp stability, and fragility.
+  </p>
 </div>
 
 ## news
@@ -100,7 +85,7 @@ latest_posts:
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2026</div>
-    <div class="home-news-text">The CEBO manuscript was resubmitted to <em>Advanced Engineering Informatics</em> after minor revision.</div>
+    <div class="home-news-text">The CEBO manuscript was revised and resubmitted to <em>Advanced Engineering Informatics</em> after minor revision.</div>
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2025</div>
@@ -136,35 +121,14 @@ latest_posts:
     <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_kalo.gif' | relative_url }}" alt="" loading="eager">
     <span class="home-project-copy">
       <strong>KALO</strong>
-      <span>Go2W-OpenArm early-launch assistance in Isaac Lab/RSL-RL.</span>
-    </span>
-  </a>
-  <a class="home-project-card" href="/projects/amr-integration/">
-    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_amr_integration.gif' | relative_url }}" alt="" loading="eager">
-    <span class="home-project-copy">
-      <strong>On-campus mobile robot systems</strong>
-      <span>Ranger Mini v2 work with ROS/Autoware, LiDAR mapping, tracking, and small-platform perception practice.</span>
-    </span>
-  </a>
-  <a class="home-project-card" href="/projects/lidar-campus-autonomous-driving/">
-    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_lidar_campus.gif' | relative_url }}" alt="" loading="eager">
-    <span class="home-project-copy">
-      <strong>LiDAR-based campus driving</strong>
-      <span>RTK-surveyed HD map, Autoware waypoint driving, and pedestrian avoidance.</span>
+      <span>Constrained arm motion for early-launch behavior on a Go2W-OpenArm platform.</span>
     </span>
   </a>
   <a class="home-project-card" href="/projects/lift-mobile-manipulator/">
     <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_lift_mobile_manipulator.gif' | relative_url }}" alt="" loading="eager">
     <span class="home-project-copy">
       <strong>Lift-equipped mobile manipulator</strong>
-      <span>Shelf-transfer mobile manipulation with a 9-D action / 41-D observation PPO setup.</span>
-    </span>
-  </a>
-  <a class="home-project-card" href="/projects/cebo-stair-climbing-wheel/">
-    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_cebo.gif' | relative_url }}" alt="" loading="eager">
-    <span class="home-project-copy">
-      <strong>CEBO stair-climbing wheel</strong>
-      <span>Bayesian optimization and CoppeliaSim evaluation for T-pedal wheel design.</span>
+      <span>Isaac Lab shelf-transfer task with PPO training and success/failure analysis.</span>
     </span>
   </a>
   <a class="home-project-card" href="/projects/keti-amr/">
@@ -179,6 +143,27 @@ latest_posts:
     <span class="home-project-copy">
       <strong>Inventory-inspection robot</strong>
       <span>Suspension stabilization for full-lift driving of a 10 m-class platform.</span>
+    </span>
+  </a>
+  <a class="home-project-card" href="/projects/cebo-stair-climbing-wheel/">
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_cebo.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>CEBO stair-climbing wheel</strong>
+      <span>CoppeliaSim evaluation-loop automation for T-pedal wheel design.</span>
+    </span>
+  </a>
+  <a class="home-project-card" href="/projects/amr-integration/">
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_amr_integration.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>On-campus mobile robot systems</strong>
+      <span>ROS/Autoware integration, LiDAR mapping, detection/tracking, and validation.</span>
+    </span>
+  </a>
+  <a class="home-project-card" href="/projects/lidar-campus-autonomous-driving/">
+    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_lidar_campus.gif' | relative_url }}" alt="" loading="eager">
+    <span class="home-project-copy">
+      <strong>LiDAR-based campus driving</strong>
+      <span>RTK-surveyed HD map, Autoware waypoint driving, and pedestrian tests.</span>
     </span>
   </a>
 </div>

@@ -4,7 +4,7 @@ title: "KETI 20-DOF Wheeled-Legged AMR"
 description: Rough-terrain velocity tracking setup for a 20-DOF wheeled-legged AMR.
 img: assets/img/projects/keti_velocity_tracking_training.gif
 img_alt: Isaac Lab velocity-tracking training scene for the KETI 20-DOF wheeled-legged AMR
-importance: 6
+importance: 3
 group: selected
 category: work
 permalink: /projects/keti-amr/
@@ -39,7 +39,7 @@ permalink: /projects/keti-amr/
   <figcaption>Training monitor view while tuning the task.</figcaption>
 </figure>
 
-I set up Isaac Lab training for a 20-DOF wheeled-legged AMR commissioned by Korea Electronics Technology Institute (KETI). I handled robot configuration, MDP/reward design, rough-terrain curriculum, and PPO velocity-tracking training, then added a chassis-leveling objective for payload-carrying operation.
+I set up Isaac Lab training for a 20-DOF wheeled-legged AMR commissioned by Korea Electronics Technology Institute (KETI). The work covered robot configuration, MDP/reward design, terrain curriculum, PPO velocity-tracking training, and a chassis-leveling objective for payload-carrying operation.
 
 - **Role:** robot configuration, MDP/reward design, terrain curriculum, PPO training setup
 - **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO

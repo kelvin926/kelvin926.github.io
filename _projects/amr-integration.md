@@ -4,7 +4,7 @@ title: "On-Campus Autonomous Mobile Robot Systems"
 description: Ranger Mini v2 AMR integration with ROS/Autoware, LiDAR mapping, tracking, and small-platform perception practice.
 img: assets/img/projects/amr_robot_autonomous_navigation.gif
 img_alt: Ranger Mini v2 autonomous indoor navigation test in a campus hallway
-importance: 2
+importance: 6
 group: selected
 category: work
 permalink: /projects/amr-integration/
@@ -34,7 +34,7 @@ permalink: /projects/amr-integration/
   </div>
 </div>
 
-I worked on campus mobile-robot platforms for indoor delivery and perception/navigation practice. My work covered CAN bring-up, ROS/Autoware integration, LiDAR-only mapping, DBSCAN/Kalman-filter tracking, YOLO-based avoidance tests, and ROS driving experiments for LiDAR and camera perception.
+I worked on ROS/Autoware-based AMR integration for indoor and campus-scale validation. The work covered CAN bring-up, LiDAR mapping, detection/tracking, waypoint driving, YOLO-based avoidance tests, and small-platform ROS driving experiments.
 
 - **Role:** platform bring-up, CAN/ROS/Autoware integration, LiDAR perception, navigation testing, small-platform setup
 - **Tools:** ROS2, ROS, Autoware, CAN, LiDAR SLAM, DBSCAN, Kalman Filter, YOLO, OpenCV
