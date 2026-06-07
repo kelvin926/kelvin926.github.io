@@ -30,8 +30,8 @@ latest_posts:
 
 <div class="home-intro">
   <p class="home-lede">
-    I am an M.S. student in the Field Robot Lab at Korea University. My research focuses on robot learning and control for mobile robotic systems, with a recent interest in mobile manipulation and dynamic carrying control.
-    I build simulation-based training and evaluation environments using Isaac Lab/RSL-RL, and I also have experience with ROS/Autoware-based AMR integration and LiDAR perception.
+    I am an M.S. student in the Field Robot Lab at Korea University. My research focuses on simulation-based robot learning and control for mobile robotic systems, with an emphasis on mobile manipulation, wheeled-legged loco-manipulation, and stability-aware evaluation.
+    Recent projects include Isaac Lab/RSL-RL policy training for KALO and shelf-transfer mobile manipulation, ROS/Autoware-based AMR integration, and CEBO-based simulation evaluation-loop automation.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
     <a href="mailto:kelvin926@korea.ac.kr">Email</a>
@@ -48,7 +48,7 @@ latest_posts:
   </div>
   <div class="home-focus-item">
     <strong>Robot learning and simulation</strong>
-    <span>Isaac Lab, RSL-RL, PPO, MDP/reward design, and policy evaluation.</span>
+    <span>Isaac Lab, RSL-RL, PPO, MDP/reward design, curriculum design, and policy evaluation.</span>
   </div>
   <div class="home-focus-item">
     <strong>Stability-aware evaluation</strong>
@@ -65,6 +65,9 @@ latest_posts:
 <div class="home-research-direction">
   <p>
     I am interested in object-conditioned robot learning and control for mobile manipulation. In particular, I aim to study how mobile manipulators can adjust arm motion, base acceleration, and safety margins depending on object properties such as mass, shape, grasp stability, and fragility.
+  </p>
+  <p>
+    This direction grew from my KALO, shelf-transfer mobile-manipulation, and AMR integration projects, where I worked on policy training, task formulation, and stability-oriented evaluation.
   </p>
 </div>
 

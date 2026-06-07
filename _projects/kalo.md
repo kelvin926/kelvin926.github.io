@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "KALO: Kangaroo-LocoManipulation"
-description: Constrained arm motion for early-launch behavior in a Go2W-OpenArm platform.
+description: Constrained arm motion for early-launch behavior on a Go2W-OpenArm platform.
 img: assets/img/projects/kalo_arm_swing_proposed.gif
 img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform
 importance: 1

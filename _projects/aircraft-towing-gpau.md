@@ -40,7 +40,7 @@ permalink: /projects/aircraft-towing-gpau/
   </div>
 </div>
 
-I reviewed autonomous and remote aircraft towing support equipment at the request of the Republic of Korea Air Force. I covered towing architecture, LiDAR-based collision-prevention concepts, and Isaac Sim scenario review.
+I worked on a feasibility review for autonomous and remote aircraft towing support-equipment concepts in a Republic of Korea Air Force-requested project. The work covered towing architecture, LiDAR-based collision-prevention concepts, and Isaac Sim scenario review.
 
 - **Role:** architecture review, collision-prevention concept, simulation feasibility planning
 - **Tools:** Isaac Sim, LiDAR, autonomous/remote towing architecture

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Inventory-Inspection Robot Adaptive Suspension"
-description: Suspension stabilization for full-lift driving of a 10 m-class inventory-inspection robot.
+description: Suspension stabilization for full-lift driving of a 10 m-class platform.
 img: assets/img/projects/inventory_adaptive_suspension_demo.gif
 img_alt: Inventory-inspection robot adaptive suspension stabilization comparison
 importance: 4
@@ -39,9 +39,9 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
   <figcaption>Baseline full-lift driving frame before stabilization.</figcaption>
 </figure>
 
-I built a chassis-leveling and stability evaluation setup for a 10 m-class inventory-inspection robot during full-lift driving. The work included fixed-lift runtime assets, suspension task setup, and evaluation scripts.
+I built a chassis-leveling and stability evaluation setup for a 10 m-class inventory-inspection robot during full-lift driving. The work included suspension-stabilization logic, fixed-lift runtime asset creation, suspension task setup, and evaluation scripts.
 
 - **Role:** chassis-leveling logic, fixed-lift runtime asset creation, suspension task setup, evaluation scripts
 - **Tools:** Isaac Lab, RSL-RL, PyTorch
-- **Result:** fixed-lift chassis-leveling setup and evaluation scripts.
+- **Result:** chassis-leveling logic, fixed-lift runtime asset creation, suspension task setup, and evaluation scripts for full-lift driving.
 - **Code:** [kelvin926/Frbot_Lift](https://github.com/kelvin926/Frbot_Lift)

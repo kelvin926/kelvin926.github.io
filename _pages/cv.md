@@ -23,7 +23,7 @@ Feb. 2025, graduated with honors
 My work connects mobile manipulation, robot learning in simulation, and field robot integration. I have built Isaac Lab/RSL-RL training environments for wheeled-legged and mobile-manipulation tasks, and ROS/Autoware-based AMR systems with LiDAR perception and navigation.
 
 - Mobile manipulation and dynamic carrying control
-- Robot learning and simulation with Isaac Lab, RSL-RL, PPO, MDP formulation, reward shaping, and policy evaluation
+- Robot learning and simulation with Isaac Lab, RSL-RL, PPO, MDP formulation, reward shaping, curriculum design, and policy evaluation
 - Stability-aware evaluation for object tilt, grasp stability, base slip, and chassis leveling
 - AMR perception and navigation with ROS/Autoware and LiDAR detection/tracking
 
@@ -43,7 +43,7 @@ My work connects mobile manipulation, robot learning in simulation, and field ro
 
 **Robot Software / Integration:** ROS2, ROS, Autoware, Python, C++, Linux, CAN, Git
 
-**Perception / Navigation:** LiDAR mapping, object detection/tracking, DBSCAN, Kalman filtering, ROS/Autoware perception integration, OpenCV, YOLO
+**Perception / Navigation:** LiDAR mapping, object detection/tracking, DBSCAN, Kalman filtering, ROS/Autoware perception integration
 
 **Design / Optimization:** Bayesian optimization, CoppeliaSim, CAD, Ansys, hardware feasibility testing
 

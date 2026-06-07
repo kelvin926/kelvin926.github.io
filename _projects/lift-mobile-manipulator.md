@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Lift-Equipped Mobile Manipulator"
-description: Isaac Lab shelf-transfer task for a lift-equipped mobile manipulator.
+description: Isaac Lab shelf-transfer task with PPO training and success/failure analysis.
 img: assets/img/projects/lift_mobile_manipulator_platform.gif
 img_alt: Lift-equipped mobile manipulator platform moving in a rack environment
 importance: 2
@@ -15,7 +15,7 @@ permalink: /projects/lift-mobile-manipulator/
 <div class="project-page-hero">
   <figure>
     <img src="{{ '/assets/img/projects/lift_mobile_manipulator_platform.gif' | relative_url }}" alt="Lift-equipped mobile manipulator platform moving in a rack environment" class="img-fluid rounded z-depth-1">
-    <figcaption>10 m-class lift-equipped mobile manipulator platform in a rack-transfer setting.</figcaption>
+    <figcaption>Lift-equipped mobile manipulator platform for shelf-transfer experiments in multi-level rack environments.</figcaption>
   </figure>
 </div>
 
@@ -39,10 +39,11 @@ permalink: /projects/lift-mobile-manipulator/
   <figcaption>Isaac Lab platform scene used for task setup.</figcaption>
 </figure>
 
-I formulated a shelf-transfer mobile-manipulation task in Isaac Lab. The work covered the platform design, action/observation setup, PPO training, randomized source-object placement, and success/failure analysis.
+I designed a lift-equipped mobile manipulator platform for shelf transfer in multi-level rack environments and formulated an Isaac Lab PPO task with 9-D action / 41-D observation, staged reward terms, randomized source-object placement, and success/failure analysis.
 
 - **Role:** platform design, 9-D action / 41-D observation Isaac Lab PPO environment, shelf-transfer experiment analysis
-- **Tools:** Isaac Lab, PPO, PyTorch, mobile manipulation
-- **Result:** 41/50 successful trials (82%) under +/-3 cm source-object randomization; failures consisted of 3 grasp failures and 6 object-drop failures.
+- **Tools:** Isaac Lab, PyTorch, PPO, task formulation
+- **Evaluation:** 50 rollout trials with +/-3 cm source-object randomization.
+- **Result:** 41/50 successful trials (82%); failures consisted of 3 grasp failures and 6 object-drop failures.
 - **Paper:** _A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments_. IEEE/ASME AIM 2026, accepted.
 - **Code:** GitHub link planned with paper release.
