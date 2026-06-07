@@ -2,8 +2,8 @@
 layout: page
 title: "Residential Delivery-Robot Testbed"
 description: Service scenarios and validation notes for residential delivery robots.
-img: assets/img/projects/residential_delivery_testbed_slides.webp
-img_alt: Residential delivery-robot testbed planning slides for apartment service scenarios
+img: assets/img/projects/residential_testbed_report_cover.webp
+img_alt: Cover page of the final report for residential delivery-robot testbed planning
 importance: 9
 group: other
 category: work
@@ -12,35 +12,24 @@ permalink: /projects/residential-delivery-testbed/
 
 {% include project-media-style.html %}
 
-<div class="project-page-hero">
+<div class="project-page-hero project-page-hero--report-cover">
   <figure>
-    <img src="{{ '/assets/img/projects/residential_delivery_testbed_slides.webp' | relative_url }}" alt="Residential delivery-robot testbed planning slides for apartment service scenarios" class="img-fluid rounded z-depth-1">
-    <figcaption>Service-scenario and validation-planning slides for a residential delivery-robot testbed.</figcaption>
+    <img src="{{ '/assets/img/projects/residential_testbed_report_cover.webp' | relative_url }}" alt="Cover page of the final report for residential delivery-robot testbed planning" class="img-fluid rounded z-depth-1">
+    <figcaption>Final report cover for the residential delivery-robot testbed planning project.</figcaption>
   </figure>
 </div>
 
-<figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/lh_testbed_single.jpg' | relative_url }}" alt="Residential delivery-robot testbed planning overview for apartment service scenarios" class="img-fluid rounded z-depth-1">
-  <figcaption>Residential delivery-robot testbed overview.</figcaption>
-</figure>
-
-<div class="project-media-grid project-media-grid--three">
+<div class="project-media-grid project-media-grid--two">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/residential_testbed_project_overview.jpg' | relative_url }}" alt="Residential delivery-robot testbed project overview diagram for apartment service scenarios" class="img-fluid rounded z-depth-1">
-      <figcaption>Project overview for residential delivery service.</figcaption>
+      <img src="{{ '/assets/img/projects/residential_testbed_robot_categories.webp' | relative_url }}" alt="Mobile service robot platform categories reviewed for residential delivery-robot testbed planning" class="img-fluid rounded z-depth-1">
+      <figcaption>Candidate mobile-service robot platforms reviewed for residential delivery.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/residential_testbed_operation_platform.jpg' | relative_url }}" alt="Residential delivery-robot operation and validation platform planning diagram" class="img-fluid rounded z-depth-1">
-      <figcaption>Operation and validation platform structure.</figcaption>
-    </figure>
-  </div>
-  <div>
-    <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/residential_testbed_validation_scope.jpg' | relative_url }}" alt="Residential delivery-robot validation scope and evaluation-planning diagram" class="img-fluid rounded z-depth-1">
-      <figcaption>Service-validation and evaluation scope.</figcaption>
+      <img src="{{ '/assets/img/projects/residential_testbed_validation_flow.webp' | relative_url }}" alt="Residential delivery-robot validation flow covering drive, sensor, communication, battery, autonomy, and maintenance items" class="img-fluid rounded z-depth-1">
+      <figcaption>Validation-flow outline for robot operation and service checks.</figcaption>
     </figure>
   </div>
 </div>
