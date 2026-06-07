@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="HS favicon">
+  <rect width="512" height="512" rx="96" fill="#8b0029" />
+  <text
+    x="50%"
+    y="54%"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="198"
+    font-weight="700"
+    letter-spacing="-6"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    HS
+  </text>
+</svg>
