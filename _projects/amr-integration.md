@@ -34,6 +34,21 @@ permalink: /projects/amr-integration/
   </div>
 </div>
 
+<div class="project-media-grid project-media-grid--amr-transfer">
+  <div>
+    <figure class="project-media project-media--wide project-media--compact">
+      <img src="{{ '/assets/img/projects/amr_indoor_outdoor_navigation_screen.webp' | relative_url }}" alt="Autoware and LiDAR map screen recording for an indoor-to-outdoor-to-indoor campus autonomous navigation run" class="img-fluid rounded z-depth-1">
+      <figcaption>Autoware/LiDAR screen recording from an indoor-to-outdoor-to-indoor campus navigation run.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <figure class="project-media project-media--portrait project-media--compact">
+      <img src="{{ '/assets/img/projects/amr_indoor_outdoor_navigation_robot.webp' | relative_url }}" alt="Ranger Mini v2 robot driving from indoors to outdoors and into another campus building" class="img-fluid rounded z-depth-1">
+      <figcaption>Robot-view clip from the same building-to-building navigation run.</figcaption>
+    </figure>
+  </div>
+</div>
+
 I worked on ROS/Autoware-based AMR integration for indoor and campus-scale validation. The work covered CAN bring-up, LiDAR mapping, detection/tracking, waypoint driving, YOLO-based avoidance tests, and small-platform ROS driving experiments.
 
 - **Role:** platform bring-up, CAN/ROS/Autoware integration, LiDAR perception, navigation testing, small-platform setup
