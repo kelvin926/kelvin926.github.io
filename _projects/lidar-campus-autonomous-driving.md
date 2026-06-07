@@ -2,7 +2,7 @@
 layout: page
 title: "LiDAR-Based Campus Autonomous Driving"
 description: RTK-surveyed HD map, Autoware waypoint driving, and pedestrian tests.
-img: assets/img/projects/lidar_campus_sonata_drive.gif
+img: assets/img/projects/lidar_campus_sonata_drive.webp
 img_alt: In-vehicle campus autonomous-driving test on a Hyundai Sonata platform
 importance: 7
 group: selected
@@ -14,7 +14,7 @@ permalink: /projects/lidar-campus-autonomous-driving/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/lidar_campus_sonata_drive.gif' | relative_url }}" alt="In-vehicle campus autonomous-driving test on a Hyundai Sonata platform" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/lidar_campus_sonata_drive.webp' | relative_url }}" alt="In-vehicle campus autonomous-driving test on a Hyundai Sonata platform" class="img-fluid rounded z-depth-1">
     <figcaption>In-vehicle campus driving test on the Hyundai Sonata platform.</figcaption>
   </figure>
 </div>
@@ -22,13 +22,13 @@ permalink: /projects/lidar-campus-autonomous-driving/
 <div class="project-media-grid project-media-grid--driving">
   <div>
     <figure class="project-media project-media--wide">
-      <img src="{{ '/assets/img/projects/lidar_campus_sonata_roundabout.gif' | relative_url }}" alt="In-vehicle roundabout driving segment on the Hyundai Sonata campus test vehicle" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/lidar_campus_sonata_roundabout.webp' | relative_url }}" alt="In-vehicle roundabout driving segment on the Hyundai Sonata campus test vehicle" class="img-fluid rounded z-depth-1">
       <figcaption>Campus roundabout driving segment from the Sonata test vehicle.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide">
-      <img src="{{ '/assets/img/projects/lidar_campus_road_sweeper_drive.gif' | relative_url }}" alt="Autonomous road-sweeping vehicle moving during a campus driving test" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/lidar_campus_road_sweeper_drive.webp' | relative_url }}" alt="Autonomous road-sweeping vehicle moving during a campus driving test" class="img-fluid rounded z-depth-1">
       <figcaption>Autonomous road-sweeping vehicle test using the same software base.</figcaption>
     </figure>
   </div>

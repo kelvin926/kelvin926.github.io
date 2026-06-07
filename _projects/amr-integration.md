@@ -2,7 +2,7 @@
 layout: page
 title: "On-Campus Autonomous Mobile Robot Systems"
 description: ROS/Autoware integration, LiDAR mapping, detection/tracking, and validation.
-img: assets/img/projects/amr_robot_autonomous_navigation.gif
+img: assets/img/projects/amr_robot_autonomous_navigation.webp
 img_alt: Ranger Mini v2 autonomous indoor navigation test in a campus hallway
 importance: 6
 group: selected
@@ -14,7 +14,7 @@ permalink: /projects/amr-integration/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/amr_campus_lidar_mapping_drive.gif' | relative_url }}" alt="Wheelchair-based LiDAR mapping and on-campus autonomous mobile robot driving test" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/amr_campus_lidar_mapping_drive.webp' | relative_url }}" alt="Wheelchair-based LiDAR mapping and on-campus autonomous mobile robot driving test" class="img-fluid rounded z-depth-1">
     <figcaption>Wheelchair-mounted LiDAR mapping run used to build the campus navigation map.</figcaption>
   </figure>
 </div>
@@ -22,13 +22,13 @@ permalink: /projects/amr-integration/
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/amr_robot_autonomous_navigation.gif' | relative_url }}" alt="Ranger Mini v2 autonomous indoor navigation test in a campus hallway" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/amr_robot_autonomous_navigation.webp' | relative_url }}" alt="Ranger Mini v2 autonomous indoor navigation test in a campus hallway" class="img-fluid rounded z-depth-1">
       <figcaption>Ranger Mini v2 autonomous indoor navigation test.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/amr_building_to_building_navigation.gif' | relative_url }}" alt="Outdoor building-to-building autonomous navigation test with the campus AMR platform" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/amr_building_to_building_navigation.webp' | relative_url }}" alt="Outdoor building-to-building autonomous navigation test with the campus AMR platform" class="img-fluid rounded z-depth-1">
       <figcaption>Outdoor building-to-building autonomous navigation segment from the project presentation.</figcaption>
     </figure>
   </div>

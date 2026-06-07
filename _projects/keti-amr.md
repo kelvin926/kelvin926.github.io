@@ -2,7 +2,7 @@
 layout: page
 title: "KETI 20-DOF Wheeled-Legged AMR"
 description: Rough-terrain velocity tracking and chassis-leveling objective in Isaac Lab.
-img: assets/img/projects/keti_velocity_tracking_training.gif
+img: assets/img/projects/keti_velocity_tracking_training.webp
 img_alt: Isaac Lab velocity-tracking training scene for the KETI 20-DOF wheeled-legged AMR
 importance: 3
 group: selected
@@ -14,7 +14,7 @@ permalink: /projects/keti-amr/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/keti_velocity_tracking_training.gif' | relative_url }}" alt="Isaac Lab velocity-tracking training scene for the KETI 20-DOF wheeled-legged AMR" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/keti_velocity_tracking_training.webp' | relative_url }}" alt="Isaac Lab velocity-tracking training scene for the KETI 20-DOF wheeled-legged AMR" class="img-fluid rounded z-depth-1">
     <figcaption>Isaac Lab velocity-tracking setup for the KETI 20-DOF wheeled-legged AMR.</figcaption>
   </figure>
 </div>
@@ -22,7 +22,7 @@ permalink: /projects/keti-amr/
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/keti_amr_training_overview.gif' | relative_url }}" alt="KETI 20-DOF wheeled-legged AMR training overview in Isaac Lab" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/keti_amr_training_overview.webp' | relative_url }}" alt="KETI 20-DOF wheeled-legged AMR training overview in Isaac Lab" class="img-fluid rounded z-depth-1">
       <figcaption>Training overview used while tuning the velocity-tracking task.</figcaption>
     </figure>
   </div>

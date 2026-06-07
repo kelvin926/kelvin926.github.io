@@ -2,7 +2,7 @@
 layout: page
 title: "Aircraft Towing and GPAU Feasibility"
 description: Aircraft towing and GPAU support equipment review.
-img: assets/img/projects/aircraft_towing_gpau_review.gif
+img: assets/img/projects/aircraft_towing_gpau_review.webp
 img_alt: Isaac Sim aircraft towing and GPAU feasibility review scene
 importance: 8
 group: other
@@ -14,7 +14,7 @@ permalink: /projects/aircraft-towing-gpau/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/aircraft_towing_gpau_review.gif' | relative_url }}" alt="Isaac Sim aircraft towing and GPAU feasibility review scene" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/aircraft_towing_gpau_review.webp' | relative_url }}" alt="Isaac Sim aircraft towing and GPAU feasibility review scene" class="img-fluid rounded z-depth-1">
     <figcaption>Isaac Sim scenario review for aircraft towing and GPAU support-equipment concepts.</figcaption>
   </figure>
 </div>

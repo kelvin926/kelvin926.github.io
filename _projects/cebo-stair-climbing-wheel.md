@@ -2,7 +2,7 @@
 layout: page
 title: "CEBO-Based Stair-Climbing Wheel Design"
 description: CoppeliaSim evaluation-loop automation for T-pedal wheel design.
-img: assets/img/projects/cebo_physical_stair_guided.gif
+img: assets/img/projects/cebo_physical_stair_guided.webp
 img_alt: Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance
 importance: 5
 group: selected
@@ -14,7 +14,7 @@ permalink: /projects/cebo-stair-climbing-wheel/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/cebo_stair_climbing_demo.gif' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design evaluation loop for CEBO" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/cebo_stair_climbing_demo.webp' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design evaluation loop for CEBO" class="img-fluid rounded z-depth-1">
     <figcaption>CoppeliaSim evaluation loop used for T-pedal wheel design optimization.</figcaption>
   </figure>
 </div>
@@ -27,13 +27,13 @@ permalink: /projects/cebo-stair-climbing-wheel/
 <div class="project-media-grid project-media-grid--driving">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.webp' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1">
       <figcaption>Physical stair test with manual guidance.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_physical_stair_test.gif' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/cebo_physical_stair_test.webp' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot" class="img-fluid rounded z-depth-1">
       <figcaption>Physical stair test.</figcaption>
     </figure>
   </div>

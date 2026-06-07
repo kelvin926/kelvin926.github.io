@@ -2,7 +2,7 @@
 layout: page
 title: "Inventory-Inspection Robot Adaptive Suspension"
 description: Suspension stabilization for full-lift driving of a 10 m-class platform.
-img: assets/img/projects/inventory_adaptive_suspension_demo.gif
+img: assets/img/projects/inventory_adaptive_suspension_demo.webp
 img_alt: Inventory-inspection robot adaptive suspension stabilization comparison
 importance: 4
 group: selected
@@ -14,7 +14,7 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.gif' | relative_url }}" alt="Inventory-inspection robot adaptive suspension stabilization comparison" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.webp' | relative_url }}" alt="Inventory-inspection robot adaptive suspension stabilization comparison" class="img-fluid rounded z-depth-1">
     <figcaption>Terrain-adaptive suspension stabilization comparison during full-lift driving.</figcaption>
   </figure>
 </div>
@@ -22,7 +22,7 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/inventory_isaac_stabilized_drive.gif' | relative_url }}" alt="Isaac Lab stabilized full-lift driving clip for the inventory-inspection robot" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/inventory_isaac_stabilized_drive.webp' | relative_url }}" alt="Isaac Lab stabilized full-lift driving clip for the inventory-inspection robot" class="img-fluid rounded z-depth-1">
       <figcaption>Stabilized full-lift driving evaluation in Isaac Lab.</figcaption>
     </figure>
   </div>

@@ -2,7 +2,7 @@
 layout: page
 title: "Lift-Equipped Mobile Manipulator"
 description: Isaac Lab shelf-transfer task with PPO training and success/failure analysis.
-img: assets/img/projects/lift_mobile_manipulator_platform.gif
+img: assets/img/projects/lift_mobile_manipulator_platform.webp
 img_alt: Lift-equipped mobile manipulator platform moving in a rack environment
 importance: 2
 group: selected
@@ -14,7 +14,7 @@ permalink: /projects/lift-mobile-manipulator/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/lift_mobile_manipulator_platform.gif' | relative_url }}" alt="Lift-equipped mobile manipulator platform moving in a rack environment" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/lift_mobile_manipulator_platform.webp' | relative_url }}" alt="Lift-equipped mobile manipulator platform moving in a rack environment" class="img-fluid rounded z-depth-1">
     <figcaption>Lift-equipped mobile manipulator platform for shelf-transfer experiments in multi-level rack environments.</figcaption>
   </figure>
 </div>
@@ -28,7 +28,7 @@ permalink: /projects/lift-mobile-manipulator/
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/lift_shelf_transfer_sequence.gif' | relative_url }}" alt="Shelf-transfer sequence for the lift-equipped mobile manipulator in Isaac Lab" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/lift_shelf_transfer_sequence.webp' | relative_url }}" alt="Shelf-transfer sequence for the lift-equipped mobile manipulator in Isaac Lab" class="img-fluid rounded z-depth-1">
       <figcaption>Shelf-transfer sequence under source-object randomization.</figcaption>
     </figure>
   </div>

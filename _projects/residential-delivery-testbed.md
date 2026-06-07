@@ -2,7 +2,7 @@
 layout: page
 title: "Residential Delivery-Robot Testbed"
 description: Service scenarios and validation notes for residential delivery robots.
-img: assets/img/projects/residential_delivery_testbed_slides.gif
+img: assets/img/projects/residential_delivery_testbed_slides.webp
 img_alt: Residential delivery-robot testbed planning slides for apartment service scenarios
 importance: 9
 group: other
@@ -14,7 +14,7 @@ permalink: /projects/residential-delivery-testbed/
 
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/residential_delivery_testbed_slides.gif' | relative_url }}" alt="Residential delivery-robot testbed planning slides for apartment service scenarios" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/residential_delivery_testbed_slides.webp' | relative_url }}" alt="Residential delivery-robot testbed planning slides for apartment service scenarios" class="img-fluid rounded z-depth-1">
     <figcaption>Service-scenario and validation-planning slides for a residential delivery-robot testbed.</figcaption>
   </figure>
 </div>
