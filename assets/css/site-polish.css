@@ -385,6 +385,20 @@ html[data-theme="dark"] {
   object-fit: contain;
 }
 
+.project-media-grid--amr-transfer {
+  grid-template-columns: minmax(0, 1.55fr) minmax(190px, 0.75fr);
+  align-items: center;
+}
+
+.project-media-grid--amr-transfer .project-media--wide img {
+  width: 100% !important;
+  max-height: 360px;
+}
+
+.project-media-grid--amr-transfer .project-media--portrait img {
+  max-height: 360px;
+}
+
 .project-media-grid--supporting {
   grid-template-columns: minmax(145px, 0.72fr) minmax(0, 1.14fr) minmax(0, 1.14fr);
   gap: 0.85rem;
