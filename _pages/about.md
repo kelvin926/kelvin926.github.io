@@ -92,7 +92,10 @@ latest_posts:
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2025</div>
-    <div class="home-news-text">Selected for the NRF Master's Student Research Grant as an individual research project. 🎉</div>
+    <div class="home-news-text">
+      <div>Selected for the NRF Master's Student Research Grant (한국연구재단 이공분야 학술연구지원사업 석사과정생 연구장려금) as an individual research project. 🎉</div>
+      <div class="home-news-note">CEBO-Based Stair-Climbing Wheel Design</div>
+    </div>
   </div>
 </div>
 
