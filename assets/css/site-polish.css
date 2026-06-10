@@ -165,6 +165,13 @@ html[data-theme="dark"] {
   line-height: 1.45;
 }
 
+.home-news-note {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-top: 0.18rem;
+}
+
 .home-pub-list {
   display: grid;
   gap: 0.7rem;
