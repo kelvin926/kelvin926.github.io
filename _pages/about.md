@@ -92,7 +92,7 @@ latest_posts:
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2025</div>
-    <div class="home-news-text">Selected for the NRF Master's Student Research Grant as an individual research project.</div>
+    <div class="home-news-text">Selected for the NRF Master's Student Research Grant as an individual research project. 🎉</div>
   </div>
 </div>
 
