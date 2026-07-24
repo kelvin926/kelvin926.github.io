@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   M.S. Student, Department of Mobility Science and Engineering<br>
-  Research Intern, AVE Lab, KAIST
+  Prospective Ph.D. Student, AVE Lab, KAIST
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-contact">
-      <span>AVE Lab, KAIST</span>
+      <span>Prospective Ph.D. Student, AVE Lab, KAIST</span>
       <span>M.S. Student, Korea University</span>
       <a href="mailto:kelvin926@korea.ac.kr">kelvin926@korea.ac.kr</a>
     </div>
@@ -29,7 +29,7 @@ latest_posts:
 
 <div class="home-intro">
   <p class="home-lede">
-    I am an M.S. student in Mobility Science and Engineering at Korea University and a research intern at AVE Lab, KAIST. My current research focuses on autonomous driving systems and robot perception, with an emphasis on LiDAR-based environmental understanding, detection and tracking, and robust perception-to-planning integration.
+    I am an M.S. student in Mobility Science and Engineering at Korea University and a prospective Ph.D. student at AVE Lab, KAIST. My current research focuses on autonomous driving systems and robot perception, with an emphasis on LiDAR-based environmental understanding, detection and tracking, and robust perception-to-planning integration.
     My previous work includes ROS/Autoware-based mobile-robot integration, Isaac Lab/RSL-RL policy learning, and CEBO-based simulation evaluation-loop automation.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
