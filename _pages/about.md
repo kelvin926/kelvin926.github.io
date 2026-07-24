@@ -4,8 +4,7 @@ title: about
 permalink: /
 subtitle: >
   M.S. Student, Department of Mobility Science and Engineering<br>
-  Field Robot Lab, Korea University<br>
-  Advisor: Prof. Youngeun Song
+  Research Intern, AVE Lab, Korea University
 
 profile:
   align: right
@@ -13,7 +12,7 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-contact">
-      <span>Field Robot Lab</span>
+      <span>AVE Lab</span>
       <span>Korea University</span>
       <a href="mailto:kelvin926@korea.ac.kr">kelvin926@korea.ac.kr</a>
     </div>
@@ -30,8 +29,8 @@ latest_posts:
 
 <div class="home-intro">
   <p class="home-lede">
-    I am an M.S. student in the Field Robot Lab at Korea University. My research focuses on simulation-based robot learning and control for mobile robotic systems, with an emphasis on mobile manipulation, wheeled-legged loco-manipulation, and stability-aware evaluation.
-    Recent projects include Isaac Lab/RSL-RL policy training for KALO and shelf-transfer mobile manipulation, ROS/Autoware-based AMR integration, and CEBO-based simulation evaluation-loop automation.
+    I am an M.S. student in Mobility Science and Engineering at Korea University and a research intern at AVE Lab. My current research focuses on autonomous driving systems and robot perception, with an emphasis on LiDAR-based environmental understanding, detection and tracking, and robust perception-to-planning integration.
+    My previous work includes ROS/Autoware-based mobile-robot integration, Isaac Lab/RSL-RL policy learning, and CEBO-based simulation evaluation-loop automation.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
     <a href="mailto:kelvin926@korea.ac.kr">Email</a>
@@ -43,20 +42,20 @@ latest_posts:
 
 <div class="home-focus-row" aria-label="Research focus">
   <div class="home-focus-item">
-    <strong>Mobile manipulation and dynamic carrying control</strong>
-    <span>Object-conditioned carrying, shelf-transfer tasks, and bimanual/mobile manipulation.</span>
+    <strong>Autonomous driving systems</strong>
+    <span>ROS2/Autoware integration, map-based driving, planning, and control.</span>
+  </div>
+  <div class="home-focus-item">
+    <strong>Robot perception</strong>
+    <span>LiDAR mapping, object detection/tracking, and environment understanding.</span>
   </div>
   <div class="home-focus-item">
     <strong>Robot learning and simulation</strong>
-    <span>Isaac Lab, RSL-RL, PPO, MDP/reward design, curriculum design, and policy evaluation.</span>
+    <span>Isaac Lab, RSL-RL, PPO, MDP/reward design, and policy evaluation.</span>
   </div>
   <div class="home-focus-item">
-    <strong>Stability-aware evaluation</strong>
-    <span>Object tilt, grasp stability, base slip, chassis leveling, and safety metrics.</span>
-  </div>
-  <div class="home-focus-item">
-    <strong>AMR perception and navigation</strong>
-    <span>ROS/Autoware, LiDAR mapping, detection/tracking, and campus-scale validation.</span>
+    <strong>Mobile robotics and validation</strong>
+    <span>AMR integration, simulation validation, and safety-aware evaluation.</span>
   </div>
 </div>
 
@@ -64,10 +63,10 @@ latest_posts:
 
 <div class="home-research-direction">
   <p>
-    I am interested in object-conditioned robot learning and control for mobile manipulation. In particular, I aim to study how mobile manipulators can adjust arm motion, base acceleration, and safety margins depending on object properties such as mass, shape, grasp stability, and fragility.
+    I am now focusing on autonomous driving and mobile-robot intelligence: building reliable systems that connect LiDAR-based perception and tracking to decision-making, planning, and control in real-world environments.
   </p>
   <p>
-    This direction grew from my KALO, shelf-transfer mobile-manipulation, and AMR integration projects, where I worked on policy training, task formulation, and stability-oriented evaluation.
+    This direction builds on my ROS/Autoware integration, LiDAR perception, and learning-based robotics experience, while keeping simulation and safety-oriented evaluation as a foundation for robust deployment.
   </p>
 </div>
 
@@ -88,7 +87,7 @@ latest_posts:
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2026</div>
-    <div class="home-news-text">The CEBO manuscript was revised and resubmitted to <em>Advanced Engineering Informatics</em> after minor revision.</div>
+    <div class="home-news-text">The CEBO paper was accepted by <em>Advanced Engineering Informatics</em> and is in production.</div>
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2025</div>
@@ -116,7 +115,7 @@ latest_posts:
   </div>
   <div class="home-pub-item">
     <div class="home-pub-title">Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot</div>
-    <div class="home-pub-meta"><em>Advanced Engineering Informatics</em>, revised manuscript resubmitted after minor revision.</div>
+    <div class="home-pub-meta"><em>Advanced Engineering Informatics</em>, accepted; in production.</div>
   </div>
 </div>
 
