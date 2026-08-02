@@ -35,7 +35,7 @@ latest_posts:
   <div class="home-linkbar" aria-label="Profile links">
     <a href="mailto:kelvin926@korea.ac.kr">Email</a>
     <a href="https://github.com/kelvin926">GitHub</a>
-    <a href="https://scholar.google.com/citations?user=dEmD_rQAAAAJ">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=4UTN6xYAAAAJ">Google Scholar</a>
     <a href="https://orcid.org/0009-0007-1284-4330">ORCID</a>
   </div>
 </div>
