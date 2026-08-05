@@ -22,13 +22,13 @@ permalink: /projects/residential-delivery-testbed/
 <div class="project-media-grid project-media-grid--two">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/residential_testbed_robot_categories.webp' | relative_url }}" alt="Mobile service robot platform categories reviewed for residential delivery-robot testbed planning" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/residential_testbed_robot_categories.webp' | relative_url }}" alt="Mobile service robot platform categories reviewed for residential delivery-robot testbed planning" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Candidate mobile-service robot platforms reviewed for residential delivery.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/residential_testbed_validation_flow.webp' | relative_url }}" alt="Residential delivery-robot validation flow covering drive, sensor, communication, battery, autonomy, and maintenance items" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/residential_testbed_validation_flow.webp' | relative_url }}" alt="Residential delivery-robot validation flow covering drive, sensor, communication, battery, autonomy, and maintenance items" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Validation-flow outline for robot operation and service checks.</figcaption>
     </figure>
   </div>

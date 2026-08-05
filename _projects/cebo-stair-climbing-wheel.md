@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "CEBO-Based Stair-Climbing Wheel Design"
-description: CoppeliaSim evaluation-loop automation for T-pedal wheel design.
+description: Bayesian optimization and automated simulation evaluation for stair-climbing wheel design.
 img: assets/img/projects/cebo_physical_stair_guided.webp
+thumb: assets/img/projects/thumb_cebo.webp
 img_alt: Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance
 importance: 5
 group: selected
@@ -20,20 +21,20 @@ permalink: /projects/cebo-stair-climbing-wheel/
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/cebo_stair_climbing_robot_design.jpg' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design result for CEBO" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/cebo_stair_climbing_robot_design.jpg' | relative_url }}" alt="CoppeliaSim stair-climbing wheel-design result for CEBO" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>T-pedal wheel design result used in the stair-climbing evaluation.</figcaption>
 </figure>
 
 <div class="project-media-grid project-media-grid--driving">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.webp' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/cebo_physical_stair_guided.webp' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Physical stair test with manual guidance.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/cebo_physical_stair_test.webp' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/cebo_physical_stair_test.webp' | relative_url }}" alt="Physical stair-climbing test clip for the T-pedal wheel robot" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Physical stair test.</figcaption>
     </figure>
   </div>
@@ -44,5 +45,5 @@ I formulated a six-variable T-pedal wheel design problem for stair-climbing perf
 - **Role:** T-pedal wheel search-space design, CEBO optimization experiments, CoppeliaSim evaluation-loop automation
 - **Tools:** Bayesian optimization, CoppeliaSim, Python
 - **Result:** nominal traversal time decreased by 23.31% (9.405 s -> 7.213 s), and body-pitch stability median decreased by 37.84% (1.102 deg -> 0.685 deg) under the nominal friction condition.
-- **Paper:** _Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot_. _Advanced Engineering Informatics_, accepted and in production.
+- **Paper:** _Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot_. _Advanced Engineering Informatics_, 76, 105096, 2026. [DOI](https://doi.org/10.1016/j.aei.2026.105096)
 - **Code:** [kelvin926/T-Pedal-with-CEBO](https://github.com/kelvin926/T-Pedal-with-CEBO)

@@ -2,23 +2,25 @@
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if project.img %}
+        {% assign project_card_img = project.thumb | default: project.img %}
         {% assign project_img_alt = project.img_alt | default: project.title %}
-        {% assign project_img_ext = project.img | split: '.' | last | downcase %}
+        {% assign project_img_ext = project_card_img | split: '.' | last | downcase %}
         <div class="project-card-media">
           {% if project_img_ext == 'gif' or project_img_ext == 'webp' %}
             <img
-              src="{{ project.img | relative_url }}"
+              src="{{ project_card_img | relative_url }}"
               class="card-img-top project-card-image"
               width="100%"
               height="auto"
               alt="{{ project_img_alt }}"
-              loading="eager"
+              loading="lazy"
+              decoding="async"
             >
           {% else %}
             {%
               include figure.liquid
-              loading="eager"
-              path=project.img
+              loading="lazy"
+              path=project_card_img
               sizes = "250px"
               alt=project_img_alt
               class="card-img-top project-card-image"

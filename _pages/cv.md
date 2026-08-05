@@ -20,18 +20,18 @@ Feb. 2025, graduated with honors
 
 ## research profile
 
-My work connects mobile manipulation, robot learning in simulation, and field robot integration. I have built Isaac Lab/RSL-RL training environments for wheeled-legged and mobile-manipulation tasks, and ROS/Autoware-based AMR systems with LiDAR perception and navigation.
+My work connects autonomous driving and robot perception with learning-based robotics and field-system integration. I have built ROS/Autoware-based autonomous mobile-robot systems with LiDAR perception and navigation, along with Isaac Lab/RSL-RL environments for wheeled-legged and mobile-manipulation tasks.
 
-- Mobile manipulation and dynamic carrying control
+- Autonomous driving and robot perception with environment understanding, detection/tracking, and perception-to-planning integration
 - Robot learning and simulation with Isaac Lab, RSL-RL, PPO, MDP formulation, reward shaping, curriculum design, and policy evaluation
-- Stability-aware evaluation for object tilt, grasp stability, base slip, and chassis leveling
-- AMR perception and navigation with ROS/Autoware and LiDAR detection/tracking
+- Field-system integration with ROS2/Autoware, CAN, LiDAR mapping, and autonomous navigation
+- Stability-aware evaluation for mobile manipulation, chassis leveling, and rough-terrain driving
 
 ## selected research projects
 
-- [KALO: Kangaroo-LocoManipulation](/projects/kalo/): constrained arm motion for early-launch behavior on a Go2W-OpenArm wheeled-legged platform.
+- [KALO: Kangaroo-LocoManipulation](/projects/kalo/): arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.
 - [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): shelf-transfer mobile-manipulation task with Isaac Lab PPO setup and success/failure analysis.
-- [KETI 20-DOF Wheeled-Legged AMR](/projects/keti-amr/): rough-terrain velocity-tracking setup and chassis-leveling objective for a wheeled-legged AMR.
+- [Rough-Terrain Wheeled-Legged AMR](/projects/keti-amr/): reinforcement-learning setup for velocity tracking and chassis leveling.
 - [Inventory-Inspection Robot Adaptive Suspension](/projects/inventory-inspection-adaptive-suspension/): suspension-stabilization workflow for full-lift driving of a 10 m-class inventory-inspection robot.
 - [CEBO-Based Stair-Climbing Wheel Design](/projects/cebo-stair-climbing-wheel/): CoppeliaSim evaluation-loop automation and optimization for T-pedal wheel design.
 - [On-Campus Autonomous Mobile Robot Systems](/projects/amr-integration/): ROS/Autoware AMR integration, LiDAR mapping, detection/tracking, waypoint driving, and campus validation.

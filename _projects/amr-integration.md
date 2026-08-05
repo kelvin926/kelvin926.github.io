@@ -3,6 +3,7 @@ layout: page
 title: "On-Campus Autonomous Mobile Robot Systems"
 description: ROS/Autoware integration, LiDAR mapping, detection/tracking, and validation.
 img: assets/img/projects/amr_robot_autonomous_navigation.webp
+thumb: assets/img/projects/thumb_amr_integration.webp
 img_alt: Ranger Mini v2 autonomous indoor navigation test in a campus hallway
 importance: 6
 group: selected
@@ -22,13 +23,13 @@ permalink: /projects/amr-integration/
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/amr_robot_autonomous_navigation.webp' | relative_url }}" alt="Ranger Mini v2 autonomous indoor navigation test in a campus hallway" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/amr_robot_autonomous_navigation.webp' | relative_url }}" alt="Ranger Mini v2 autonomous indoor navigation test in a campus hallway" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Ranger Mini v2 autonomous indoor navigation test.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--portrait">
-      <img src="{{ '/assets/img/projects/amr_building_to_building_navigation.webp' | relative_url }}" alt="Outdoor building-to-building autonomous navigation test with the campus AMR platform" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/amr_building_to_building_navigation.webp' | relative_url }}" alt="Outdoor building-to-building autonomous navigation test with the campus AMR platform" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Outdoor building-to-building autonomous navigation segment from the project presentation.</figcaption>
     </figure>
   </div>
@@ -37,13 +38,13 @@ permalink: /projects/amr-integration/
 <div class="project-media-grid project-media-grid--amr-transfer">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/amr_indoor_outdoor_navigation_screen.webp' | relative_url }}" alt="Autoware and LiDAR map screen recording for an indoor-to-outdoor-to-indoor campus autonomous navigation run" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/amr_indoor_outdoor_navigation_screen.webp' | relative_url }}" alt="Autoware and LiDAR map screen recording for an indoor-to-outdoor-to-indoor campus autonomous navigation run" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Autoware/LiDAR screen recording from an indoor-to-outdoor-to-indoor campus navigation run.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--portrait project-media--compact">
-      <img src="{{ '/assets/img/projects/amr_indoor_outdoor_navigation_robot.webp' | relative_url }}" alt="Ranger Mini v2 robot driving from indoors to outdoors and into another campus building" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/amr_indoor_outdoor_navigation_robot.webp' | relative_url }}" alt="Ranger Mini v2 robot driving from indoors to outdoors and into another campus building" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Robot-view clip from the same building-to-building navigation run.</figcaption>
     </figure>
   </div>
@@ -61,19 +62,19 @@ I built Ranger Mini v2 AMR and 1/5-scale autonomous-vehicle test setups for indo
   <div class="project-media-grid project-media-grid--supporting">
     <div>
       <figure class="project-media project-media--portrait">
-        <img src="{{ '/assets/img/projects/amr_ranger_mini_platform_closeup.jpg' | relative_url }}" alt="Ranger Mini v2 mobile robot platform with Velodyne LiDAR and onboard sensors" class="img-fluid rounded z-depth-1">
+        <img src="{{ '/assets/img/projects/amr_ranger_mini_platform_closeup.jpg' | relative_url }}" alt="Ranger Mini v2 mobile robot platform with Velodyne LiDAR and onboard sensors" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
         <figcaption>Ranger Mini v2 platform with LiDAR and onboard sensing hardware.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="project-media project-media--wide project-media--compact">
-        <img src="{{ '/assets/img/projects/amr_lidar_map_builder.jpg' | relative_url }}" alt="LiDAR point-cloud map and waypoint editing for on-campus mobile robot navigation" class="img-fluid rounded z-depth-1">
+        <img src="{{ '/assets/img/projects/amr_lidar_map_builder.jpg' | relative_url }}" alt="LiDAR point-cloud map and waypoint editing for on-campus mobile robot navigation" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
         <figcaption>LiDAR-only mapping and waypoint editing for campus navigation tests.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="project-media project-media--portrait">
-        <img src="{{ '/assets/img/projects/amr_outdoor_lidar_platform.jpg' | relative_url }}" alt="LiDAR-equipped campus mobile robot platform during outdoor mapping and navigation testing" class="img-fluid rounded z-depth-1">
+        <img src="{{ '/assets/img/projects/amr_outdoor_lidar_platform.jpg' | relative_url }}" alt="LiDAR-equipped campus mobile robot platform during outdoor mapping and navigation testing" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
         <figcaption>LiDAR-equipped campus mobile robot platform used for outdoor mapping and navigation tests.</figcaption>
       </figure>
     </div>

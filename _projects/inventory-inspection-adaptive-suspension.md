@@ -3,6 +3,7 @@ layout: page
 title: "Inventory-Inspection Robot Adaptive Suspension"
 description: Suspension stabilization for full-lift driving of a 10 m-class platform.
 img: assets/img/projects/inventory_adaptive_suspension_demo.webp
+thumb: assets/img/projects/thumb_inventory_suspension.webp
 img_alt: Inventory-inspection robot adaptive suspension stabilization comparison
 importance: 4
 group: selected
@@ -22,20 +23,20 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/inventory_isaac_stabilized_drive.webp' | relative_url }}" alt="Isaac Lab stabilized full-lift driving clip for the inventory-inspection robot" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/inventory_isaac_stabilized_drive.webp' | relative_url }}" alt="Isaac Lab stabilized full-lift driving clip for the inventory-inspection robot" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Stabilized full-lift driving evaluation in Isaac Lab.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/adaptive_suspension_inventory_robot.png' | relative_url }}" alt="Inventory-inspection robot adaptive suspension validation scene" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/adaptive_suspension_inventory_robot.png' | relative_url }}" alt="Inventory-inspection robot adaptive suspension validation scene" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Inventory-inspection robot validation setup.</figcaption>
     </figure>
   </div>
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/inventory_baseline_full_lift_drive.jpg' | relative_url }}" alt="Baseline full-lift driving frame for the inventory-inspection robot before suspension stabilization" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/inventory_baseline_full_lift_drive.jpg' | relative_url }}" alt="Baseline full-lift driving frame for the inventory-inspection robot before suspension stabilization" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>Baseline full-lift driving frame before stabilization.</figcaption>
 </figure>
 
