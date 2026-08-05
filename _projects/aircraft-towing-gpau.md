@@ -22,19 +22,19 @@ permalink: /projects/aircraft-towing-gpau/
 <div class="project-media-grid project-media-grid--three">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/aircraft_gpau_aircraft_close_frame.jpg' | relative_url }}" alt="Aircraft towing feasibility scene in Isaac Sim with support equipment near parked aircraft" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/aircraft_gpau_aircraft_close_frame.jpg' | relative_url }}" alt="Aircraft towing feasibility scene in Isaac Sim with support equipment near parked aircraft" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Aircraft-side towing feasibility scene.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/aircraft_gpau_support_equipment_frame.jpg' | relative_url }}" alt="GPAU support-equipment scenario frame from the Isaac Sim feasibility review" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/aircraft_gpau_support_equipment_frame.jpg' | relative_url }}" alt="GPAU support-equipment scenario frame from the Isaac Sim feasibility review" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>GPAU support-equipment scenario frame.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/aircraft_gpau_towing_scene_frame.jpg' | relative_url }}" alt="Isaac Sim overview for aircraft towing route and ground-support equipment placement" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/aircraft_gpau_towing_scene_frame.jpg' | relative_url }}" alt="Isaac Sim overview for aircraft towing route and ground-support equipment placement" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Towing route and support-equipment placement review.</figcaption>
     </figure>
   </div>

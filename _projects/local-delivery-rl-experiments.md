@@ -20,7 +20,7 @@ permalink: /projects/local-delivery-rl-experiments/
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/local_delivery_2d_storage_environment.jpg' | relative_url }}" alt="2D storage environment for local delivery robot reinforcement-learning experiments" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/local_delivery_2d_storage_environment.jpg' | relative_url }}" alt="2D storage environment for local delivery robot reinforcement-learning experiments" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>2D storage environment for dual-handler experiments.</figcaption>
 </figure>
 

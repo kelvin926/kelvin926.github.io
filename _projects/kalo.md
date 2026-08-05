@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "KALO: Kangaroo-LocoManipulation"
-description: Constrained arm motion for early-launch behavior on a Go2W-OpenArm platform.
+description: Arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.
 img: assets/img/projects/kalo_arm_swing_proposed.webp
+thumb: assets/img/projects/thumb_kalo.webp
 img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform
 importance: 1
 group: selected
@@ -20,19 +21,19 @@ permalink: /projects/kalo/
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/kalo_motion_snapshots_grid_4shot.png' | relative_url }}" alt="Four side-view KALO launch snapshots after launch onset" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/kalo_motion_snapshots_grid_4shot.png' | relative_url }}" alt="Four side-view KALO launch snapshots after launch onset" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>Side-view launch snapshots from the AIM 2026 paper.</figcaption>
 </figure>
 
 <figure class="project-media project-media--wide">
-  <img src="{{ '/assets/img/projects/kalo_normalized_vx_ready_launch.png' | relative_url }}" alt="Normalized forward velocity comparison for Base, Fixed carrying pose, and KALO controllers" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/kalo_normalized_vx_ready_launch.png' | relative_url }}" alt="Normalized forward velocity comparison for Base, Fixed carrying pose, and KALO controllers" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>Normalized forward velocity over the first 1.5 s after launch onset.</figcaption>
 </figure>
 
-I studied constrained arm motion for early-launch behavior in a Go2W-OpenArm wheeled-legged platform. The project evaluated whether manipulator-induced inertial effects can improve initial acceleration under controlled Isaac Lab/RSL-RL simulation settings.
+I studied arm-motion-assisted launch control for a wheeled-legged mobile manipulator. The project evaluated whether manipulator-induced inertial effects can improve initial acceleration under controlled Isaac Lab/RSL-RL simulation settings.
 
-- **Role:** launch-assist concept, Go2W-OpenArm setup, evaluation metrics, Isaac Lab/RSL-RL experiments
-- **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO, Go2W-OpenArm
+- **Role:** launch-assist concept, mobile-manipulator setup, evaluation metrics, Isaac Lab/RSL-RL experiments
+- **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO
 - **Result:** normalized forward-velocity AUC(0-1.5 s) increased by 15.1% over Fixed (0.726 -> 0.835); t90 decreased from 1.703 s to 1.067 s; 90%-target-speed trials within 1.5 s increased from 29/128 to 69/128.
-- **Paper:** _KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot_. IEEE/ASME AIM 2026, accepted.
+- **Paper:** _KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot_. IEEE/ASME AIM 2026, published.
 - **Code:** [kelvin926/KALO](https://github.com/kelvin926/KALO)

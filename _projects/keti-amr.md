@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "KETI 20-DOF Wheeled-Legged AMR"
-description: Rough-terrain velocity tracking and chassis-leveling objective in Isaac Lab.
+title: "Rough-Terrain Wheeled-Legged AMR"
+description: Reinforcement learning for rough-terrain velocity tracking and chassis leveling.
 img: assets/img/projects/keti_velocity_tracking_training.webp
+thumb: assets/img/projects/thumb_keti_amr.webp
 img_alt: Isaac Lab velocity-tracking training scene for the KETI 20-DOF wheeled-legged AMR
 importance: 3
 group: selected
@@ -22,20 +23,20 @@ permalink: /projects/keti-amr/
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/keti_amr_training_overview.webp' | relative_url }}" alt="KETI 20-DOF wheeled-legged AMR training overview in Isaac Lab" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/keti_amr_training_overview.webp' | relative_url }}" alt="KETI 20-DOF wheeled-legged AMR training overview in Isaac Lab" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Training overview used while tuning the velocity-tracking task.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/keti_amr_single.jpg' | relative_url }}" alt="KETI 20-DOF wheeled-legged AMR simulation model" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/keti_amr_single.jpg' | relative_url }}" alt="KETI 20-DOF wheeled-legged AMR simulation model" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>20-DOF wheeled-legged AMR simulation model.</figcaption>
     </figure>
   </div>
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/keti_amr_training_monitor_frame.jpg' | relative_url }}" alt="Isaac Lab training monitor view for the KETI 20-DOF wheeled-legged AMR" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/keti_amr_training_monitor_frame.jpg' | relative_url }}" alt="Isaac Lab training monitor view for the KETI 20-DOF wheeled-legged AMR" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>Training monitor view while tuning the task.</figcaption>
 </figure>
 

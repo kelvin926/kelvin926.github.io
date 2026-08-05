@@ -20,12 +20,12 @@ permalink: /projects/road-sweeping-tdp/
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/road_sweeping_planning_demo.webp' | relative_url }}" alt="Road-sweeping vehicle route-planning interface clip" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/road_sweeping_planning_demo.webp' | relative_url }}" alt="Road-sweeping vehicle route-planning interface clip" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>Route-planning interface.</figcaption>
 </figure>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/road_sweeper_lab_setup_full.jpg' | relative_url }}" alt="Autonomous road-sweeping vehicle sensor and lab setup during TDP validation review" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/road_sweeper_lab_setup_full.jpg' | relative_url }}" alt="Autonomous road-sweeping vehicle sensor and lab setup during TDP validation review" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>Vehicle and sensor setup during review.</figcaption>
 </figure>
 

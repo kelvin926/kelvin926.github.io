@@ -7,7 +7,7 @@
   author        = {Jang, Hyunseo and Kim, Seungmin and Choi, Donggi and Song, Youngeun},
   booktitle     = {IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)},
   year          = {2026},
-  note          = {Accepted},
+  note          = {Published},
   selected      = {true},
   abstract      = {This paper presents KALO, short for Kangaroo-LocoManipulation, a simulation-based, biomimetically motivated launch controller for improving the early acceleration of a wheel-legged robot. The method repurposes the onboard OpenArm manipulator on a Go2W base as a constrained tail-like inertial appendage during the launch phase and learns a constrained single-joint arm residual from a settled pre-launch state. We evaluate KALO in deterministic simulation rollouts in NVIDIA Isaac Lab, aligned to launch onset, and compare it with a stowed-arm locomotion baseline and a fixed carrying-pose baseline under an early-window protocol focused on the first 1.5 s. Across this transient, KALO accumulates forward velocity faster, reaches target-speed fractions sooner than both baselines, and remains substantially more directionally stable than the fixed carrying-pose controller. The results indicate that, in simulation, the onboard manipulator can function as a short-horizon launch-assist appendage in addition to its manipulation role.}
 }
@@ -18,7 +18,7 @@
   author        = {Ha, Jiseung and Jang, Hyunseo and Choi, Donggi and Song, Youngeun},
   booktitle     = {IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)},
   year          = {2026},
-  note          = {Accepted},
+  note          = {Published},
   selected      = {true},
   abstract      = {This paper presents a lift-equipped mobile manipulator platform and a reinforcement learning environment for shelf transfer in a multi-level rack. The task requires grasping an object from a source shelf, extracting it from the shelf, transporting it to a target shelf location, releasing it, and completing final placement. Compared with tabletop pick-and-place, the setting introduces constrained shelf geometry, vertical reach requirements, and coordinated lift-arm motion. We formulate the task in Isaac Lab using a fixed-base lift-enabled AMR-arm platform with a right-arm manipulation setup, a 9-D action space, a 41-D state observation, staged reward terms, and a placement-oriented task completion criterion. Policies are trained with Proximal Policy Optimization (PPO), and the evaluation protocol measures end-to-end success together with intermediate extraction and placement metrics. The proposed platform is intended to support the study of vertically structured warehouse manipulation in which source-shelf extraction, inter-level transport, and target-shelf placement must all be achieved within a single episode.}
 }
@@ -39,8 +39,10 @@
   title         = {Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot},
   author        = {Jang, Hyunseo and Seo, Hyeonbeen and Song, Youngeun and Lee, Ungki},
   journal       = {Advanced Engineering Informatics},
+  volume        = {76},
+  pages         = {105096},
   year          = {2026},
-  note          = {Accepted; in production},
+  doi           = {10.1016/j.aei.2026.105096},
   selected      = {true},
   abstract      = {This study presents a clustering-enhanced Bayesian optimization (CEBO) framework that improves the efficiency and stability of Bayesian optimization (BO) by incorporating a plausible region search (PRS) algorithm. Using prediction values from the surrogate model, the PRS algorithm identifies regions likely to contain the global optimum through candidate screening, clustering, and plausible region identification. CEBO reduces the search space by filtering out samples with low prediction values and identifying informative clusters via K-means clustering combined with silhouette analysis. Leveraging multiple prediction values, the cluster with the lowest mean prediction is designated as the plausible region, within which the next evaluation point is selected using the expected improvement (EI) criterion to efficiently update the surrogate model. Extensive numerical validation on benchmark problems ranging from 2D to 12D demonstrates that CEBO consistently outperforms conventional BO methods by reducing the number of function evaluations. In a 6D T-pedal wheel design problem, CEBO further demonstrates its practical applicability by achieving the lowest standard deviation while reducing the number of function evaluations, thereby confirming both superior efficiency and stability beyond synthetic benchmarks.}
 }

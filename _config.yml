@@ -9,11 +9,11 @@ last_name: Jang
 contact_note: >
   M.S. student, Field Robot Lab, Korea University.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hyunseo Jang is an M.S. student at Field Robot Lab, Korea University, working on simulation-based robot learning and control, mobile manipulation, wheeled-legged loco-manipulation, stability-aware evaluation, and AMR integration.
+  Hyunseo Jang is an M.S. student at Korea University working on autonomous driving, robot perception, learning-based robotics, and real-world system integration and validation.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: robotics, mobile manipulation, robot learning, stability-aware evaluation, AMR, Isaac Lab, RSL-RL, Autoware, LiDAR # add your own keywords or leave empty
+keywords: autonomous driving, robot perception, robotics, mobile manipulation, robot learning, AMR, ROS2, Autoware, LiDAR, Isaac Lab # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -99,7 +99,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: assets/img/hyunseo_jang.jpg # The site-wide (default for all links) Open Graph preview image
+og_image: https://home.hyunseo.kr/assets/img/hyunseo_jang.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -399,7 +399,7 @@ enable_publication_thumbnails: true
 # These are the defaults
 external_links:
   enabled: true
-  rel: external nofollow noopener
+  rel: external noopener
   target: _blank
   exclude:
 
@@ -441,8 +441,8 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
-enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
+enable_masonry: false # project layouts use CSS grids and do not require Masonry
+enable_math: false # no current pages require MathJax
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page

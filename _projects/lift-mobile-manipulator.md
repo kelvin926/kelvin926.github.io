@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Lift-Equipped Mobile Manipulator"
-description: Isaac Lab shelf-transfer task with PPO training and success/failure analysis.
+description: Reinforcement learning for shelf transfer across multi-level rack environments.
 img: assets/img/projects/lift_mobile_manipulator_platform.webp
+thumb: assets/img/projects/thumb_lift_mobile_manipulator.webp
 img_alt: Lift-equipped mobile manipulator platform moving in a rack environment
 importance: 2
 group: selected
@@ -22,20 +23,20 @@ permalink: /projects/lift-mobile-manipulator/
 <div class="project-media-grid">
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/lift_shelf_transfer_rack.png' | relative_url }}" alt="Lift-equipped mobile manipulator platform for shelf-transfer experiments" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/lift_shelf_transfer_rack.png' | relative_url }}" alt="Lift-equipped mobile manipulator platform for shelf-transfer experiments" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Shelf-transfer rack setup.</figcaption>
     </figure>
   </div>
   <div>
     <figure class="project-media project-media--wide project-media--compact">
-      <img src="{{ '/assets/img/projects/lift_shelf_transfer_sequence.webp' | relative_url }}" alt="Shelf-transfer sequence for the lift-equipped mobile manipulator in Isaac Lab" class="img-fluid rounded z-depth-1">
+      <img src="{{ '/assets/img/projects/lift_shelf_transfer_sequence.webp' | relative_url }}" alt="Shelf-transfer sequence for the lift-equipped mobile manipulator in Isaac Lab" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
       <figcaption>Shelf-transfer sequence under source-object randomization.</figcaption>
     </figure>
   </div>
 </div>
 
 <figure class="project-media project-media--wide project-media--compact">
-  <img src="{{ '/assets/img/projects/lift_isaac_platform_scene.jpg' | relative_url }}" alt="Isaac Lab scene for the lift-equipped mobile manipulator shelf-transfer setup" class="img-fluid rounded z-depth-1">
+  <img src="{{ '/assets/img/projects/lift_isaac_platform_scene.jpg' | relative_url }}" alt="Isaac Lab scene for the lift-equipped mobile manipulator shelf-transfer setup" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
   <figcaption>Isaac Lab platform scene used for task setup.</figcaption>
 </figure>
 
@@ -45,5 +46,5 @@ I designed a lift-equipped mobile manipulator platform for shelf transfer in mul
 - **Tools:** Isaac Lab, PyTorch, PPO, task formulation
 - **Evaluation:** 50 rollout trials with +/-3 cm source-object randomization.
 - **Result:** 41/50 successful trials (82%); failures consisted of 3 grasp failures and 6 object-drop failures.
-- **Paper:** _A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments_. IEEE/ASME AIM 2026, accepted.
+- **Paper:** _A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments_. IEEE/ASME AIM 2026, published.
 - **Code:** GitHub link planned with paper release.
