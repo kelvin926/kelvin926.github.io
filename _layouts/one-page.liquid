@@ -30,8 +30,7 @@ layout: default
       <h2 id="publications-heading">Publications</h2>
       <p>Peer-reviewed journal articles, conference papers, and selected presentations.</p>
     </header>
-    {% capture publications_content %}{% include sections/publications.liquid %}{% endcapture %}
-    {{ publications_content | markdownify }}
+    {% include sections/publications.liquid %}
   </section>
 
   <section id="projects" class="portfolio-section" aria-labelledby="projects-heading">
