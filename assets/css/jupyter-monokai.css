@@ -361,7 +361,7 @@ textarea {
   width: 11px;
 }
 
-
+HTML,
 body,
 div,
 dt,
@@ -471,18 +471,6 @@ pre {
   -webkit-box-shadow: none;
   box-shadow: none;
   z-index: 10;
-}
-
-#clusters > a {
-  color: #a6e22e;
-  text-decoration: underline;
-  cursor: auto;
-}
-
-#clusters > a:hover {
-  color: #ae81ff;
-  text-decoration: underline;
-  cursor: auto;
 }
 
 
