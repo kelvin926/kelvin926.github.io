@@ -20,15 +20,17 @@ Feb. 2025, graduated with honors
 
 ## research profile
 
-My work connects autonomous driving and robot perception with learning-based robotics and field-system integration. I have built ROS/Autoware-based autonomous mobile-robot systems with LiDAR perception and navigation, along with Isaac Lab/RSL-RL environments for wheeled-legged and mobile-manipulation tasks.
+My current work investigates camera-LiDAR scene understanding and vision-language models for mobile robots. In ROMO-S, I study whether generated surround views provide useful spatial information beyond a forward-facing camera, with comparisons against bird's-eye-view representations. My earlier work includes ROS/Autoware-based autonomous mobile-robot systems and Isaac Lab/RSL-RL environments for wheeled-legged and mobile-manipulation tasks.
 
-- Autonomous driving and robot perception with environment understanding, detection/tracking, and perception-to-planning integration
+- Multimodal perception with camera-LiDAR fusion, surround-view generation, and vision-language spatial understanding
+- Autonomous driving with environment understanding, detection/tracking, and perception-to-planning integration
 - Robot learning and simulation with Isaac Lab, RSL-RL, PPO, MDP formulation, reward shaping, curriculum design, and policy evaluation
 - Field-system integration with ROS2/Autoware, CAN, LiDAR mapping, and autonomous navigation
 - Stability-aware evaluation for mobile manipulation, chassis leveling, and rough-terrain driving
 
 ## selected research projects
 
+- [ROMO-S: Multimodal Spatial Understanding](/projects/romo-s/): ongoing study of generated surround views and bird's-eye-view representations under matched front-camera and LiDAR inputs.
 - [KALO: Kangaroo-LocoManipulation](/projects/kalo/): arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.
 - [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): shelf-transfer mobile-manipulation task with Isaac Lab PPO setup and success/failure analysis.
 - [Rough-Terrain Wheeled-Legged AMR](/projects/keti-amr/): reinforcement-learning setup for velocity tracking and chassis leveling.
@@ -43,7 +45,7 @@ My work connects autonomous driving and robot perception with learning-based rob
 
 **Robot Software / Integration:** ROS2, ROS, Autoware, Python, C++, Linux, CAN, Git
 
-**Perception / Navigation:** LiDAR mapping, object detection/tracking, DBSCAN, Kalman filtering, ROS/Autoware perception integration
+**Perception / Navigation:** camera-LiDAR fusion, vision-language models, bird's-eye-view representations, LiDAR mapping, object detection/tracking, DBSCAN, Kalman filtering, ROS/Autoware perception integration
 
 **Design / Optimization:** Bayesian optimization, CoppeliaSim, CAD, Ansys, hardware feasibility testing
 

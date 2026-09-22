@@ -47,4 +47,3 @@ I designed a lift-equipped mobile manipulator platform for shelf transfer in mul
 - **Evaluation:** 50 rollout trials with +/-3 cm source-object randomization.
 - **Result:** 41/50 successful trials (82%); failures consisted of 3 grasp failures and 6 object-drop failures.
 - **Paper:** _A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments_. IEEE/ASME AIM 2026, published.
-- **Code:** GitHub link planned with paper release.

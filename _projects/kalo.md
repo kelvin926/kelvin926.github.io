@@ -35,5 +35,5 @@ I studied arm-motion-assisted launch control for a wheeled-legged mobile manipul
 - **Role:** launch-assist concept, mobile-manipulator setup, evaluation metrics, Isaac Lab/RSL-RL experiments
 - **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO
 - **Result:** normalized forward-velocity AUC(0-1.5 s) increased by 15.1% over Fixed (0.726 -> 0.835); t90 decreased from 1.703 s to 1.067 s; 90%-target-speed trials within 1.5 s increased from 29/128 to 69/128.
-- **Paper:** _KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot_. IEEE/ASME AIM 2026, published.
-- **Code:** [kelvin926/KALO](https://github.com/kelvin926/KALO)
+- **Paper:** _KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot_. IEEE/ASME AIM 2026, pp. 1-6. [DOI](https://doi.org/10.1109/AIM65483.2026.11658017) / [IEEE Xplore](https://ieeexplore.ieee.org/document/11658017)
+- **Code:** Not publicly available.

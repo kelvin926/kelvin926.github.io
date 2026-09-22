@@ -28,7 +28,7 @@ latest_posts:
 
 <div class="home-intro">
   <p class="home-lede">
-    I am an M.S. student in Mobility Science and Engineering at Korea University. My research connects autonomous driving and robot perception with learning-based robotics and real-world system integration, building on experience with ROS2/Autoware, Isaac Lab/RSL-RL, and simulation-based evaluation.
+    I am an M.S. student in Mobility Science and Engineering at Korea University. My current research explores camera-LiDAR scene understanding and vision-language models for mobile robots. In <a href="/projects/romo-s/">ROMO-S</a>, I investigate whether generated surround views can support spatial understanding beyond a forward-facing camera. This work builds on my experience in autonomous driving, reinforcement learning, and real-world robot integration.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
     <a href="mailto:kelvin926@korea.ac.kr">Email</a>
@@ -40,8 +40,8 @@ latest_posts:
 
 <div class="home-focus-row" aria-label="Research focus">
   <div class="home-focus-item">
-    <strong>Autonomous driving and perception</strong>
-    <span>Environment understanding, detection and tracking, and perception-to-planning integration.</span>
+    <strong>Multimodal robot perception</strong>
+    <span>Camera-LiDAR scene representations, surround-view generation, and vision-language spatial understanding.</span>
   </div>
   <div class="home-focus-item">
     <strong>Learning-based robotics</strong>
@@ -57,20 +57,24 @@ latest_posts:
 
 <div class="home-news">
   <div class="home-news-item">
-    <div class="home-news-date">2026</div>
-    <div class="home-news-text">The CEBO paper was published in <em>Advanced Engineering Informatics</em>, Vol. 76, Article 105096.</div>
+    <div class="home-news-date">2026.09</div>
+    <div class="home-news-text">Ongoing work on <a href="/projects/romo-s/">ROMO-S</a>: evaluating generated surround views for vision-language spatial understanding with front-camera and LiDAR inputs.</div>
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2026</div>
-    <div class="home-news-text">KALO was published at IEEE/ASME AIM 2026.</div>
+    <div class="home-news-text">The <a href="https://doi.org/10.1016/j.aei.2026.105096">CEBO paper</a> is available online in <em>Advanced Engineering Informatics</em>, Vol. 76, Part C, Article 105096.</div>
+  </div>
+  <div class="home-news-item">
+    <div class="home-news-date">2026.07</div>
+    <div class="home-news-text"><a href="https://doi.org/10.1109/AIM65483.2026.11658017">KALO</a> was published in IEEE/ASME AIM 2026, pp. 1-6. The paper is available on <a href="https://ieeexplore.ieee.org/document/11658017">IEEE Xplore</a>.</div>
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2026</div>
-    <div class="home-news-text">The lift-equipped mobile manipulator paper was published at IEEE/ASME AIM 2026.</div>
+    <div class="home-news-text">The <a href="/projects/lift-mobile-manipulator/">lift-equipped mobile manipulator paper</a> was published at IEEE/ASME AIM 2026.</div>
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2026</div>
-    <div class="home-news-text">The local delivery robot system paper was accepted to IEEE CASE 2026.</div>
+    <div class="home-news-text">The <a href="/projects/local-delivery-rl-experiments/">local delivery robot system paper</a> was accepted to IEEE CASE 2026.</div>
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2025</div>
@@ -86,11 +90,11 @@ latest_posts:
 <div class="home-pub-list">
   <div class="home-pub-item">
     <div class="home-pub-title"><a href="https://doi.org/10.1016/j.aei.2026.105096">Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot</a></div>
-    <div class="home-pub-meta"><em>Advanced Engineering Informatics</em>, Vol. 76, Article 105096, 2026.</div>
+    <div class="home-pub-meta"><em>Advanced Engineering Informatics</em>, Vol. 76, Part C, Article 105096, 2026.</div>
   </div>
   <div class="home-pub-item">
-    <div class="home-pub-title"><a href="/projects/kalo/">KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot</a></div>
-    <div class="home-pub-meta">IEEE/ASME AIM 2026, published.</div>
+    <div class="home-pub-title"><a href="https://doi.org/10.1109/AIM65483.2026.11658017">KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot</a></div>
+    <div class="home-pub-meta">IEEE/ASME AIM 2026, pp. 1-6. <a href="/projects/kalo/">Project</a></div>
   </div>
   <div class="home-pub-item">
     <div class="home-pub-title"><a href="/projects/lift-mobile-manipulator/">A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments</a></div>

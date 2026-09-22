@@ -9,11 +9,11 @@ last_name: Jang
 contact_note: >
   M.S. student, Field Robot Lab, Korea University.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hyunseo Jang is an M.S. student at Korea University working on autonomous driving, robot perception, learning-based robotics, and real-world system integration and validation.
+  Hyunseo Jang is an M.S. student at Korea University studying camera-LiDAR perception, vision-language spatial understanding, learning-based robotics, and autonomous-system integration.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: autonomous driving, robot perception, robotics, mobile manipulation, robot learning, AMR, ROS2, Autoware, LiDAR, Isaac Lab # add your own keywords or leave empty
+keywords: multimodal perception, vision-language models, camera-LiDAR fusion, surround-view generation, autonomous driving, robotics, mobile manipulation, robot learning, ROS2, Autoware, LiDAR, Isaac Lab # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
