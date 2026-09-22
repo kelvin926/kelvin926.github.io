@@ -13,7 +13,7 @@ profile:
   more_info: >
     <div class="profile-contact">
       <span>Field Robot Lab, Korea University</span>
-      <a href="mailto:kelvin926@korea.ac.kr">kelvin926@korea.ac.kr</a>
+      <a href="mailto:hsjang@kaist.ac.kr">hsjang@kaist.ac.kr</a>
     </div>
 
 selected_papers: false
@@ -31,7 +31,7 @@ latest_posts:
     I am an M.S. student in Mobility Science and Engineering at Korea University. My current research explores camera-LiDAR scene understanding and vision-language models for mobile robots. In <a href="/projects/romo-s/">ROMO-S</a>, I investigate whether generated surround views can support spatial understanding beyond a forward-facing camera. This work builds on my experience in autonomous driving, reinforcement learning, and real-world robot integration.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
-    <a href="mailto:kelvin926@korea.ac.kr">Email</a>
+    <a href="mailto:hsjang@kaist.ac.kr">Email</a>
     <a href="https://github.com/kelvin926">GitHub</a>
     <a href="https://scholar.google.com/citations?user=4UTN6xYAAAAJ">Google Scholar</a>
     <a href="https://orcid.org/0009-0007-1284-4330">ORCID</a>
