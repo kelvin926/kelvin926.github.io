@@ -9,6 +9,10 @@ nav_order: 4
 
 ## education
 
+**KAIST, Cho Chun Shik Graduate School of Mobility**  
+Incoming Ph.D. Student, AVE Lab  
+Admitted Sep. 2026; starting Mar. 2027
+
 **Korea University, Department of Mobility Science and Engineering**  
 M.S. Student, Field Robot Lab  
 Advisor: Prof. Youngeun Song  
@@ -17,6 +21,12 @@ Expected Feb. 2027
 **Korea University, Department of Mobility Science and Engineering**  
 B.S., Department of Mobility Science and Engineering  
 Feb. 2025, graduated with honors
+
+## current research appointment
+
+**Research Intern, AVE Lab, KAIST**  
+Cho Chun Shik Graduate School of Mobility  
+Current appointment before starting the Ph.D. program in Mar. 2027
 
 ## research profile
 

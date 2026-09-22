@@ -7,9 +7,9 @@ first_name: Hyunseo
 middle_name:
 last_name: Jang
 contact_note: >
-  M.S. student, Field Robot Lab, Korea University.
+  M.S. student at Korea University and research intern at AVE Lab, KAIST.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hyunseo Jang is an M.S. student at Korea University studying camera-LiDAR perception, vision-language spatial understanding, learning-based robotics, and autonomous-system integration.
+  Hyunseo Jang is an M.S. student at Korea University and a research intern at AVE Lab, KAIST, studying multimodal robot perception and vision-language spatial understanding.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

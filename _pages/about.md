@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  M.S. Student, Department of Mobility Science and Engineering<br>
-  Prospective Ph.D. Student, AVE Lab, KAIST
+  M.S. Student, Korea University<br>
+  Research Intern, AVE Lab, KAIST
 
 profile:
   align: right
@@ -13,6 +13,7 @@ profile:
   more_info: >
     <div class="profile-contact">
       <span>Field Robot Lab, Korea University</span>
+      <span>AVE Lab, KAIST</span>
       <a href="mailto:kelvin926@korea.ac.kr">kelvin926@korea.ac.kr</a>
       <a href="mailto:hsjang@kaist.ac.kr">hsjang@kaist.ac.kr</a>
     </div>
@@ -29,7 +30,7 @@ latest_posts:
 
 <div class="home-intro">
   <p class="home-lede">
-    I am an M.S. student in Mobility Science and Engineering at Korea University. My current research explores camera-LiDAR scene understanding and vision-language models for mobile robots. In <a href="/projects/romo-s/">ROMO-S</a>, I investigate whether generated surround views can support spatial understanding beyond a forward-facing camera. This work builds on my experience in autonomous driving, reinforcement learning, and real-world robot integration.
+    I am an M.S. student in Mobility Science and Engineering at Korea University and a research intern at <a href="https://ave.kaist.ac.kr/">AVE Lab, KAIST</a>. My current research explores camera-LiDAR scene understanding and vision-language models for mobile robots. In <a href="/projects/romo-s/">ROMO-S</a>, I investigate whether generated surround views can support spatial understanding beyond a forward-facing camera. This work builds on my experience in autonomous driving, reinforcement learning, and real-world robot integration.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
     <a href="mailto:kelvin926@korea.ac.kr">Email (Korea University)</a>
@@ -58,6 +59,10 @@ latest_posts:
 ## news
 
 <div class="home-news">
+  <div class="home-news-item">
+    <div class="home-news-date">2026.09</div>
+    <div class="home-news-text">I was admitted to the Ph.D. program at KAIST's Cho Chun Shik Graduate School of Mobility and will join <a href="https://ave.kaist.ac.kr/">AVE Lab</a> as a Ph.D. student in March 2027. I am currently a research intern in the lab.</div>
+  </div>
   <div class="home-news-item">
     <div class="home-news-date">2026.09</div>
     <div class="home-news-text">Ongoing work on <a href="/projects/romo-s/">ROMO-S</a>: evaluating generated surround views for vision-language spatial understanding with front-camera and LiDAR inputs.</div>
