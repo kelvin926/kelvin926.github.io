@@ -7,6 +7,10 @@
   author        = {Jang, Hyunseo and Kim, Seungmin and Choi, Donggi and Song, Youngeun},
   booktitle     = {IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)},
   year          = {2026},
+  month         = {jul},
+  pages         = {1--6},
+  doi           = {10.1109/AIM65483.2026.11658017},
+  html          = {https://ieeexplore.ieee.org/document/11658017},
   note          = {Published},
   selected      = {true},
   abstract      = {This paper presents KALO, short for Kangaroo-LocoManipulation, a simulation-based, biomimetically motivated launch controller for improving the early acceleration of a wheel-legged robot. The method repurposes the onboard OpenArm manipulator on a Go2W base as a constrained tail-like inertial appendage during the launch phase and learns a constrained single-joint arm residual from a settled pre-launch state. We evaluate KALO in deterministic simulation rollouts in NVIDIA Isaac Lab, aligned to launch onset, and compare it with a stowed-arm locomotion baseline and a fixed carrying-pose baseline under an early-window protocol focused on the first 1.5 s. Across this transient, KALO accumulates forward velocity faster, reaches target-speed fractions sooner than both baselines, and remains substantially more directionally stable than the fixed carrying-pose controller. The results indicate that, in simulation, the onboard manipulator can function as a short-horizon launch-assist appendage in addition to its manipulation role.}
@@ -40,11 +44,12 @@
   author        = {Jang, Hyunseo and Seo, Hyeonbeen and Song, Youngeun and Lee, Ungki},
   journal       = {Advanced Engineering Informatics},
   volume        = {76},
+  number        = {Part C},
   pages         = {105096},
   year          = {2026},
   doi           = {10.1016/j.aei.2026.105096},
   selected      = {true},
-  abstract      = {This study presents a clustering-enhanced Bayesian optimization (CEBO) framework that improves the efficiency and stability of Bayesian optimization (BO) by incorporating a plausible region search (PRS) algorithm. Using prediction values from the surrogate model, the PRS algorithm identifies regions likely to contain the global optimum through candidate screening, clustering, and plausible region identification. CEBO reduces the search space by filtering out samples with low prediction values and identifying informative clusters via K-means clustering combined with silhouette analysis. Leveraging multiple prediction values, the cluster with the lowest mean prediction is designated as the plausible region, within which the next evaluation point is selected using the expected improvement (EI) criterion to efficiently update the surrogate model. Extensive numerical validation on benchmark problems ranging from 2D to 12D demonstrates that CEBO consistently outperforms conventional BO methods by reducing the number of function evaluations. In a 6D T-pedal wheel design problem, CEBO further demonstrates its practical applicability by achieving the lowest standard deviation while reducing the number of function evaluations, thereby confirming both superior efficiency and stability beyond synthetic benchmarks.}
+  abstract      = {Summary of the published article: CEBO uses a clustering-based trust region (CBTR) to guide Bayesian optimization. Surrogate predictions screen candidate points, which are grouped using K-means with silhouette-based cluster selection. Information from the selected cluster defines a search region, where expected improvement selects the next evaluation. This approach combines information from multiple candidates instead of centering the search solely on one incumbent solution. The study evaluates the method on benchmark functions and a T-pedal wheel design problem for a stair-climbing robot.}
 }
 
 @article{kim2025elevator,
