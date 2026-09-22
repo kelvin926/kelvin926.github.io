@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {{ page.title | capitalize }}
+      |
+      {{ site.first_name }}
+      {{ site.last_name }}
+    </title>
+    <link rel="canonical" href="{{ '/' | absolute_url }}#{{ page.redirect_section }}">
+    <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}#{{ page.redirect_section }}">
+    <script>
+      window.location.replace({{ '/' | relative_url | jsonify }} + (window.location.hash || {{ page.redirect_section | prepend: '#' | jsonify }}));
+    </script>
+  </head>
+  <body>
+    <p>
+      <a href="{{ '/' | relative_url }}#{{ page.redirect_section }}">Continue to {{ page.title }}</a>
+    </p>
+  </body>
+</html>

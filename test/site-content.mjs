@@ -31,7 +31,7 @@ for (const name of projectFiles) {
 
 const publicationSources = [
   "_pages/about.md",
-  "_pages/publications.md",
+  "_includes/sections/publications.liquid",
   "_bibliography/papers.bib",
   "_includes/hook/bib.liquid",
   "_projects/cebo-stair-climbing-wheel.md",

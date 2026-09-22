@@ -18,8 +18,11 @@ http://localhost:8080
 
 ## Content
 
+- Main page layout: `_layouts/one-page.liquid`
 - Profile: `_pages/about.md`
 - Publications: `_bibliography/papers.bib`
+- Conference presentations: `_includes/sections/publications.liquid`
+- CV: `_includes/sections/cv.md`
 - Projects: `_projects/`
 - Social links: `_data/socials.yml`
 - Site settings: `_config.yml`

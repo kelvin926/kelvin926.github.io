@@ -24,7 +24,7 @@ http://127.0.0.1:8080/
 
 - `_pages/about.md`
 - `_projects/*.md`
-- `_pages/publications.md`의 selected conference presentations
+- `_includes/sections/publications.liquid`의 selected conference presentations
 
 저장한 뒤 편집기에서 **Jekyll 빌드**를 누르거나 아래 명령을 실행합니다.
 

@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: one-page
 title: about
 permalink: /
 subtitle: >
@@ -56,7 +56,7 @@ latest_posts:
   </div>
 </div>
 
-## news
+### News
 
 <div class="home-news">
   <div class="home-news-item">
@@ -91,59 +91,3 @@ latest_posts:
     </div>
   </div>
 </div>
-
-## selected publications
-
-<div class="home-pub-list">
-  <div class="home-pub-item">
-    <div class="home-pub-title"><a href="https://doi.org/10.1016/j.aei.2026.105096">Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot</a></div>
-    <div class="home-pub-meta"><em>Advanced Engineering Informatics</em>, Vol. 76, Part C, Article 105096, 2026.</div>
-  </div>
-  <div class="home-pub-item">
-    <div class="home-pub-title"><a href="https://doi.org/10.1109/AIM65483.2026.11658017">KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot</a></div>
-    <div class="home-pub-meta">IEEE/ASME AIM 2026, pp. 1-6. <a href="/projects/kalo/">Project</a></div>
-  </div>
-  <div class="home-pub-item">
-    <div class="home-pub-title"><a href="/projects/lift-mobile-manipulator/">A Lift-Equipped Mobile Manipulator Platform for Shelf Transfer in Multi-Level Rack Environments</a></div>
-    <div class="home-pub-meta">IEEE/ASME AIM 2026, published.</div>
-  </div>
-  <div class="home-pub-item">
-    <div class="home-pub-title"><a href="/publications/">Design and Implementation of a Local Delivery Robot System: A Reinforcement Learning Approach</a></div>
-    <div class="home-pub-meta">IEEE CASE 2026, accepted.</div>
-  </div>
-</div>
-
-## featured projects
-
-<div class="home-project-grid">
-  <a class="home-project-card" href="/projects/kalo/">
-    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_kalo.webp' | relative_url }}" alt="" loading="eager" decoding="async">
-    <span class="home-project-copy">
-      <strong>KALO</strong>
-      <span>Arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.</span>
-    </span>
-  </a>
-  <a class="home-project-card" href="/projects/lift-mobile-manipulator/">
-    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_lift_mobile_manipulator.webp' | relative_url }}" alt="" loading="lazy" decoding="async">
-    <span class="home-project-copy">
-      <strong>Lift-equipped mobile manipulator</strong>
-      <span>Reinforcement learning for shelf transfer across multi-level rack environments.</span>
-    </span>
-  </a>
-  <a class="home-project-card" href="/projects/cebo-stair-climbing-wheel/">
-    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_cebo.webp' | relative_url }}" alt="" loading="lazy" decoding="async">
-    <span class="home-project-copy">
-      <strong>CEBO stair-climbing wheel</strong>
-      <span>Bayesian optimization and automated simulation evaluation for stair-climbing wheel design.</span>
-    </span>
-  </a>
-  <a class="home-project-card" href="/projects/lidar-campus-autonomous-driving/">
-    <img class="home-project-thumb" src="{{ '/assets/img/projects/thumb_lidar_campus.webp' | relative_url }}" alt="" loading="lazy" decoding="async">
-    <span class="home-project-copy">
-      <strong>LiDAR-based campus driving</strong>
-      <span>RTK-surveyed HD map, Autoware waypoint driving, and pedestrian tests.</span>
-    </span>
-  </a>
-</div>
-
-<p class="home-more-links">Full lists are on <a href="/publications/">publications</a>, <a href="/projects/">projects</a>, and <a href="/cv/">cv</a>.</p>

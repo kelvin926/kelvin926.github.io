@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="post portfolio">
+  <section id="about" class="portfolio-section" aria-labelledby="about-heading">
+    <header class="post-header">
+      <p class="section-label"><span>01</span> About</p>
+      <h1 id="about-heading" class="post-title">
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </header>
+    <div class="about-content">
+      {% if page.profile %}
+        <aside class="profile float-right" aria-label="Profile and contact">
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) 270px, (min-width: 769px) 30vw, 240px{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid z-depth-1 rounded" sizes=sizes alt="Hyunseo Jang" cache_bust=true %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        </aside>
+      {% endif %}
+      {{ content }}
+    </div>
+  </section>
+
+  <section id="publications" class="portfolio-section" aria-labelledby="publications-heading">
+    <header class="section-header">
+      <p class="section-label"><span>02</span> Research output</p>
+      <h2 id="publications-heading">Publications</h2>
+      <p>Peer-reviewed journal articles, conference papers, and selected presentations.</p>
+    </header>
+    {% capture publications_content %}{% include sections/publications.liquid %}{% endcapture %}
+    {{ publications_content | markdownify }}
+  </section>
+
+  <section id="projects" class="portfolio-section" aria-labelledby="projects-heading">
+    <header class="section-header">
+      <p class="section-label"><span>03</span> Research in practice</p>
+      <h2 id="projects-heading">Projects</h2>
+      <p>Multimodal perception, robot learning, and autonomous-system integration.</p>
+    </header>
+    {% include sections/projects.liquid %}
+  </section>
+
+  <section id="cv" class="portfolio-section" aria-labelledby="cv-heading">
+    <header class="section-header">
+      <p class="section-label"><span>04</span> Background and experience</p>
+      <h2 id="cv-heading">CV</h2>
+      <p>Education, research experience, skills, and activities.</p>
+    </header>
+    <div class="cv-content">
+      {% capture cv_content %}{% include sections/cv.md %}{% endcapture %}
+      {{ cv_content | markdownify }}
+    </div>
+  </section>
+</div>
