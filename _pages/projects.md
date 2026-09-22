@@ -1,34 +1,8 @@
 ---
-layout: page
+layout: section-redirect
 title: projects
 permalink: /projects/
-description: multimodal perception, vision-language spatial understanding, robot learning, and AMR integration
-nav: true
-nav_order: 3
-horizontal: false
+redirect_section: projects
+nav: false
+sitemap: false
 ---
-
-<div class="projects">
-
-{% assign selected_projects = site.projects | where: "group", "selected" | sort: "importance" %}
-{% assign other_projects = site.projects | where: "group", "other" | sort: "importance" %}
-
-<h2>selected research projects</h2>
-<p class="project-group-note">Current work on multimodal spatial understanding, alongside projects in robot learning, mobile manipulation, and autonomous-system integration.</p>
-
-<div class="row row-cols-1 row-cols-md-3">
-  {% for project in selected_projects %}
-    {% include projects.liquid %}
-  {% endfor %}
-</div>
-
-<h2>other projects</h2>
-<p class="project-group-note">Supporting platform, feasibility, and documentation work.</p>
-
-<div class="row row-cols-1 row-cols-md-3">
-  {% for project in other_projects %}
-    {% include projects.liquid %}
-  {% endfor %}
-</div>
-
-</div>

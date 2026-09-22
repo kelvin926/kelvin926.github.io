@@ -95,25 +95,6 @@ function renderHome() {
       ])
     )
   );
-
-  homeEditor.append(
-    repeatEditor("선택 논문", home.publications, (item) =>
-      el("div", { class: "grid", "data-kind": "publication" }, [
-        field("제목", item.title, { type: "textarea", short: true }),
-        field("게재/상태 (HTML 가능)", item.meta, { type: "textarea", short: true }),
-      ])
-    )
-  );
-
-  homeEditor.append(
-    repeatEditor("상단 프로젝트 링크", home.projects, (item) =>
-      el("div", { class: "grid", "data-kind": "home-project" }, [
-        field("제목", item.title),
-        field("URL", item.href),
-        field("내용", item.text, { type: "textarea", short: true }),
-      ])
-    )
-  );
 }
 
 function collectHome() {
@@ -123,15 +104,6 @@ function collectHome() {
     links: query("link").map((row) => ({ label: getFieldValue(row, 0), href: getFieldValue(row, 1) })),
     focus: query("focus").map((row) => ({ title: getFieldValue(row, 0), text: getFieldValue(row, 1) })),
     news: query("news").map((row) => ({ date: getFieldValue(row, 0), text: getFieldValue(row, 1) })),
-    publications: query("publication").map((row) => ({
-      title: getFieldValue(row, 0),
-      meta: getFieldValue(row, 1),
-    })),
-    projects: query("home-project").map((row) => ({
-      title: getFieldValue(row, 0),
-      href: getFieldValue(row, 1),
-      text: getFieldValue(row, 2),
-    })),
   };
 }
 

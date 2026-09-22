@@ -7,7 +7,7 @@ const ROOT = path.resolve(__dirname, "..");
 const PORT = Number(process.env.PORT || 5177);
 
 const HOME_FILE = path.join(ROOT, "_pages", "about.md");
-const PUBLICATIONS_FILE = path.join(ROOT, "_pages", "publications.md");
+const PUBLICATIONS_FILE = path.join(ROOT, "_includes", "sections", "publications.liquid");
 const PROJECTS_DIR = path.join(ROOT, "_projects");
 const PROJECT_IMAGES_DIR = path.join(ROOT, "assets", "img", "projects");
 
@@ -92,10 +92,8 @@ function extractAll(content, regex, mapper) {
 
 function parseHome(content) {
   const intro = getBlock(content, /<div class="home-intro">/, /\n\n<div class="home-focus-row"/);
-  const focus = getBlock(content, /<div class="home-focus-row"/, /\n\n## news/);
-  const news = getBlock(content, /<div class="home-news">/, /\n\n## selected publications/);
-  const publications = getBlock(content, /<div class="home-pub-list">/, /\n\n## featured projects/);
-  const projects = getBlock(content, /<div class="home-project-grid">/, /\n\n<p class="home-more-links"/);
+  const focus = getBlock(content, /<div class="home-focus-row"/, /\n\n### News/);
+  const news = getBlock(content, /<div class="home-news">/, /$/);
 
   return {
     ledes: extractAll(intro, /<p class="home-lede">\s*([\s\S]*?)\s*<\/p>/g, (match) => stripTags(match[1].trim())),
@@ -108,16 +106,6 @@ function parseHome(content) {
       news,
       /<div class="home-news-item">\s*<div class="home-news-date">([\s\S]*?)<\/div>\s*<div class="home-news-text">([\s\S]*?)<\/div>\s*<\/div>/g,
       (match) => ({ date: stripTags(match[1]), text: match[2].trim() })
-    ),
-    publications: extractAll(
-      publications,
-      /<div class="home-pub-item">\s*<div class="home-pub-title">([\s\S]*?)<\/div>\s*<div class="home-pub-meta">([\s\S]*?)<\/div>\s*<\/div>/g,
-      (match) => ({ title: stripTags(match[1]), meta: match[2].trim() })
-    ),
-    projects: extractAll(
-      projects,
-      /<a class="home-project-card" href="([^"]+)">\s*<strong>([\s\S]*?)<\/strong>\s*<span>([\s\S]*?)<\/span>\s*<\/a>/g,
-      (match) => ({ href: match[1], title: stripTags(match[2]), text: stripTags(match[3]) })
     ),
   };
 }
@@ -155,28 +143,6 @@ function renderNews(home) {
   return `<div class="home-news">\n${items}\n</div>`;
 }
 
-function renderHomePublications(home) {
-  const items = (home.publications || [])
-    .filter((item) => item.title || item.meta)
-    .map(
-      (item) =>
-        `  <div class="home-pub-item">\n    <div class="home-pub-title">${escapeHtml(item.title)}</div>\n    <div class="home-pub-meta">${item.meta}</div>\n  </div>`
-    )
-    .join("\n");
-  return `<div class="home-pub-list">\n${items}\n</div>`;
-}
-
-function renderHomeProjects(home) {
-  const items = (home.projects || [])
-    .filter((item) => item.href || item.title || item.text)
-    .map(
-      (item) =>
-        `  <a class="home-project-card" href="${escapeHtml(item.href)}">\n    <strong>${escapeHtml(item.title)}</strong>\n    <span>${escapeHtml(item.text)}</span>\n  </a>`
-    )
-    .join("\n");
-  return `<div class="home-project-grid">\n${items}\n</div>`;
-}
-
 function replaceBetween(content, startPattern, endPattern, replacement) {
   const start = content.search(startPattern);
   if (start < 0) return content;
@@ -189,10 +155,8 @@ function replaceBetween(content, startPattern, endPattern, replacement) {
 function saveHomeContent(content, home) {
   let next = content;
   next = replaceBetween(next, /<div class="home-intro">/, /\n\n<div class="home-focus-row"/, renderHomeIntro(home));
-  next = replaceBetween(next, /<div class="home-focus-row"/, /\n\n## news/, renderFocus(home));
-  next = replaceBetween(next, /<div class="home-news">/, /\n\n## selected publications/, renderNews(home));
-  next = replaceBetween(next, /<div class="home-pub-list">/, /\n\n## featured projects/, renderHomePublications(home));
-  next = replaceBetween(next, /<div class="home-project-grid">/, /\n\n<p class="home-more-links"/, renderHomeProjects(home));
+  next = replaceBetween(next, /<div class="home-focus-row"/, /\n\n### News/, renderFocus(home));
+  next = replaceBetween(next, /<div class="home-news">/, /$/, renderNews(home));
   return next;
 }
 
@@ -290,7 +254,7 @@ function parsePresentations(content) {
   const block = getBlock(content, /<div class="conference-presentations">/, /$/);
   return extractAll(
     block,
-    /<div class="conference-entry">\s*<p class="conference-title"><strong>([\s\S]*?)<\/strong><\/p>\s*<p>([\s\S]*?)<\/p>\s*<p class="conference-meta">([\s\S]*?)<\/p>\s*<p class="conference-note">([\s\S]*?)<\/p>\s*<\/div>/g,
+    /<div class="conference-entry">\s*<p class="conference-title">\s*<strong>([\s\S]*?)<\/strong>\s*<\/p>\s*<p>([\s\S]*?)<\/p>\s*<p class="conference-meta">([\s\S]*?)<\/p>\s*<p class="conference-note">([\s\S]*?)<\/p>\s*<\/div>/g,
     (match) => ({
       title: stripTags(match[1]),
       authors: stripTags(match[2]),
@@ -308,7 +272,7 @@ function renderPresentations(items) {
         `<div class="conference-entry">\n  <p class="conference-title"><strong>${escapeHtml(item.title)}</strong></p>\n  <p>${highlightOwnName(item.authors)}</p>\n  <p class="conference-meta">${item.meta}</p>\n  <p class="conference-note">${escapeHtml(item.note)}</p>\n</div>`
     )
     .join("\n\n");
-  return `<div class="conference-presentations">\n\n<h2>selected conference presentations</h2>\n\n${entries}\n\n</div>\n`;
+  return `<div class="conference-presentations">\n\n<h3>selected conference presentations</h3>\n\n${entries}\n\n</div>\n`;
 }
 
 function savePresentationsContent(content, items) {
