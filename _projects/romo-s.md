@@ -2,6 +2,7 @@
 layout: page
 title: "ROMO-S: Multimodal Spatial Understanding"
 description: Studying generated surround views for vision-language spatial understanding from a front camera and 360-degree LiDAR.
+card_description: Investigating generated surround views for spatial understanding from a front camera and 360-degree LiDAR.
 importance: 0
 group: selected
 category: work

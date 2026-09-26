@@ -2,6 +2,7 @@
 layout: page
 title: "On-Campus Autonomous Mobile Robot Systems"
 description: ROS/Autoware integration, LiDAR mapping, detection/tracking, and validation.
+card_description: Integrating ROS, Autoware, and LiDAR perception for campus robot navigation.
 img: assets/img/projects/amr_robot_autonomous_navigation.webp
 thumb: assets/img/projects/amr_robot_autonomous_navigation.webp
 img_alt: Ranger Mini v2 autonomous indoor navigation test in a campus hallway

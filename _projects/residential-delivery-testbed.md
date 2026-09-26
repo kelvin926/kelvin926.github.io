@@ -2,6 +2,7 @@
 layout: page
 title: "Residential Delivery-Robot Testbed"
 description: Service scenarios and validation notes for residential delivery robots.
+card_description: Reviewing service scenarios and validation for residential delivery robots.
 img: assets/img/projects/residential_testbed_report_cover.webp
 img_alt: Cover page of the final report for residential delivery-robot testbed planning
 importance: 9

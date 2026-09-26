@@ -2,6 +2,7 @@
 layout: page
 title: "Inventory-Inspection Robot Adaptive Suspension"
 description: Suspension stabilization for full-lift driving of a 10 m-class platform.
+card_description: Stabilizing a 10 m-class inspection platform while driving at full lift.
 img: assets/img/projects/inventory_adaptive_suspension_demo.webp
 thumb: assets/img/projects/inventory_isaac_stabilized_drive.webp
 img_alt: Inventory-inspection robot adaptive suspension stabilization comparison

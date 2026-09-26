@@ -2,6 +2,7 @@
 layout: page
 title: "KALO: Kangaroo-LocoManipulation"
 description: Arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.
+card_description: Using arm motion to improve launch acceleration and stability.
 img: assets/img/projects/kalo_arm_swing_proposed.webp
 thumb: assets/img/projects/kalo_arm_swing_proposed.webp
 img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform

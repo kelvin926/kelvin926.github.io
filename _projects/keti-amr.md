@@ -2,6 +2,7 @@
 layout: page
 title: "Rough-Terrain Wheeled-Legged AMR"
 description: Reinforcement learning for rough-terrain velocity tracking and chassis leveling.
+card_description: Learning to track velocity and keep a wheeled-legged robot level on rough terrain.
 img: assets/img/projects/keti_velocity_tracking_training.webp
 thumb: assets/img/projects/keti_velocity_tracking_training.webp
 img_alt: Isaac Lab velocity-tracking training scene for the KETI 20-DOF wheeled-legged AMR

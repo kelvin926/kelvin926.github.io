@@ -1,22 +1,31 @@
 <div class="projects">
   {% assign selected_projects = site.projects | where: 'group', 'selected' | sort: 'importance' %}
   {% assign other_projects = site.projects | where: 'group', 'other' | sort: 'importance' %}
+  {% assign featured_project = selected_projects | where: 'slug', 'romo-s' | first %}
 
-  <h3>selected research projects</h3>
-  <p class="project-group-note">
-    Current work on multimodal spatial understanding, alongside projects in robot learning, mobile manipulation, and autonomous-system integration.
-  </p>
+  {% if featured_project %}
+    <a class="project-feature" href="{{ featured_project.url | relative_url }}">
+      <h3>{{ featured_project.title }}</h3>
+      <div class="project-feature-copy">
+        <p>{{ featured_project.card_description | default: featured_project.description }}</p>
+        <span class="project-feature-link">View project <span aria-hidden="true">&rarr;</span></span>
+      </div>
+    </a>
+  {% endif %}
 
-  <div class="row row-cols-1 row-cols-md-3">
+  <h3>Selected Projects</h3>
+
+  <div class="row row-cols-1 row-cols-md-2">
     {% for project in selected_projects %}
-      {% include projects.liquid %}
+      {% unless project.url == featured_project.url %}
+        {% include projects.liquid %}
+      {% endunless %}
     {% endfor %}
   </div>
 
-  <h3>other projects</h3>
-  <p class="project-group-note">Supporting platform, feasibility, and documentation work.</p>
+  <h3>Other Projects</h3>
 
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-md-2">
     {% for project in other_projects %}
       {% include projects.liquid %}
     {% endfor %}

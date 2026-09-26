@@ -2,6 +2,7 @@
 layout: page
 title: "Aircraft Towing and GPAU Feasibility"
 description: Aircraft towing and GPAU support equipment review.
+card_description: Reviewing aircraft towing and GPAU support equipment.
 img: assets/img/projects/aircraft_towing_gpau_review.webp
 img_alt: Isaac Sim aircraft towing and GPAU feasibility review scene
 importance: 8

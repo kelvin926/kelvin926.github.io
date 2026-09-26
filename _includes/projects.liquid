@@ -21,7 +21,7 @@
               include figure.liquid
               loading="lazy"
               path=project_card_img
-              sizes = "250px"
+              sizes = "(min-width: 768px) 450px, 100vw"
               alt=project_img_alt
               class="card-img-top project-card-image"
             %}
@@ -30,7 +30,7 @@
       {% endif %}
       <div class="card-body">
         <h3 class="card-title project-card-title">{{ project.title }}</h3>
-        <p class="card-text">{{ project.description }}</p>
+        <p class="card-text">{{ project.card_description | default: project.description }}</p>
       </div>
     </div>
   </a>

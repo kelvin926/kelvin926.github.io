@@ -2,6 +2,7 @@
 layout: page
 title: "Autonomous Road-Sweeping Vehicle TDP"
 description: TDP documentation for an autonomous road-sweeping vehicle.
+card_description: Preparing technical documentation for an autonomous road-sweeping vehicle.
 img: assets/img/projects/road_sweeper_vehicle_drive.webp
 img_alt: Autonomous road-sweeping vehicle moving during validation-scenario review
 importance: 7

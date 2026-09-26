@@ -2,6 +2,7 @@
 layout: page
 title: "CEBO-Based Stair-Climbing Wheel Design"
 description: Bayesian optimization and automated simulation evaluation for stair-climbing wheel design.
+card_description: Optimizing wheel designs for stair climbing with Bayesian optimization.
 img: assets/img/projects/cebo_physical_stair_guided.webp
 thumb: assets/img/projects/cebo_physical_stair_guided.webp
 img_alt: Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance
