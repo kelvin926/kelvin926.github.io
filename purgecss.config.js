@@ -4,6 +4,7 @@ module.exports = {
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: [
+    "back-to-top",
     "collapse",
     "collapsing",
     "show",
