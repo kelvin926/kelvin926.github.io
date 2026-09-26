@@ -311,7 +311,7 @@ html[data-theme="dark"] {
   align-items: center;
   justify-content: center;
   aspect-ratio: 16 / 9;
-  padding: 0.42rem;
+  padding: 0;
   overflow: hidden;
   border-bottom: 1px solid rgba(128, 128, 128, 0.18);
   background: #fff;
@@ -329,12 +329,13 @@ html[data-theme="dark"] {
 
 .projects .project-card-media img,
 .projects .project-card-image {
-  width: auto !important;
+  width: 100% !important;
   max-width: 100%;
-  height: auto !important;
+  height: 100% !important;
   max-height: 100%;
   padding: 0;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
 }
 
 .project-page-hero,

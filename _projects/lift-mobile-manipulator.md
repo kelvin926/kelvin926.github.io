@@ -3,7 +3,7 @@ layout: page
 title: "Lift-Equipped Mobile Manipulator"
 description: Reinforcement learning for shelf transfer across multi-level rack environments.
 img: assets/img/projects/lift_mobile_manipulator_platform.webp
-thumb: assets/img/projects/thumb_lift_mobile_manipulator.webp
+thumb: assets/img/projects/lift_mobile_manipulator_platform.webp
 img_alt: Lift-equipped mobile manipulator platform moving in a rack environment
 importance: 2
 group: selected
