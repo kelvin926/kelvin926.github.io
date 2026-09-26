@@ -17,7 +17,7 @@ const fs=require('node:fs');
       if(section!=='about'){
         if(mobile) await page.getByRole('button',{name:'Toggle navigation',exact:true}).click();
         await page.locator(`[data-section-link="${section}"]`).click();
-        await page.waitForFunction(id=>Math.abs(document.getElementById(id).getBoundingClientRect().top-88)<4,section,{timeout:8000});
+        await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
       }
       await page.screenshot({path:`readability-results/${config.name}-${section}.png`});
       const data=await page.evaluate((section)=>{
@@ -25,13 +25,16 @@ const fs=require('node:fs');
         return {section,viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,active:document.querySelector('[data-section-link][aria-current]')?.textContent.trim(),sectionTop:Math.round(main.getBoundingClientRect().top),navExpanded:document.querySelector('[data-nav-toggle]').getAttribute('aria-expanded'),introTop:Math.round(document.querySelector('.home-intro').getBoundingClientRect().top+scrollY),profileHeight:Math.round(document.querySelector('.profile').getBoundingClientRect().height),lede:st(document.querySelector('.home-lede')),project:st(document.querySelector('.card-text')),search:st(document.getElementById('bibsearch')),buttonHeight:Math.round(document.querySelector('.publications .links a').getBoundingClientRect().height),overflowElements:[...main.querySelectorAll('*')].filter(e=>e.getBoundingClientRect().width>0 && e.getBoundingClientRect().right>innerWidth+1).slice(0,5).map(e=>({tag:e.tagName,cls:e.className,right:Math.round(e.getBoundingClientRect().right)}))};
       },section);
       results.push({case:config.name,...data});
+      fs.writeFileSync('readability-results/metrics.json',JSON.stringify(results,null,2));
       if(config.after && data.scrollWidth>data.viewport+1) throw new Error(`${config.name} ${section}: horizontal overflow`);
       if(config.after && mobile && data.navExpanded!=='false') throw new Error('Mobile menu did not close');
       if(section==='publications' && config.after && config.width===390){
         await page.locator('#bibsearch').fill('KALO');
-        await page.waitForFunction(()=>document.querySelectorAll('.bibliography > li:not(.unloaded)').length===1);
+        await page.locator('.bibliography > li.unloaded').first().waitFor({state:'attached'});
+        if(await page.locator('.bibliography > li:not(.unloaded)').count()!==1) throw new Error('KALO filter failed');
         await page.locator('#bibsearch').fill('');
-        await page.waitForFunction(()=>document.querySelectorAll('.bibliography > li:not(.unloaded)').length===6);
+        await page.locator('.bibliography > li.unloaded').first().waitFor({state:'detached'});
+        if(await page.locator('.bibliography > li:not(.unloaded)').count()!==6) throw new Error('Filter reset failed');
       }
     }
     if(config.name==='after-390'){
