@@ -703,6 +703,10 @@ html[data-theme="dark"] {
   font-size: 1rem;
 }
 
+.portfolio .publications h2.bibliography {
+  color: var(--global-text-color-light);
+}
+
 .portfolio .conference-entry a {
   overflow-wrap: anywhere;
 }
@@ -763,6 +767,10 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 768px) {
+  #back-to-top {
+    display: none;
+  }
+
   .about-content {
     display: block;
   }
