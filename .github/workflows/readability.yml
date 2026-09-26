@@ -1,0 +1,27 @@
+name: Responsive readability check
+on:
+  push:
+    branches: [fix/responsive-readability]
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install browser driver
+        run: npm install --prefix "$RUNNER_TEMP/readability" --no-audit --no-fund playwright@1.51.1
+      - name: Capture responsive layouts
+        env:
+          NODE_PATH: ${{ runner.temp }}/readability/node_modules
+        run: node .github/scripts/readability.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: readability-results
+          path: readability-results/
+          retention-days: 7
