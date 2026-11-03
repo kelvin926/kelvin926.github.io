@@ -60,6 +60,8 @@ latest_posts:
   </div>
 </div>
 
+{% include sections/research-gallery.liquid %}
+
 ### News
 
 <div class="home-news">

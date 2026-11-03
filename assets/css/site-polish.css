@@ -903,3 +903,46 @@ html[data-theme="dark"] {
     margin-bottom: 1.4rem;
   }
 }
+
+.research-gallery {
+  grid-column: 1 / -1;
+  min-width: 0;
+  margin: 0.5rem 0 1.75rem;
+}
+.research-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1rem;
+}
+.research-gallery figure {
+  min-width: 0;
+  margin: 0;
+}
+.research-gallery a {
+  display: block;
+  color: var(--global-text-color);
+}
+.research-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.55rem;
+}
+.research-gallery a span {
+  display: block;
+  margin: 0.6rem 0 0.25rem;
+  font-weight: 650;
+}
+.research-gallery figcaption {
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.research-gallery a:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
