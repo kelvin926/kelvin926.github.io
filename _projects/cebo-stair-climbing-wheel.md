@@ -6,7 +6,7 @@ card_description: Optimizing wheel designs for stair climbing with Bayesian opti
 img: assets/img/projects/cebo_physical_stair_guided.webp
 thumb: assets/img/projects/cebo_physical_stair_guided.webp
 img_alt: Physical stair-climbing test clip for the T-pedal wheel robot with manual guidance
-importance: 5
+importance: 6
 group: selected
 category: work
 permalink: /projects/cebo-stair-climbing-wheel/
@@ -46,5 +46,5 @@ I formulated a six-variable T-pedal wheel design problem for stair-climbing perf
 - **Role:** T-pedal wheel search-space design, CEBO optimization experiments, CoppeliaSim evaluation-loop automation
 - **Tools:** Bayesian optimization, CoppeliaSim, Python
 - **Result:** nominal traversal time decreased by 23.31% (9.405 s -> 7.213 s), and body-pitch stability median decreased by 37.84% (1.102 deg -> 0.685 deg) under the nominal friction condition.
-- **Paper:** _Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot_. _Advanced Engineering Informatics_, Vol. 76, Part C, Article 105096, 2026. [DOI](https://doi.org/10.1016/j.aei.2026.105096)
-- **Code:** [kelvin926/T-Pedal-with-CEBO](https://github.com/kelvin926/T-Pedal-with-CEBO)
+- **Paper:** _Clustering-enhanced Bayesian optimization (CEBO): A case study on T-pedal wheel design of a stair-climbing robot_. _Advanced Engineering Informatics_, Vol. 76, Part C, Article 105096, November 2026. [DOI](https://doi.org/10.1016/j.aei.2026.105096)
+- **Code availability:** The implementation is not publicly released.

@@ -32,6 +32,7 @@ My current work investigates camera-LiDAR scene understanding and vision-languag
 ### selected research projects
 
 - [ROMO-S: Multimodal Spatial Understanding](/projects/romo-s/): ongoing study of generated surround views and bird's-eye-view representations under matched front-camera and LiDAR inputs.
+- [ROMO-B: Robot Navigation and Integration](/projects/romo-b/): public ROS 2 platform workspace for LiDAR mapping/localization, Nav2/Autoware navigation, and operator tools.
 - [KALO: Kangaroo-LocoManipulation](/projects/kalo/): arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.
 - [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): shelf-transfer mobile-manipulation task with Isaac Lab PPO setup and success/failure analysis.
 - [Rough-Terrain Wheeled-Legged AMR](/projects/keti-amr/): reinforcement-learning setup for velocity tracking and chassis leveling.
