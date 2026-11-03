@@ -64,6 +64,59 @@ html[data-theme="dark"] {
   line-height: 1.68;
 }
 
+.research-gallery {
+  grid-column: 1 / -1;
+  min-width: 0;
+  margin: 0.5rem 0 1.75rem;
+}
+
+.research-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1rem;
+}
+
+.research-gallery figure {
+  min-width: 0;
+  margin: 0;
+}
+
+.research-gallery a {
+  display: block;
+  color: var(--global-text-color);
+}
+
+.research-gallery img,
+.project-feature-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.55rem;
+  background: #fff;
+}
+
+.research-gallery-title {
+  display: block;
+  margin: 0.6rem 0 0.25rem;
+  font-weight: 650;
+}
+
+.research-gallery figcaption {
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.research-gallery a:focus-visible,
+.projects a:focus-visible,
+.project-media a:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+
 .research-overview {
   margin: 1.5rem 0;
 }
@@ -373,7 +426,7 @@ html[data-theme="dark"] {
 }
 
 .portfolio .project-feature h3 {
-  margin: 0;
+  margin: 0 0 0.65rem;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.4;
@@ -420,7 +473,7 @@ html[data-theme="dark"] {
   height: 100% !important;
   max-height: 100%;
   padding: 0;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -477,6 +530,11 @@ html[data-theme="dark"] {
   max-height: 390px;
 }
 
+.project-media--tall img {
+  max-height: none;
+  max-width: min(100%, 780px);
+}
+
 .project-media--portrait img {
   max-width: min(100%, 360px);
   max-height: 520px;
@@ -497,6 +555,17 @@ html[data-theme="dark"] {
 .project-media-grid--driving {
   margin-top: 1.05rem;
   margin-bottom: 1.05rem;
+}
+
+.project-media-grid--platform {
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .project-media-grid--platform {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-media-grid--driving .project-media img {

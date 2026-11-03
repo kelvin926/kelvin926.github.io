@@ -21,9 +21,9 @@ Current appointment before starting the Ph.D. program in Mar. 2027
 
 ### research profile
 
-My current work investigates camera-LiDAR scene understanding and vision-language models for mobile robots. In ROMO-S, I study whether generated surround views provide useful spatial information beyond a forward-facing camera, with comparisons against bird's-eye-view representations. My earlier work includes ROS/Autoware-based autonomous mobile-robot systems and Isaac Lab/RSL-RL environments for wheeled-legged and mobile-manipulation tasks.
+My current work investigates camera-LiDAR fusion and generated surround views for terrain-aware mobile robots. In ROMO-S, I study panorama-assisted terrain perception from one front camera and current 360-degree LiDAR, together with terrain-sensitivity and adaptation experiments in simulation. My earlier work includes ROS/Autoware-based autonomous mobile-robot systems and Isaac Lab/RSL-RL environments for wheeled-legged and mobile-manipulation tasks.
 
-- Multimodal perception with camera-LiDAR fusion, surround-view generation, and vision-language spatial understanding
+- Multimodal perception with camera-LiDAR fusion, generated panoramas, and surround-view terrain perception
 - Autonomous driving with environment understanding, detection/tracking, and perception-to-planning integration
 - Robot learning and simulation with Isaac Lab, RSL-RL, PPO, MDP formulation, reward shaping, curriculum design, and policy evaluation
 - Field-system integration with ROS2/Autoware, CAN, LiDAR mapping, and autonomous navigation
@@ -31,7 +31,7 @@ My current work investigates camera-LiDAR scene understanding and vision-languag
 
 ### selected research projects
 
-- [ROMO-S: Multimodal Spatial Understanding](/projects/romo-s/): ongoing study of generated surround views and bird's-eye-view representations under matched front-camera and LiDAR inputs.
+- [ROMO-S: Surround-View Terrain Perception](/projects/romo-s/): thesis research on generated panoramas, image-space segmentation and sensor fusion, and simulation-based terrain-aware adaptation.
 - [ROMO-B: Robot Navigation and Integration](/projects/romo-b/): public ROS 2 platform workspace for LiDAR mapping/localization, Nav2/Autoware navigation, and operator tools.
 - [KALO: Kangaroo-LocoManipulation](/projects/kalo/): arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.
 - [Lift-Equipped Mobile Manipulator](/projects/lift-mobile-manipulator/): shelf-transfer mobile-manipulation task with Isaac Lab PPO setup and success/failure analysis.
@@ -47,7 +47,7 @@ My current work investigates camera-LiDAR scene understanding and vision-languag
 
 **Robot Software / Integration:** ROS2, ROS, Autoware, Python, C++, Linux, CAN, Git
 
-**Perception / Navigation:** camera-LiDAR fusion, vision-language models, bird's-eye-view representations, LiDAR mapping, object detection/tracking, DBSCAN, Kalman filtering, ROS/Autoware perception integration
+**Perception / Navigation:** camera-LiDAR fusion, generated panoramas, semantic segmentation, terrain perception, bird's-eye-view representations, LiDAR mapping, object detection/tracking, DBSCAN, Kalman filtering, ROS/Autoware perception integration
 
 **Design / Optimization:** Bayesian optimization, CoppeliaSim, CAD, Ansys, hardware feasibility testing
 

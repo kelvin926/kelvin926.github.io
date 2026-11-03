@@ -9,11 +9,11 @@ last_name: Jang
 contact_note: >
   M.S. student at Korea University and research intern at AVE Lab, KAIST.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hyunseo Jang is an M.S. student at Korea University and a research intern at AVE Lab, KAIST, studying multimodal robot perception and vision-language spatial understanding.
+  Hyunseo Jang is an M.S. student at Korea University and a research intern at AVE Lab, KAIST, studying generated surround views, camera-LiDAR fusion, and terrain-aware mobile robotics.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: multimodal perception, vision-language models, camera-LiDAR fusion, surround-view generation, autonomous driving, robotics, mobile manipulation, robot learning, ROS2, Autoware, LiDAR, Isaac Lab # add your own keywords or leave empty
+keywords: multimodal perception, terrain perception, semantic segmentation, generated panoramas, camera-LiDAR fusion, surround-view generation, autonomous driving, robotics, mobile manipulation, robot learning, ROS2, Autoware, LiDAR, Isaac Lab # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

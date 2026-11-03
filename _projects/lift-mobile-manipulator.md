@@ -4,8 +4,8 @@ title: "Lift-Equipped Mobile Manipulator"
 description: Reinforcement learning for shelf transfer across multi-level rack environments.
 card_description: Shelf-transfer policy evaluation in simulation, with 41/50 successful trials under ±3 cm object-position randomization.
 img: assets/img/projects/lift_mobile_manipulator_platform.webp
-thumb: assets/img/projects/lift_mobile_manipulator_platform.webp
-img_alt: Lift-equipped mobile manipulator platform moving in a rack environment
+thumb: assets/img/projects/lift_isaac_platform_scene.jpg
+img_alt: Lift-equipped shelf-transfer platform in Isaac Lab simulation
 importance: 3
 group: selected
 category: work

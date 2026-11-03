@@ -37,8 +37,12 @@ bundle exec jekyll serve --host 127.0.0.1 --port 8080
 | Scholar ID, ORCID, and social links              | `_data/socials.yml`                      |
 | Site metadata and Jekyll settings                | `_config.yml`                            |
 | Site-specific styles                             | `assets/css/site-polish.css`             |
+| Homepage research gallery                        | `_data/research_highlights.yml`          |
+| Added-media credits and checksums                | `_data/media_sources.json`               |
 
 Each project has a stable `permalink`, a `group` (`selected` or `other`), and an `importance` value controlling its order. Use `card_description` for the short homepage summary. Add descriptive alternative text to images and lazy-load secondary project images.
+
+Use static project thumbnails on the homepage and keep animated demos on the detail pages. Keep photos, software screenshots, generated imagery, and simulation results distinct in captions. Preserve complete images with `object-fit: contain`, record the original dimensions, and link detailed figures to their full-size files. When adding a gallery item, verify its image, project URL, caption, and dimensions against the source material. The media-source manifest records provenance without exposing local machine paths or private repository links.
 
 The optional [local content editor](editor/README.md) runs with `npm run editor`. It edits local sources; the Jekyll preview runs separately.
 

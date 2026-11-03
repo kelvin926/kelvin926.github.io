@@ -4,8 +4,8 @@ title: "Inventory-Inspection Robot Adaptive Suspension"
 description: Suspension stabilization for full-lift driving of a 10 m-class platform.
 card_description: Stabilizing a 10 m-class inspection platform while driving at full lift.
 img: assets/img/projects/inventory_adaptive_suspension_demo.webp
-thumb: assets/img/projects/inventory_isaac_stabilized_drive.webp
-img_alt: Inventory-inspection robot adaptive suspension stabilization comparison
+thumb: assets/img/projects/lift_integrated_platform_photo.jpg
+img_alt: Photograph of the full-height inventory-inspection robot beside warehouse racks
 importance: 5
 group: selected
 category: work
@@ -14,9 +14,16 @@ permalink: /projects/inventory-inspection-adaptive-suspension/
 
 {% include project-media-style.html %}
 
+<figure class="project-media project-media--portrait">
+  <a href="{{ '/assets/img/projects/lift_integrated_platform_photo.jpg' | relative_url }}">
+    <img src="{{ '/assets/img/projects/lift_integrated_platform_photo.jpg' | relative_url }}" alt="Physical inventory-inspection robot with its mast extended beside warehouse racks" width="609" height="1161" class="img-fluid rounded z-depth-1" decoding="async">
+  </a>
+  <figcaption>Physical inventory-inspection platform. The simulation comparisons below describe the suspension-stabilization study separately.</figcaption>
+</figure>
+
 <div class="project-page-hero">
   <figure>
-    <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.webp' | relative_url }}" alt="Inventory-inspection robot adaptive suspension stabilization comparison" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/projects/inventory_adaptive_suspension_demo.webp' | relative_url }}" alt="Inventory-inspection robot adaptive suspension stabilization comparison" class="img-fluid rounded z-depth-1" loading="lazy" decoding="async">
     <figcaption>Terrain-adaptive suspension stabilization comparison during full-lift driving.</figcaption>
   </figure>
 </div>

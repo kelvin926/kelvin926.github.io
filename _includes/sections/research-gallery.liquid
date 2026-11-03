@@ -1,0 +1,21 @@
+<section class="research-gallery" aria-labelledby="research-gallery-heading">
+  <h3 id="research-gallery-heading">Research in pictures</h3>
+  <div class="research-gallery-grid">
+    {% for item in site.data.research_highlights %}
+      <figure>
+        <a href="{{ item.url | relative_url }}">
+          <img
+            src="{{ item.image | relative_url }}"
+            alt="{{ item.alt | escape }}"
+            width="{{ item.width }}"
+            height="{{ item.height }}"
+            loading="lazy"
+            decoding="async"
+          >
+          <span class="research-gallery-title">{{ item.title }}</span>
+        </a>
+        <figcaption>{{ item.caption }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+</section>

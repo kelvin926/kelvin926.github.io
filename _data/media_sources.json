@@ -1,0 +1,38 @@
+[
+  {
+    "file": "assets/img/projects/romo_s_sensor_observations.jpg",
+    "description": "Author-selected thesis illustration of ShanghaiTech Mapping Robot recorded observations and a five-camera training/evaluation reference.",
+    "sha256": "01cfb7255c289ddfa7075bbccacf23fe494f863ca91daa27f111bb753eb1921a",
+    "credit": "Scene imagery, where present: ShanghaiTech Mapping Robot dataset (Xu et al., 2024). Figure composition: author thesis materials.",
+    "reference": "https://arxiv.org/abs/2406.16713"
+  },
+  {
+    "file": "assets/img/projects/romo_s_terrain_framework.png",
+    "description": "Author-selected thesis method diagram; no empirical performance claim.",
+    "sha256": "db61b9ef86291837e520124b181eaefc1c679045221f44938ff51ba131d40c1a",
+    "credit": "Scene imagery, where present: ShanghaiTech Mapping Robot dataset (Xu et al., 2024). Figure composition: author thesis materials.",
+    "reference": "https://arxiv.org/abs/2406.16713"
+  },
+  {
+    "file": "assets/img/projects/romo_s_terrain_examples.jpg",
+    "description": "Author-selected thesis qualitative comparison on ShanghaiTech Mapping Robot data. Reference, automatic labels, generated imagery, and predictions remain distinguished.",
+    "sha256": "28d3d2f1c9fa417e688ca5cec6900481502b3a96ac443844a64e8b6a3f71d997",
+    "credit": "Scene imagery, where present: ShanghaiTech Mapping Robot dataset (Xu et al., 2024). Figure composition: author thesis materials.",
+    "reference": "https://arxiv.org/abs/2406.16713"
+  },
+  {
+    "file": "assets/img/projects/romo_b_platform.jpg",
+    "description": "Author-provided thesis photograph of the ROMO-B bimanual mobile manipulator; platform identity confirmed by the author.",
+    "sha256": "0844db8fc4f70bf931f575a8c4deb6e4d2db01021ca76ab20be071ea1864a60e"
+  },
+  {
+    "file": "assets/img/projects/romo_b_rviz.png",
+    "description": "Unmodified public ROMO-B RViz development screenshot.",
+    "sha256": "785cc209dcde23f0cf9c9fe9ee64d6a9719b48be44a59d493b4569303ab68760"
+  },
+  {
+    "file": "assets/img/projects/romo_b_operator_console.png",
+    "description": "Unmodified public ROMO-B operator-console QA screenshot; displayed values are not live telemetry.",
+    "sha256": "02cec8d5db4e0a3d44bd921c9ff8bd09ad53c3b9658c258f455fd6c0b1a57316"
+  }
+]

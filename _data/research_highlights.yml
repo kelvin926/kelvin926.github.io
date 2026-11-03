@@ -1,0 +1,23 @@
+- title: ROMO-S
+  url: /projects/romo-s/
+  image: /assets/img/projects/romo_s_sensor_observations.jpg
+  width: 1211
+  height: 974
+  alt: Front-camera observation, LiDAR scan, and five-camera reference panorama from ShanghaiTech Mapping Robot data
+  caption: Sensor observations and reference imagery for surround-view terrain perception.
+
+- title: ROMO-B
+  url: /projects/romo-b/
+  image: /assets/img/projects/romo_b_platform.jpg
+  width: 818
+  height: 1360
+  alt: Photograph of the blue ROMO-B mobile platform with two manipulator arms
+  caption: Physical bimanual mobile platform for navigation and system integration.
+
+- title: KALO
+  url: /projects/kalo/
+  image: /assets/img/projects/kalo_launch_single.jpg
+  width: 1200
+  height: 675
+  alt: Go2W-OpenArm wheeled-legged robot in Isaac Lab simulation
+  caption: Simulation study of arm-motion-assisted launch acceleration.
