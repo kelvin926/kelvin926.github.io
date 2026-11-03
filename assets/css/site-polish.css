@@ -64,6 +64,43 @@ html[data-theme="dark"] {
   line-height: 1.68;
 }
 
+.research-overview {
+  margin: 1.5rem 0;
+}
+
+.research-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  gap: 1rem;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.research-flow li {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--global-theme-color);
+  border-radius: 0.55rem;
+  background: var(--global-card-bg-color);
+}
+
+.research-flow strong {
+  line-height: 1.5;
+}
+
+.research-flow span {
+  display: block;
+  margin-top: 0.6rem;
+  line-height: 1.6;
+}
+
+.research-overview figcaption {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
 .home-linkbar {
   display: flex;
   flex-wrap: wrap;

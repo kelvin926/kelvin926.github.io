@@ -30,7 +30,10 @@ latest_posts:
 
 <div class="home-intro">
   <p class="home-lede">
-    I am an M.S. student in Mobility Science and Engineering at Korea University and a research intern at <a href="https://ave.kaist.ac.kr/">AVE Lab, KAIST</a>. My current research explores camera-LiDAR scene understanding and vision-language models for mobile robots. In <a href="/projects/romo-s/">ROMO-S</a>, I investigate whether generated surround views can support spatial understanding beyond a forward-facing camera. This work builds on my experience in autonomous driving, reinforcement learning, and real-world robot integration.
+    I am an M.S. student in Mobility Science and Engineering at Korea University and a research intern at <a href="https://ave.kaist.ac.kr/">AVE Lab, KAIST</a>. I will join KAIST's Cho Chun Shik Graduate School of Mobility as a Ph.D. student in March 2027.
+  </p>
+  <p class="home-lede">
+    My research investigates camera-LiDAR scene representations and vision-language models for mobile robots. In <a href="/projects/romo-s/">ROMO-S</a>, I study whether generated surround views support spatial understanding beyond a forward-facing camera. My earlier work includes autonomous mobile-robot integration, reinforcement learning, and simulation-based design optimization.
   </p>
   <div class="home-linkbar" aria-label="Profile links">
     <a href="mailto:kelvin926@korea.ac.kr">Email (Korea University)</a>
@@ -38,6 +41,7 @@ latest_posts:
     <a href="https://github.com/kelvin926">GitHub</a>
     <a href="https://scholar.google.com/citations?user=4UTN6xYAAAAJ">Google Scholar</a>
     <a href="https://orcid.org/0009-0007-1284-4330">ORCID</a>
+    <a href="#cv">CV and background</a>
   </div>
 </div>
 
@@ -69,7 +73,7 @@ latest_posts:
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2026</div>
-    <div class="home-news-text">The <a href="https://doi.org/10.1016/j.aei.2026.105096">CEBO paper</a> is available online in <em>Advanced Engineering Informatics</em>, Vol. 76, Part C, Article 105096.</div>
+    <div class="home-news-text">The <a href="https://doi.org/10.1016/j.aei.2026.105096">CEBO paper</a> is published in <em>Advanced Engineering Informatics</em>, Vol. 76, Part C, Article 105096 (November 2026 issue).</div>
   </div>
   <div class="home-news-item">
     <div class="home-news-date">2026.07</div>

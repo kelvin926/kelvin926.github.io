@@ -6,7 +6,7 @@ card_description: Learning to track velocity and keep a wheeled-legged robot lev
 img: assets/img/projects/keti_velocity_tracking_training.webp
 thumb: assets/img/projects/keti_velocity_tracking_training.webp
 img_alt: Isaac Lab velocity-tracking training scene for the KETI 20-DOF wheeled-legged AMR
-importance: 3
+importance: 4
 group: selected
 category: work
 permalink: /projects/keti-amr/

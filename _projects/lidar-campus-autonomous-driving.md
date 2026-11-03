@@ -6,7 +6,7 @@ card_description: Developing campus autonomous driving with HD maps, Autoware, a
 img: assets/img/projects/lidar_campus_sonata_drive.webp
 thumb: assets/img/projects/lidar_campus_sonata_drive.webp
 img_alt: In-vehicle campus autonomous-driving test on a Hyundai Sonata platform
-importance: 7
+importance: 8
 group: selected
 category: work
 permalink: /projects/lidar-campus-autonomous-driving/

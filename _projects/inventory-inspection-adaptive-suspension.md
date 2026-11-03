@@ -6,7 +6,7 @@ card_description: Stabilizing a 10 m-class inspection platform while driving at 
 img: assets/img/projects/inventory_adaptive_suspension_demo.webp
 thumb: assets/img/projects/inventory_isaac_stabilized_drive.webp
 img_alt: Inventory-inspection robot adaptive suspension stabilization comparison
-importance: 4
+importance: 5
 group: selected
 category: work
 permalink: /projects/inventory-inspection-adaptive-suspension/

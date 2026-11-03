@@ -2,11 +2,11 @@
 layout: page
 title: "KALO: Kangaroo-LocoManipulation"
 description: Arm-motion-assisted launch control for improving acceleration and stability in a mobile manipulator.
-card_description: Using arm motion to improve launch acceleration and stability.
+card_description: Arm-motion-assisted launch in simulation, with 15.1% higher early-velocity AUC than a fixed carrying-pose baseline.
 img: assets/img/projects/kalo_arm_swing_proposed.webp
 thumb: assets/img/projects/kalo_arm_swing_proposed.webp
 img_alt: KALO launch evaluation for a Go2W-OpenArm wheeled-legged robot platform
-importance: 1
+importance: 2
 group: selected
 category: work
 permalink: /projects/kalo/
@@ -37,4 +37,4 @@ I studied arm-motion-assisted launch control for a wheeled-legged mobile manipul
 - **Tools:** Isaac Lab, RSL-RL, PyTorch, PPO
 - **Result:** normalized forward-velocity AUC(0-1.5 s) increased by 15.1% over Fixed (0.726 -> 0.835); t90 decreased from 1.703 s to 1.067 s; 90%-target-speed trials within 1.5 s increased from 29/128 to 69/128.
 - **Paper:** _KALO: Kangaroo-LocoManipulation for Early Launch Acceleration in a Wheel-Legged Robot_. IEEE/ASME AIM 2026, pp. 1-6. [DOI](https://doi.org/10.1109/AIM65483.2026.11658017) / [IEEE Xplore](https://ieeexplore.ieee.org/document/11658017)
-- **Code:** Not publicly available.
+- **Related code:** [leg-loco-isaac-lab](https://github.com/kelvin926/leg-loco-isaac-lab) contains the public Go2W-OpenArm experimental workspace and training/evaluation utilities. The complete paper-reproduction package is not publicly released.

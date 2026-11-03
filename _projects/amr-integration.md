@@ -6,7 +6,7 @@ card_description: Integrating ROS, Autoware, and LiDAR perception for campus rob
 img: assets/img/projects/amr_robot_autonomous_navigation.webp
 thumb: assets/img/projects/amr_robot_autonomous_navigation.webp
 img_alt: Ranger Mini v2 autonomous indoor navigation test in a campus hallway
-importance: 6
+importance: 7
 group: selected
 category: work
 permalink: /projects/amr-integration/
