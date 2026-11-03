@@ -14,7 +14,7 @@ docker compose up
 
 Open [localhost:8080](http://localhost:8080). Stop the preview with `Ctrl+C`; remove the stopped container with `docker compose down`.
 
-For a native setup, the deployment workflow uses Ruby 3.3.5, Node.js 20, Python 3.13, ImageMagick, and the dependencies locked in `Gemfile.lock` and `package-lock.json`:
+For a native setup, the deployment workflow uses Ubuntu 24.04, Ruby 3.3.5, Node.js 20, Python 3.13, ImageMagick, and the dependencies locked in `Gemfile.lock` and `package-lock.json`:
 
 ```bash
 bundle install
